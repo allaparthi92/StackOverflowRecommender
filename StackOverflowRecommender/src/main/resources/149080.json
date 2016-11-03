@@ -1,0 +1,242 @@
+ [
+    {
+      "user_id": 149080,
+      "answer_count": 11,
+      "answer_score": 25,
+      "question_count": 750,
+      "question_score": 3311,
+      "tag_name": "ruby-on-rails"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 8,
+      "answer_score": 9,
+      "question_count": 693,
+      "question_score": 3178,
+      "tag_name": "ruby-on-rails-3"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 13,
+      "answer_score": 9,
+      "question_count": 355,
+      "question_score": 1336,
+      "tag_name": "jquery"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 5,
+      "answer_score": 4,
+      "question_count": 159,
+      "question_score": 561,
+      "tag_name": "javascript"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 3,
+      "answer_score": 8,
+      "question_count": 129,
+      "question_score": 556,
+      "tag_name": "ruby"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 3,
+      "question_score": 428,
+      "tag_name": "rake"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 70,
+      "question_score": 350,
+      "tag_name": "devise"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 1,
+      "answer_score": -2,
+      "question_count": 58,
+      "question_score": 326,
+      "tag_name": "regex"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 4,
+      "answer_score": 6,
+      "question_count": 70,
+      "question_score": 295,
+      "tag_name": "css"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 3,
+      "answer_score": 4,
+      "question_count": 48,
+      "question_score": 265,
+      "tag_name": "html"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 1,
+      "answer_score": 4,
+      "question_count": 3,
+      "question_score": 256,
+      "tag_name": "jquery-selectors"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 31,
+      "question_score": 183,
+      "tag_name": "jquery-plugins"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 1,
+      "answer_score": 1,
+      "question_count": 41,
+      "question_score": 159,
+      "tag_name": "css3"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 31,
+      "question_score": 151,
+      "tag_name": "heroku"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 1,
+      "answer_score": 2,
+      "question_count": 55,
+      "question_score": 134,
+      "tag_name": "html5"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 37,
+      "question_score": 128,
+      "tag_name": "paperclip"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 42,
+      "question_score": 124,
+      "tag_name": "postgresql"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 7,
+      "question_score": 119,
+      "tag_name": "git"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 43,
+      "question_score": 110,
+      "tag_name": "activerecord"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 11,
+      "question_score": 103,
+      "tag_name": "ckeditor"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 46,
+      "question_score": 92,
+      "tag_name": "jquery-ui"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 4,
+      "question_score": 85,
+      "tag_name": "osx"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 21,
+      "question_score": 83,
+      "tag_name": "rspec"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 80,
+      "tag_name": "osx-lion"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 21,
+      "question_score": 72,
+      "tag_name": "json"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 17,
+      "question_score": 70,
+      "tag_name": "actionmailer"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 16,
+      "question_score": 65,
+      "tag_name": "postgresql-9.1"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 12,
+      "question_score": 61,
+      "tag_name": "amazon-s3"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 6,
+      "question_score": 53,
+      "tag_name": "css-selectors"
+    },
+    {
+      "user_id": 149080,
+      "answer_count": 2,
+      "answer_score": 0,
+      "question_count": 31,
+      "question_score": 53,
+      "tag_name": "coldfusion"
+    }
+  ]

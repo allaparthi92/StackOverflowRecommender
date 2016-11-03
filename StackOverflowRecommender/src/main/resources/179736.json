@@ -1,0 +1,242 @@
+[
+    {
+      "user_id": 179736,
+      "answer_count": 29,
+      "answer_score": 48,
+      "question_count": 532,
+      "question_score": 4223,
+      "tag_name": "python"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 12,
+      "answer_score": -1,
+      "question_count": 435,
+      "question_score": 2472,
+      "tag_name": "javascript"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 7,
+      "answer_score": 8,
+      "question_count": 201,
+      "question_score": 1340,
+      "tag_name": "database"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 4,
+      "answer_score": 51,
+      "question_count": 81,
+      "question_score": 1286,
+      "tag_name": "node.js"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 15,
+      "answer_score": 14,
+      "question_count": 237,
+      "question_score": 963,
+      "tag_name": "django"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 3,
+      "question_score": 908,
+      "tag_name": "exception-handling"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 10,
+      "question_score": 866,
+      "tag_name": "exception"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 7,
+      "answer_score": 7,
+      "question_count": 217,
+      "question_score": 811,
+      "tag_name": "jquery"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 2,
+      "answer_score": 48,
+      "question_count": 59,
+      "question_score": 787,
+      "tag_name": "mongodb"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 3,
+      "answer_score": 1,
+      "question_count": 69,
+      "question_score": 723,
+      "tag_name": "unix"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 3,
+      "answer_score": 1,
+      "question_count": 70,
+      "question_score": 711,
+      "tag_name": "linux"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 11,
+      "answer_score": 11,
+      "question_count": 168,
+      "question_score": 673,
+      "tag_name": "mysql"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 5,
+      "answer_score": 7,
+      "question_count": 185,
+      "question_score": 590,
+      "tag_name": "html"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 36,
+      "question_score": 543,
+      "tag_name": "android"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 3,
+      "answer_score": 1,
+      "question_count": 165,
+      "question_score": 464,
+      "tag_name": "css"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 9,
+      "question_score": 461,
+      "tag_name": "redis"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 11,
+      "question_score": 454,
+      "tag_name": "header"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 7,
+      "answer_score": 7,
+      "question_count": 75,
+      "question_score": 434,
+      "tag_name": "http"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 4,
+      "question_score": 425,
+      "tag_name": "import"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 12,
+      "question_score": 343,
+      "tag_name": "text"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 12,
+      "question_score": 327,
+      "tag_name": "logging"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 4,
+      "answer_score": 4,
+      "question_count": 43,
+      "question_score": 305,
+      "tag_name": "url"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 3,
+      "answer_score": 5,
+      "question_count": 117,
+      "question_score": 286,
+      "tag_name": "templates"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 2,
+      "answer_score": 48,
+      "question_count": 12,
+      "question_score": 280,
+      "tag_name": "mongoose"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 267,
+      "tag_name": "capitalization"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 267,
+      "tag_name": "capitalize"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 36,
+      "question_score": 267,
+      "tag_name": "java"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 41,
+      "question_score": 266,
+      "tag_name": "string"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 13,
+      "question_score": 265,
+      "tag_name": "computer-science"
+    },
+    {
+      "user_id": 179736,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 7,
+      "question_score": 244,
+      "tag_name": "nltk"
+    }
+  ]

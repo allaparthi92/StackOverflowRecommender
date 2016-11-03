@@ -1,0 +1,242 @@
+ [
+    {
+      "user_id": 117700,
+      "answer_count": 24,
+      "answer_score": 17,
+      "question_count": 446,
+      "question_score": 1130,
+      "tag_name": "sql"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 15,
+      "answer_score": 6,
+      "question_count": 377,
+      "question_score": 726,
+      "tag_name": "c#"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 3,
+      "answer_score": 11,
+      "question_count": 116,
+      "question_score": 722,
+      "tag_name": "python"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 4,
+      "answer_score": -8,
+      "question_count": 209,
+      "question_score": 620,
+      "tag_name": "vba"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 2,
+      "question_score": 418,
+      "tag_name": "group-by"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 20,
+      "answer_score": 24,
+      "question_count": 131,
+      "question_score": 409,
+      "tag_name": "excel"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 13,
+      "answer_score": 93,
+      "question_count": 283,
+      "question_score": 396,
+      "tag_name": "sql-server"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 3,
+      "answer_score": 1,
+      "question_count": 197,
+      "question_score": 341,
+      "tag_name": "vb.net"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 62,
+      "question_score": 271,
+      "tag_name": "html"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 7,
+      "answer_score": 1,
+      "question_count": 172,
+      "question_score": 270,
+      "tag_name": "sql-server-2008"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 7,
+      "answer_score": 2,
+      "question_count": 191,
+      "question_score": 254,
+      "tag_name": ".net"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 109,
+      "question_score": 225,
+      "tag_name": "winforms"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 4,
+      "answer_score": 3,
+      "question_count": 20,
+      "question_score": 210,
+      "tag_name": "excel-vba"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 2,
+      "answer_score": -8,
+      "question_count": 152,
+      "question_score": 204,
+      "tag_name": "ms-access"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 66,
+      "question_score": 203,
+      "tag_name": "javascript"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 7,
+      "answer_score": 10,
+      "question_count": 97,
+      "question_score": 199,
+      "tag_name": "mysql"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 2,
+      "question_score": 143,
+      "tag_name": "debugging"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 5,
+      "answer_score": 4,
+      "question_count": 26,
+      "question_score": 134,
+      "tag_name": "csv"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 1,
+      "answer_score": 1,
+      "question_count": 96,
+      "question_score": 103,
+      "tag_name": "asp.net"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 2,
+      "answer_score": 2,
+      "question_count": 12,
+      "question_score": 76,
+      "tag_name": "string"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 9,
+      "question_score": 74,
+      "tag_name": "ssms"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 72,
+      "tag_name": "user-input"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 63,
+      "tag_name": "variables"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 4,
+      "answer_score": 4,
+      "question_count": 117,
+      "question_score": 61,
+      "tag_name": "tsql"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 58,
+      "tag_name": "puzzle"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 4,
+      "question_score": 58,
+      "tag_name": "c"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 55,
+      "tag_name": "filesystemobject"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 46,
+      "tag_name": "nonetype"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 39,
+      "question_score": 45,
+      "tag_name": "css"
+    },
+    {
+      "user_id": 117700,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 3,
+      "question_score": 44,
+      "tag_name": "wpf"
+    }
+  ]

@@ -1,0 +1,242 @@
+[
+    {
+      "user_id": 508127,
+      "answer_count": 26,
+      "answer_score": 43,
+      "question_count": 364,
+      "question_score": 587,
+      "tag_name": "c#"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 15,
+      "answer_score": 0,
+      "question_count": 214,
+      "question_score": 263,
+      "tag_name": "jquery"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 8,
+      "answer_score": 34,
+      "question_count": 159,
+      "question_score": 181,
+      "tag_name": "asp.net"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 41,
+      "question_score": 157,
+      "tag_name": "wpf"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 9,
+      "answer_score": 6,
+      "question_count": 84,
+      "question_score": 133,
+      "tag_name": "sql-server"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 6,
+      "question_score": 118,
+      "tag_name": "mvvm"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 4,
+      "answer_score": -1,
+      "question_count": 68,
+      "question_score": 116,
+      "tag_name": "javascript"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 7,
+      "question_score": 100,
+      "tag_name": "design-patterns"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 96,
+      "question_score": 89,
+      "tag_name": "wcf"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 3,
+      "question_score": 74,
+      "tag_name": "model-view-controller"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 73,
+      "tag_name": "mvp"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 6,
+      "question_score": 72,
+      "tag_name": "common-table-expression"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 1,
+      "answer_score": 2,
+      "question_count": 9,
+      "question_score": 61,
+      "tag_name": "asynchronous"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 6,
+      "answer_score": -1,
+      "question_count": 71,
+      "question_score": 61,
+      "tag_name": "asp.net-mvc"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 10,
+      "answer_score": 18,
+      "question_count": 30,
+      "question_score": 55,
+      "tag_name": ".net"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 5,
+      "answer_score": 4,
+      "question_count": 30,
+      "question_score": 51,
+      "tag_name": "tsql"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 1,
+      "answer_score": 1,
+      "question_count": 21,
+      "question_score": 47,
+      "tag_name": "asp.net-mvc-3"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 46,
+      "tag_name": "nested-function"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 3,
+      "answer_score": -3,
+      "question_count": 31,
+      "question_score": 42,
+      "tag_name": "css"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 8,
+      "answer_score": 13,
+      "question_count": 48,
+      "question_score": 42,
+      "tag_name": "winforms"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 7,
+      "answer_score": 5,
+      "question_count": 32,
+      "question_score": 32,
+      "tag_name": "sql"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 5,
+      "answer_score": 5,
+      "question_count": 35,
+      "question_score": 30,
+      "tag_name": "sql-server-2005"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 6,
+      "question_score": 27,
+      "tag_name": "async-await"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 24,
+      "tag_name": "textbox"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 24,
+      "tag_name": "rounded-corners"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 10,
+      "question_score": 24,
+      "tag_name": "task-parallel-library"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 12,
+      "question_score": 23,
+      "tag_name": "reporting-services"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 19,
+      "question_score": 23,
+      "tag_name": "oop"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 6,
+      "question_score": 23,
+      "tag_name": "certificate"
+    },
+    {
+      "user_id": 508127,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 21,
+      "tag_name": "mex"
+    }
+  ]

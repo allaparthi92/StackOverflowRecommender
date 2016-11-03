@@ -1,0 +1,242 @@
+[
+    {
+      "user_id": 325418,
+      "answer_count": 54,
+      "answer_score": 234,
+      "question_count": 232,
+      "question_score": 828,
+      "tag_name": "ruby-on-rails"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 33,
+      "answer_score": 269,
+      "question_count": 143,
+      "question_score": 650,
+      "tag_name": "ruby"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 94,
+      "answer_score": 198,
+      "question_count": 122,
+      "question_score": 557,
+      "tag_name": "javascript"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 8,
+      "answer_score": 107,
+      "question_count": 63,
+      "question_score": 522,
+      "tag_name": "git"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 1,
+      "answer_score": 18,
+      "question_count": 6,
+      "question_score": 403,
+      "tag_name": "windows"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 1,
+      "answer_score": 3,
+      "question_count": 1,
+      "question_score": 396,
+      "tag_name": "batch-file"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 3,
+      "answer_score": 69,
+      "question_count": 1,
+      "question_score": 396,
+      "tag_name": "command-line"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 396,
+      "tag_name": "sleep"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 16,
+      "answer_score": 82,
+      "question_count": 79,
+      "question_score": 321,
+      "tag_name": "ruby-on-rails-3"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 3,
+      "answer_score": 3,
+      "question_count": 56,
+      "question_score": 245,
+      "tag_name": "mercurial"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 8,
+      "answer_score": 66,
+      "question_count": 105,
+      "question_score": 231,
+      "tag_name": "ios"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 3,
+      "answer_score": 56,
+      "question_count": 28,
+      "question_score": 224,
+      "tag_name": "mongodb"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 10,
+      "answer_score": 91,
+      "question_count": 12,
+      "question_score": 223,
+      "tag_name": "bash"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 1,
+      "answer_score": 23,
+      "question_count": 8,
+      "question_score": 181,
+      "tag_name": "github"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 53,
+      "answer_score": 181,
+      "question_count": 39,
+      "question_score": 162,
+      "tag_name": "html"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 3,
+      "question_score": 157,
+      "tag_name": "helper"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 141,
+      "tag_name": "boolean"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 6,
+      "answer_score": 7,
+      "question_count": 23,
+      "question_score": 137,
+      "tag_name": "python"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 55,
+      "answer_score": 86,
+      "question_count": 54,
+      "question_score": 136,
+      "tag_name": "jquery"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 47,
+      "answer_score": 561,
+      "question_count": 71,
+      "question_score": 131,
+      "tag_name": "css"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 2,
+      "question_score": 127,
+      "tag_name": "apache-config"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 1,
+      "answer_score": 2,
+      "question_count": 33,
+      "question_score": 114,
+      "tag_name": "dvcs"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 55,
+      "answer_score": 97,
+      "question_count": 22,
+      "question_score": 113,
+      "tag_name": "php"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 2,
+      "answer_score": 2,
+      "question_count": 1,
+      "question_score": 107,
+      "tag_name": "alias"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 2,
+      "answer_score": 2,
+      "question_count": 1,
+      "question_score": 107,
+      "tag_name": "confirmation"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 4,
+      "answer_score": 2,
+      "question_count": 15,
+      "question_score": 106,
+      "tag_name": "design-patterns"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 1,
+      "answer_score": 1,
+      "question_count": 45,
+      "question_score": 105,
+      "tag_name": "objective-c"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 3,
+      "answer_score": 15,
+      "question_count": 36,
+      "question_score": 98,
+      "tag_name": "iphone"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 2,
+      "answer_score": 5,
+      "question_count": 2,
+      "question_score": 96,
+      "tag_name": "object"
+    },
+    {
+      "user_id": 325418,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 2,
+      "question_score": 90,
+      "tag_name": ".bash-profile"
+    }
+  ]

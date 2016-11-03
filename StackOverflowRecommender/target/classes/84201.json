@@ -1,0 +1,242 @@
+[
+    {
+      "user_id": 84201,
+      "answer_count": 95,
+      "answer_score": 423,
+      "question_count": 788,
+      "question_score": 5860,
+      "tag_name": "css"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 48,
+      "answer_score": 195,
+      "question_count": 230,
+      "question_score": 2623,
+      "tag_name": "html"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 15,
+      "answer_score": 18,
+      "question_count": 600,
+      "question_score": 2349,
+      "tag_name": "xhtml"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 8,
+      "answer_score": 102,
+      "question_count": 116,
+      "question_score": 1282,
+      "tag_name": "css3"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 4,
+      "answer_score": 2,
+      "question_count": 94,
+      "question_score": 1012,
+      "tag_name": "cross-browser"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 17,
+      "answer_score": 27,
+      "question_count": 244,
+      "question_score": 1000,
+      "tag_name": "javascript"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 737,
+      "tag_name": "skinning"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 737,
+      "tag_name": "combobox"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 4,
+      "answer_score": 5,
+      "question_count": 80,
+      "question_score": 663,
+      "tag_name": "html5"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 2,
+      "answer_score": 4,
+      "question_count": 131,
+      "question_score": 607,
+      "tag_name": "accessibility"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 2,
+      "answer_score": 2,
+      "question_count": 68,
+      "question_score": 583,
+      "tag_name": "w3c"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 7,
+      "answer_score": 12,
+      "question_count": 203,
+      "question_score": 545,
+      "tag_name": "jquery"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 63,
+      "question_score": 468,
+      "tag_name": "semantic-markup"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 1,
+      "answer_score": 1,
+      "question_count": 41,
+      "question_score": 405,
+      "tag_name": "web-standards"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 402,
+      "tag_name": "html-table"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 384,
+      "tag_name": "normalize-css"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 1,
+      "answer_score": 1,
+      "question_count": 10,
+      "question_score": 356,
+      "tag_name": "css-selectors"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 2,
+      "question_score": 316,
+      "tag_name": "pseudo-class"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 6,
+      "question_score": 257,
+      "tag_name": "media-queries"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 1,
+      "answer_score": 2,
+      "question_count": 56,
+      "question_score": 255,
+      "tag_name": "screen-readers"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 1,
+      "answer_score": 42,
+      "question_count": 5,
+      "question_score": 193,
+      "tag_name": "mobile-webkit"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 1,
+      "answer_score": 68,
+      "question_count": 1,
+      "question_score": 182,
+      "tag_name": "pseudo-element"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 6,
+      "question_score": 164,
+      "tag_name": "git"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 7,
+      "question_score": 161,
+      "tag_name": "google-chrome"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 2,
+      "question_score": 157,
+      "tag_name": "shim"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 156,
+      "tag_name": "polyfills"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 156,
+      "tag_name": "fallback"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 52,
+      "question_score": 151,
+      "tag_name": "mobile-website"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 1,
+      "answer_score": 21,
+      "question_count": 2,
+      "question_score": 130,
+      "tag_name": "google-chrome-devtools"
+    },
+    {
+      "user_id": 84201,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 130,
+      "tag_name": "google-chrome-extension"
+    }
+  ]

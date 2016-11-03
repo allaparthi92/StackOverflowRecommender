@@ -1,0 +1,242 @@
+[
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 96,
+      "question_score": 586,
+      "tag_name": "vim"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 4,
+      "answer_score": 4,
+      "question_count": 135,
+      "question_score": 501,
+      "tag_name": "css"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 2,
+      "answer_score": 14,
+      "question_count": 32,
+      "question_score": 427,
+      "tag_name": "node.js"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 3,
+      "answer_score": 0,
+      "question_count": 92,
+      "question_score": 358,
+      "tag_name": "html"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 1,
+      "answer_score": 0,
+      "question_count": 2,
+      "question_score": 235,
+      "tag_name": "width"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 235,
+      "tag_name": "fill"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 1,
+      "answer_score": -2,
+      "question_count": 266,
+      "question_score": 176,
+      "tag_name": "javascript"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 7,
+      "answer_score": 20,
+      "question_count": 139,
+      "question_score": 142,
+      "tag_name": "ruby-on-rails"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 1,
+      "answer_score": -2,
+      "question_count": 174,
+      "question_score": 122,
+      "tag_name": "jquery"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 4,
+      "answer_score": 2,
+      "question_count": 112,
+      "question_score": 114,
+      "tag_name": "php"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 24,
+      "question_score": 104,
+      "tag_name": "emacs"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 1,
+      "answer_score": 10,
+      "question_count": 6,
+      "question_score": 90,
+      "tag_name": "mongodb"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 3,
+      "question_score": 86,
+      "tag_name": "google-chrome"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 77,
+      "tag_name": "vim-plugin"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 2,
+      "question_score": 72,
+      "tag_name": "nerdtree"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 7,
+      "question_score": 63,
+      "tag_name": "express"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 4,
+      "question_score": 57,
+      "tag_name": "less"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 18,
+      "question_score": 52,
+      "tag_name": "plugins"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 2,
+      "answer_score": 1,
+      "question_count": 59,
+      "question_score": 36,
+      "tag_name": "wordpress"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 30,
+      "tag_name": "folders"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 6,
+      "question_score": 29,
+      "tag_name": "browser"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 2,
+      "answer_score": 16,
+      "question_count": 12,
+      "question_score": 26,
+      "tag_name": "rspec"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 3,
+      "question_score": 25,
+      "tag_name": "color-scheme"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 3,
+      "question_score": 25,
+      "tag_name": "tabs"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 8,
+      "question_score": 24,
+      "tag_name": "omniauth"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 23,
+      "tag_name": "forum"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 4,
+      "question_score": 23,
+      "tag_name": "windows"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 5,
+      "question_score": 22,
+      "tag_name": "scala"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 1,
+      "question_score": 22,
+      "tag_name": "bookmarks"
+    },
+    {
+      "user_id": 122536,
+      "answer_count": 0,
+      "answer_score": 0,
+      "question_count": 27,
+      "question_score": 22,
+      "tag_name": "angularjs"
+    }
+  ]
