@@ -4,6 +4,7 @@
 	<groupId>asu.edu.dv</groupId>
 	<artifactId>StackOverflowRecommender</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 
 	<properties>
 		<springframework.version>4.3.0.RELEASE</springframework.version>
@@ -57,6 +58,15 @@
 				<configuration>
 					<source>${java_version}</source>
 					<target>${java_version}</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
 		</plugins>

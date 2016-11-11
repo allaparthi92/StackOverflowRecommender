@@ -1,18 +1,18 @@
 package edu.asu.dv.rest.controller;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class HelloWorldRestController {
 
-	@RequestMapping("/")
+	@GetMapping("/")
 	public String welcome() {// Welcome page, non-rest
 		return "Welcome to RestTemplate Example.";
 	}
 
-	@RequestMapping("/hello/{player}")
+	@GetMapping("/hello/{player}")
 	public String message(@PathVariable String player) {// REST Endpoint.
 		return player;
 	}
