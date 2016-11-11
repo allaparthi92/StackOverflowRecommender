@@ -11,7 +11,6 @@
 		<java_version>1.8</java_version>
 		<javax.servlet>3.1.0</javax.servlet>
 		<maven_compiler>3.2</maven_compiler>
-		<maven_war>2.4</maven_war>
 	</properties>
 
 	<dependencies>
@@ -49,27 +48,17 @@
 	</dependencies>
 
 	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>${maven_compiler}</version>
-					<configuration>
-						<source>${java_version}</source>
-						<target>${java_version}</target>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-war-plugin</artifactId>
-					<version>${maven_war}</version>
-					<configuration>
-						<warName>recommender</warName>
-						<failOnMissingWebXml>false</failOnMissingWebXml>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
+		<finalName>recommender</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven_compiler}</version>
+				<configuration>
+					<source>${java_version}</source>
+					<target>${java_version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
 	</build>
 </project>
