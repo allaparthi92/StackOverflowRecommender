@@ -1,5 +1,6 @@
 package edu.asu.dv.util;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -11,9 +12,10 @@ public interface DataLoader {
 	/**
 	 * This method will load User data from a file
 	 * 
-	 * @return  list of {@link User} object
+	 * @return list of {@link User} object
 	 * @throws DataLoadException
+	 * @throws IOException
 	 */
-	HashMap<String,ArrayList<User>> loadUserData() throws DataLoadException;
-	
+	HashMap<String, ArrayList<User>> loadUserData() throws DataLoadException, IOException;
+
 }
