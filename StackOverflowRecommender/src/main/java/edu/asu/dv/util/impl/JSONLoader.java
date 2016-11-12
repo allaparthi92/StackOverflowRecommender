@@ -29,7 +29,7 @@ public class JSONLoader implements DataLoader {
 
 		HashMap<String, ArrayList<User>> userMap = new HashMap<String, ArrayList<User>>();
 		ObjectMapper mapper1 = new ObjectMapper();
-		Resource resource = new ClassPathResource("");
+		Resource resource = new ClassPathResource("data/");
 		File folder = resource.getFile();
 		File[] listOfFiles = folder.listFiles();
 
@@ -37,7 +37,8 @@ public class JSONLoader implements DataLoader {
 			if (listOfFiles[i].isFile()) {
 				try {
 
-					List<User> list = mapper1.readValue(new ClassPathResource(listOfFiles[i].getName()).getFile(),
+					List<User> list = mapper1.readValue(
+							new ClassPathResource("data/" + listOfFiles[i].getName()).getFile(),
 							new TypeReference<List<User>>() {
 							});
 					for (User user : list) {

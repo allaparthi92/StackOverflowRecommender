@@ -10,50 +10,39 @@ import java.util.List;
  */
 public class UserResponse {
 
-	private List<String> similarUsers = new ArrayList<>();
+	private List<DetailMap> similarUsers = new ArrayList<>();
 
-	private List<String> courses = new ArrayList<>();
+	private List<DetailMap> tags = new ArrayList<>();
 
-	private List<String> tags = new ArrayList<>();
+	private List<DetailMap> categories = new ArrayList<>();
 
-	private List<String> categories = new ArrayList<>();
-
-	public List<String> getSimilarUsers() {
+	public List<DetailMap> getSimilarUsers() {
 		return similarUsers;
 	}
 
-	public void setSimilarUsers(List<String> similarUsers) {
+	public void setSimilarUsers(List<DetailMap> similarUsers) {
 		this.similarUsers = similarUsers;
 	}
 
-	public List<String> getCourses() {
-		return courses;
-	}
-
-	public void setCourses(List<String> courses) {
-		this.courses = courses;
-	}
-
-	public List<String> getTags() {
+	public List<DetailMap> getTags() {
 		return tags;
 	}
 
-	public void setTags(List<String> tags) {
+	public void setTags(List<DetailMap> tags) {
 		this.tags = tags;
 	}
 
-	public List<String> getCategories() {
+	public List<DetailMap> getCategories() {
 		return categories;
 	}
 
-	public void setCategories(List<String> categories) {
+	public void setCategories(List<DetailMap> categories) {
 		this.categories = categories;
 	}
 
 	@Override
 	public String toString() {
-		return "UserResponse [similarUsers=" + similarUsers + ", courses=" + courses + ", tags=" + tags
-				+ ", categories=" + categories + "]";
+		return "UserResponse [similarUsers=" + similarUsers + ", tags=" + tags + ", categories=" + categories + "]";
 	}
 
 }
