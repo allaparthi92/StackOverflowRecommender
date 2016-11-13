@@ -27,6 +27,8 @@ public class UserDetailService {
 
 		response.setTags(similarityService.getUserTags(userid));
 
+		response.setCategories(similarityService.getCategories(userid));
+
 		return new ResponseEntity<UserResponse>(response, HttpStatus.OK);
 
 	}

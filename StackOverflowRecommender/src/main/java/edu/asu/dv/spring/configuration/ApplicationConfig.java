@@ -1,7 +1,10 @@
 package edu.asu.dv.spring.configuration;
 
+import org.springframework.beans.factory.config.PropertiesFactoryBean;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
@@ -14,5 +17,12 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @ComponentScan({ "edu.asu.dv.*" })
 public class ApplicationConfig {
+
+	@Bean(name = "categoryTagProperties")
+	public PropertiesFactoryBean mapper() {
+		PropertiesFactoryBean bean = new PropertiesFactoryBean();
+		bean.setLocation(new ClassPathResource("mapping/CategoryTagMapping.properties"));
+		return bean;
+	}
 
 }
