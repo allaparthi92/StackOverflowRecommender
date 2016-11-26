@@ -1,9 +1,9 @@
 package edu.asu.dv.model.response;
 
-public class DetailMap {
+public class Tag {
 
 	private String name;
-	private String value;
+	private int count;
 
 	public String getName() {
 		return name;
@@ -13,17 +13,17 @@ public class DetailMap {
 		this.name = name;
 	}
 
-	public String getValue() {
-		return value;
+	public int getCount() {
+		return count;
 	}
 
-	public void setValue(String value) {
-		this.value = value;
+	public void setCount(int count) {
+		this.count = count;
 	}
 
 	@Override
 	public String toString() {
-		return "DetailMap [name=" + name + ", value=" + value + "]";
+		return "Tag [name=" + name + ", count=" + count + "]";
 	}
 
 }

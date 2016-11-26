@@ -10,33 +10,33 @@ import java.util.List;
  */
 public class UserResponse {
 
-	private List<DetailMap> similarUsers = new ArrayList<>();
+	private List<SimilarUser> similarUsers = new ArrayList<>();
 
-	private List<DetailMap> tags = new ArrayList<>();
+	private List<Tag> tags = new ArrayList<>();
 
-	private List<DetailMap> categories = new ArrayList<>();
+	private List<Category> categories = new ArrayList<>();
 
-	public List<DetailMap> getSimilarUsers() {
+	public List<SimilarUser> getSimilarUsers() {
 		return similarUsers;
 	}
 
-	public void setSimilarUsers(List<DetailMap> similarUsers) {
+	public void setSimilarUsers(List<SimilarUser> similarUsers) {
 		this.similarUsers = similarUsers;
 	}
 
-	public List<DetailMap> getTags() {
+	public List<Tag> getTags() {
 		return tags;
 	}
 
-	public void setTags(List<DetailMap> tags) {
+	public void setTags(List<Tag> tags) {
 		this.tags = tags;
 	}
 
-	public List<DetailMap> getCategories() {
+	public List<Category> getCategories() {
 		return categories;
 	}
 
-	public void setCategories(List<DetailMap> categories) {
+	public void setCategories(List<Category> categories) {
 		this.categories = categories;
 	}
 
