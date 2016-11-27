@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
@@ -19,13 +21,18 @@ import edu.asu.dv.util.DataLoader;
 
 @Service
 public class JSONLoader implements DataLoader {
+	
+	@javax.annotation.Resource(name = "userNameProperties")
+	private Map<String, String> properties;
+
 
 	/**
 	 * {@inheritDoc}
 	 * 
 	 * @throws IOException
 	 */
-	public HashMap<String, ArrayList<User>> loadUserData() throws DataLoadException, IOException {
+	public HashMap<String, ArrayList<User>> loadUserData()
+			throws DataLoadException, IOException {
 
 		HashMap<String, ArrayList<User>> userMap = new HashMap<String, ArrayList<User>>();
 		ObjectMapper mapper1 = new ObjectMapper();
@@ -37,11 +44,12 @@ public class JSONLoader implements DataLoader {
 			if (listOfFiles[i].isFile()) {
 				try {
 
-					List<User> list = mapper1.readValue(
-							new ClassPathResource("data/" + listOfFiles[i].getName()).getFile(),
+					List<User> list = mapper1.readValue(new ClassPathResource(
+							"data/" + listOfFiles[i].getName()).getFile(),
 							new TypeReference<List<User>>() {
 							});
 					for (User user : list) {
+						user.setUser_name(properties.get(user.getUser_id()));
 						if (userMap.containsKey(user.getUser_id())) {
 							userMap.get(user.getUser_id()).add(user);
 						} else {
@@ -60,5 +68,22 @@ public class JSONLoader implements DataLoader {
 
 		return userMap;
 	}
+
+//	@Override
+//	public HashMap<String, String> loadUserName() throws DataLoadException,
+//			IOException {
+//		HashMap<String, String> userNameMap = new HashMap<String, String>();
+//		Resource resource = new ClassPathResource("mapping/userNames.txt");
+//		File folder = resource.getFile();
+//		try (Scanner scanner = new Scanner(folder)) {
+//			while (scanner.hasNextLine()) {
+//				String line = scanner.nextLine();
+//				String[] userNameArray = line.split(",");
+//				userNameMap.put(userNameArray[0], userNameArray[1]);
+//			}
+//			scanner.close();
+//		}
+//		return userNameMap;
+//	}
 
 }

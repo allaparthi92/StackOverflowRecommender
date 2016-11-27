@@ -3,6 +3,8 @@ package edu.asu.dv.model.response;
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.asu.dv.model.Course;
+
 /**
  * 
  * This class holds the response entities for a user.
@@ -10,11 +12,15 @@ import java.util.List;
  */
 public class UserResponse {
 
+	private String userName;
+
 	private List<SimilarUser> similarUsers = new ArrayList<>();
 
 	private List<Tag> tags = new ArrayList<>();
 
 	private List<Category> categories = new ArrayList<>();
+
+	private List<Course> courses = new ArrayList<>();
 
 	public List<SimilarUser> getSimilarUsers() {
 		return similarUsers;
@@ -40,9 +46,27 @@ public class UserResponse {
 		this.categories = categories;
 	}
 
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public List<Course> getCourses() {
+		return courses;
+	}
+
+	public void setCourses(List<Course> courses) {
+		this.courses = courses;
+	}
+
 	@Override
 	public String toString() {
-		return "UserResponse [similarUsers=" + similarUsers + ", tags=" + tags + ", categories=" + categories + "]";
+		return "UserResponse [userName=" + userName + ", similarUsers="
+				+ similarUsers + ", tags=" + tags + ", categories="
+				+ categories + ", courses=" + courses + "]";
 	}
 
 }

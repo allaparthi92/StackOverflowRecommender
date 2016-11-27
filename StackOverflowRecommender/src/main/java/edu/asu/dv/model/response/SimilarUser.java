@@ -1,9 +1,14 @@
 package edu.asu.dv.model.response;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties("uid")
 public class SimilarUser {
 
 	private String uid;
+	private String userName;
 	private Integer weight;
+	
 
 	public String getUid() {
 		return uid;
@@ -20,10 +25,20 @@ public class SimilarUser {
 	public void setWeight(Integer weight) {
 		this.weight = weight;
 	}
+	
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
 
 	@Override
 	public String toString() {
-		return "SimilarUser [uid=" + uid + ", weight=" + weight + "]";
+		return "SimilarUser [userName=" + userName + ",uid=" + uid + ", weight=" + weight + "]";
 	}
+
+	
 
 }

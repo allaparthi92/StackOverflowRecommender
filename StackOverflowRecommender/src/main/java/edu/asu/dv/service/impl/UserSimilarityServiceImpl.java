@@ -16,6 +16,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import edu.asu.dv.exception.DataLoadException;
+import edu.asu.dv.model.Course;
+import edu.asu.dv.model.Recommendation;
 import edu.asu.dv.model.User;
 import edu.asu.dv.model.response.Category;
 import edu.asu.dv.model.response.SimilarUser;
@@ -30,12 +32,17 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 	@Autowired
 	private DataLoader loader;
 
+	@javax.annotation.Resource(name = "userNameProperties")
+	private Map<String, String> properties;
+
 	@Autowired
 	private CategoryTagMapper catMapper;
 
 	private HashMap<String, List<String>> similarUserMap = null;
 
 	private HashMap<String, List<Tag>> tagsUserMap = null;
+
+	private HashMap<String, String> userNameMap = null;
 
 	@PostConstruct
 	public void init() throws DataLoadException, IOException {
@@ -71,26 +78,32 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 		});
 
 		List<Category> userCategories = new ArrayList<>();
-		catTagCount.forEach((cat, count) -> {
-			Category curCat = new Category();
-			curCat.setName(cat);
+		catTagCount
+				.forEach((cat, count) -> {
+					Category curCat = new Category();
+					curCat.setName(cat);
 
-			DecimalFormat df = new DecimalFormat("#.##");
-			curCat.setPercentage(Double.valueOf(df.format((count / 30.0) * 100)));
+					DecimalFormat df = new DecimalFormat("#.##");
+					curCat.setPercentage(Double.valueOf(df
+							.format((count / 30.0) * 100)));
 
-			curCat.setTags(catTagMap.get(cat));
-			userCategories.add(curCat);
-		});
+					curCat.setTags(catTagMap.get(cat));
+					userCategories.add(curCat);
+				});
 
-		return userCategories.parallelStream().sorted((cat1, cat2) -> {
-			return cat1.getPercentage() == cat2.getPercentage() ? 0
-					: cat1.getPercentage() < cat2.getPercentage() ? 1 : -1;
-		}).collect(Collectors.toList());
+		return userCategories
+				.parallelStream()
+				.sorted((cat1, cat2) -> {
+					return cat1.getPercentage() == cat2.getPercentage() ? 0
+							: cat1.getPercentage() < cat2.getPercentage() ? 1
+									: -1;
+				}).collect(Collectors.toList());
 
 	}
 
 	@Override
-	public List<SimilarUser> getSimilarUsers(String userid) throws DataLoadException {
+	public List<SimilarUser> getSimilarUsers(String userid)
+			throws DataLoadException {
 
 		List<SimilarUser> similarUsers = new ArrayList<>();
 		List<String> users = similarUserMap.get(userid);
@@ -102,50 +115,65 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			SimilarUser userWeight = new SimilarUser();
 			for (Tag firstUserDetail : curUserTagDetail) {
 				for (Tag secondUserDetail : curUserTagDetail2) {
-					if (firstUserDetail.getName().equals(secondUserDetail.getName())) {
-						counter += Math.min(firstUserDetail.getCount(), secondUserDetail.getCount());
+					if (firstUserDetail.getName().equals(
+							secondUserDetail.getName())) {
+						counter += Math.min(firstUserDetail.getCount(),
+								secondUserDetail.getCount());
 					}
 				}
 			}
 			userWeight.setUid(user);
+			userWeight.setUserName(properties.get(user));
 			userWeight.setWeight(counter);
 			similarUsers.add(userWeight);
 		});
 
-		return similarUsers.parallelStream().sorted((simuser1, simuser2) -> {
-			return simuser1.getWeight() == simuser2.getWeight() ? 0
-					: simuser1.getWeight() < simuser2.getWeight() ? 1 : -1;
+		return similarUsers
+				.parallelStream()
+				.sorted((simuser1, simuser2) -> {
+					return simuser1.getWeight() == simuser2.getWeight() ? 0
+							: simuser1.getWeight() < simuser2.getWeight() ? 1
+									: -1;
 
-		}).collect(Collectors.toList());
+				}).collect(Collectors.toList());
 
 	}
 
 	@Override
 	public List<Tag> getUserTags(String userName) {
-		return tagsUserMap.get(userName).parallelStream().sorted((tag1, tag2) -> {
-			return tag1.getCount() == tag2.getCount() ? 0 : tag1.getCount() < tag2.getCount() ? 1 : -1;
-		}).collect(Collectors.toList());
+		return tagsUserMap
+				.get(userName)
+				.parallelStream()
+				.sorted((tag1, tag2) -> {
+					return tag1.getCount() == tag2.getCount() ? 0 : tag1
+							.getCount() < tag2.getCount() ? 1 : -1;
+				}).collect(Collectors.toList());
 	}
 
-	private HashMap<String, List<String>> findSimilarUsers(HashMap<String, ArrayList<User>> userMap) {
+	private HashMap<String, List<String>> findSimilarUsers(
+			HashMap<String, ArrayList<User>> userMap) {
 
 		HashMap<String, List<String>> similarUserMap = new HashMap<String, List<String>>();
 		tagsUserMap = new HashMap<String, List<Tag>>();
 		HashMap<String, List<String>> tagUserString = new HashMap<>();
-
+		Set<String> tagSet = new HashSet<String>();
 		userMap.forEach((username, userObj) -> {
 			List<Tag> tags = new ArrayList<>();
 			List<String> tagString = new ArrayList<>();
 			userObj.forEach(z -> {
 				tagString.add(z.getTag_name());
-				Tag temp = new Tag();
-				temp.setName(z.getTag_name());
-				temp.setCount(z.getQuestion_count());
-				tags.add(temp);
+				if (z.getQuestion_count() > 10) {
+					Tag temp = new Tag();
+					temp.setName(z.getTag_name());
+					temp.setCount(z.getQuestion_count());
+					tags.add(temp);
+					tagSet.add(z.getTag_name());
+				}
 			});
 			tagUserString.put(username, tagString);
 			tagsUserMap.put(username, tags);
 		});
+		// System.out.println(tagSet.size());
 
 		tagUserString.forEach((x, y) -> {
 			tagUserString.forEach((a, b) -> {
@@ -166,6 +194,93 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 		});
 		return similarUserMap;
 
+	}
+
+	@Override
+	public List<Course> getCourses(String userid) {
+
+		ArrayList<Recommendation> lsit = new ArrayList<Recommendation>();
+
+		ArrayList<Course> Result = new ArrayList<Course>();
+
+		Recommendation recommend = new Recommendation();
+		recommend.setId("2626");
+		recommend.setLanguage("en");
+		recommend.setName("Object Oriented Programming in Java");
+		recommend
+				.setPreviewLink("https://www.coursera.org/learn/object-oriented-java");
+		recommend.setShortName("ObjectOrientedProgramminginJava");
+
+		Recommendation recommend1 = new Recommendation();
+		recommend1.setId("16");
+		recommend1.setLanguage("en");
+		recommend1.setName("Advanced Data Structures in Java");
+		recommend1
+				.setPreviewLink("https://www.coursera.org/learn/advanced-data-structures");
+		recommend1.setShortName("Advanced Data Structures in Java");
+
+		Recommendation recommend2 = new Recommendation();
+		recommend2.setId("1775");
+		recommend2.setLanguage("en");
+		recommend2.setName("Java Programming: Principles of Software Design");
+		recommend2
+				.setPreviewLink("https://www.coursera.org/learn/java-programming-design-principles");
+		recommend2
+				.setShortName("Java Programming: Principles of Software Design");
+
+		lsit.add(recommend);
+		lsit.add(recommend1);
+		lsit.add(recommend2);
+
+		Course course = new Course("java", lsit);
+		Result.add(course);
+		ArrayList<Recommendation> pythonlsit = new ArrayList<Recommendation>();
+
+		Recommendation pyrecommend = new Recommendation();
+		pyrecommend.setId("13");
+		pyrecommend.setLanguage("en");
+		pyrecommend.setName("Computer Science 101");
+		pyrecommend
+				.setPreviewLink("https://class.coursera.org/cs101/lecture/preview");
+		pyrecommend.setShortName("cs101");
+
+		Recommendation pyrecommend1 = new Recommendation();
+		pyrecommend1.setId("1354");
+		pyrecommend1.setLanguage("en");
+		pyrecommend1.setName("Programming for Everybody (Python)");
+		pyrecommend1.setPreviewLink("");
+		pyrecommend1.setShortName("pythonlearn");
+
+		Recommendation pyrecommend2 = new Recommendation();
+		pyrecommend2.setId("88");
+		pyrecommend2.setLanguage("en");
+		pyrecommend2
+				.setName("An Introduction to Interactive Programming in Python");
+		pyrecommend2.setPreviewLink("");
+		pyrecommend2.setShortName("interactivepython");
+
+		pythonlsit.add(pyrecommend);
+		pythonlsit.add(pyrecommend1);
+		pythonlsit.add(pyrecommend2);
+
+		Course pycourse = new Course("python", pythonlsit);
+		Result.add(pycourse);
+		return Result;
+	}
+
+	// *******************Code related to
+	// categories**********************************************
+
+	public List<Tag> getTagesBasedONCategories(List<String> categories,
+			String userid) {
+		List<Tag> tagList = new ArrayList<Tag>();
+		Map<String, Set<String>> tagCatMap = catMapper.getTagCategories();
+		List<Tag> userTags = tagsUserMap.get(userid);
+		for (String category : categories) {
+			Set<String> tagSet = tagCatMap.get(category);
+
+		}
+		return tagList;
 	}
 
 }
