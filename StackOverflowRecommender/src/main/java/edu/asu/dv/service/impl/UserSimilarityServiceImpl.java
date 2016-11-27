@@ -3,6 +3,7 @@ package edu.asu.dv.service.impl;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -35,14 +37,15 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 	@javax.annotation.Resource(name = "userNameProperties")
 	private Map<String, String> properties;
 
+	@Resource(name = "categoryTagProperties")
+	private Map<String, String> catProperties;
+
 	@Autowired
 	private CategoryTagMapper catMapper;
 
 	private HashMap<String, List<String>> similarUserMap = null;
 
 	private HashMap<String, List<Tag>> tagsUserMap = null;
-
-	private HashMap<String, String> userNameMap = null;
 
 	@PostConstruct
 	public void init() throws DataLoadException, IOException {
@@ -78,18 +81,17 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 		});
 
 		List<Category> userCategories = new ArrayList<>();
-		catTagCount
-				.forEach((cat, count) -> {
-					Category curCat = new Category();
-					curCat.setName(cat);
+		catTagCount.forEach((cat, count) -> {
+			Category curCat = new Category();
+			curCat.setName(cat);
 
-					DecimalFormat df = new DecimalFormat("#.##");
-					curCat.setPercentage(Double.valueOf(df
-							.format((count / 30.0) * 100)));
+			DecimalFormat df = new DecimalFormat("#.##");
+			curCat.setPercentage(Double.valueOf(df
+					.format(((double) count / userTags.size()) * 100)));
 
-					curCat.setTags(catTagMap.get(cat));
-					userCategories.add(curCat);
-				});
+			curCat.setTags(catTagMap.get(cat));
+			userCategories.add(curCat);
+		});
 
 		return userCategories
 				.parallelStream()
@@ -109,7 +111,6 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 		List<String> users = similarUserMap.get(userid);
 		List<Tag> curUserTagDetail = tagsUserMap.get(userid);
 		users.forEach(user -> {
-
 			List<Tag> curUserTagDetail2 = tagsUserMap.get(user);
 			int counter = 0;
 			SimilarUser userWeight = new SimilarUser();
@@ -274,13 +275,158 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 	public List<Tag> getTagesBasedONCategories(List<String> categories,
 			String userid) {
 		List<Tag> tagList = new ArrayList<Tag>();
-		Map<String, Set<String>> tagCatMap = catMapper.getTagCategories();
+		Set<String> tagSet = new HashSet<>();
 		List<Tag> userTags = tagsUserMap.get(userid);
 		for (String category : categories) {
-			Set<String> tagSet = tagCatMap.get(category);
+			String tagS = catProperties.get(category);
+			String tagsArray[] = tagS.split(",");
+			for (int i = 0; i < tagsArray.length; i++) {
+				tagSet.add(tagsArray[i]);
+			}
+			for (String str : tagSet) {
+				for (Tag tag : userTags) {
+					if (tag.getName().equalsIgnoreCase(str)) {
+						tagList.add(tag);
+					}
+				}
+			}
+		}
+		return tagList
+				.parallelStream()
+				.sorted((cat1, cat2) -> {
+					return cat1.getCount() == cat2.getCount() ? 0 : cat1
+							.getCount() < cat2.getCount() ? 1 : -1;
+				}).collect(Collectors.toList());
+	}
+
+	@Override
+	public List<Category> getCategoriesBasedOnCategory(String userid,
+			List<String> categories) {
+		List<Category> result = new ArrayList<>();
+		List<Category> list = getCategories(userid);
+		for (String s : categories) {
+			for (Category cat : list) {
+				if (cat.getName().equalsIgnoreCase(s)) {
+					result.add(cat);
+				}
+			}
+		}
+		return result
+				.parallelStream()
+				.sorted((cat1, cat2) -> {
+					return cat1.getPercentage() == cat2.getPercentage() ? 0
+							: cat1.getPercentage() < cat2.getPercentage() ? 1
+									: -1;
+				}).collect(Collectors.toList());
+	}
+
+	public List<SimilarUser> getSimilarUsersBasedOnCategories(String userid,
+			List<String> categories) {
+		List<Tag> mainUserTags = getTagesBasedONCategories(categories, userid);
+
+		List<SimilarUser> result = new ArrayList<SimilarUser>();
+		
+		List<String> users = similarUserMap.get(userid);
+
+		for (String user : users) {
+
+			List<Tag> userTags = getTagesBasedONCategories(categories,
+					user);
+			int sum = 0;
+			SimilarUser userWeight = new SimilarUser();
+			for (Tag t1 : mainUserTags) {
+
+				for (Tag t2 : userTags) {
+
+					if (t1.getName().equalsIgnoreCase(t2.getName())
+							&& !userid.equals(user)) {
+						sum = sum + Math.min(t1.getCount(), t2.getCount());
+					}
+
+				}
+			}
+			userWeight.setUid(user);
+			userWeight.setUserName(properties.get(user));
+			userWeight.setWeight(sum);
+			result.add(userWeight);
 
 		}
-		return tagList;
+		return result
+				.parallelStream()
+				.sorted((simuser1, simuser2) -> {
+					return simuser1.getWeight() == simuser2.getWeight() ? 0
+							: simuser1.getWeight() < simuser2.getWeight() ? 1
+									: -1;
+
+				}).collect(Collectors.toList());
 	}
+	// public List<Category> getCategoriesBasedOnCategory(String userid,
+	// List<String> categories) {
+	// Map<String, Set<String>> tagCatMap = new HashMap<>();
+	//
+	// catProperties.forEach((cat, tags) -> {
+	//
+	// if (categories.contains(cat)) {
+	// List<String> tagArrList = Arrays.asList(tags.split(","));
+	// tagArrList.forEach(tag -> {
+	// tag = tag.trim();
+	// if (tagCatMap.containsKey(tag)) {
+	// tagCatMap.get(tag).add(cat);
+	// } else {
+	// Set<String> catSet = new HashSet<>();
+	// catSet.add(cat);
+	// tagCatMap.put(tag, catSet);
+	// }
+	// });
+	// }
+	// });
+	//
+	// List<Tag> userTags = tagsUserMap.get(userid);
+	//
+	// Map<String, Integer> catTagCount = new HashMap<>();
+	// Map<String, Set<String>> catTagMap = new HashMap<>();
+	//
+	// userTags.forEach(userTag -> {
+	// Set<String> catSet = tagCatMap.get(userTag.getName());
+	// if (catSet == null) {
+	// catSet = new HashSet<>();
+	// catSet.add("Others");
+	// }
+	// catSet.forEach(cat -> {
+	// if (catTagCount.containsKey(cat)) {
+	// catTagMap.get(cat).add(userTag.getName());
+	// int count = catTagCount.get(cat);
+	// catTagCount.put(cat, count + 1);
+	// } else {
+	// Set<String> tagSet = new HashSet<>();
+	// tagSet.add(userTag.getName());
+	// catTagMap.put(cat, tagSet);
+	// catTagCount.put(cat, 1);
+	// }
+	// });
+	// });
+	//
+	// List<Category> userCategories = new ArrayList<>();
+	// catTagCount.forEach((cat, count) -> {
+	// Category curCat = new Category();
+	// curCat.setName(cat);
+	//
+	// DecimalFormat df = new DecimalFormat("#.##");
+	// curCat.setPercentage(Double.valueOf(df
+	// .format(((double) count / userTags.size()) * 100)));
+	//
+	// curCat.setTags(catTagMap.get(cat));
+	// userCategories.add(curCat);
+	// });
+	//
+	// return userCategories
+	// .parallelStream()
+	// .sorted((cat1, cat2) -> {
+	// return cat1.getPercentage() == cat2.getPercentage() ? 0
+	// : cat1.getPercentage() < cat2.getPercentage() ? 1
+	// : -1;
+	// }).collect(Collectors.toList());
+	//
+	// }
 
 }

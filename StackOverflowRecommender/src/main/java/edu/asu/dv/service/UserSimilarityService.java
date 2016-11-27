@@ -17,4 +17,10 @@ public interface UserSimilarityService {
 
 	List<Course> getCourses(String userid);
 
+	List<Category> getCategoriesBasedOnCategory(String userid,
+			List<String> categories);
+	List<Tag> getTagesBasedONCategories(List<String> categories,
+			String userid);
+	List<SimilarUser> getSimilarUsersBasedOnCategories(String userid,
+			List<String> categories) ;
 }
