@@ -23,12 +23,13 @@ public class UserCategoryService {
 
 	@javax.annotation.Resource(name = "userNameProperties")
 	private Map<String, String> properties;
-
+	
 	@PostMapping(value = "users/{userid}/similarusers", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<UserResponse> getUserDetails(
 			@RequestBody List<String> categories,
 			@PathVariable("userid") String userid) throws DataLoadException {
-
+		HttpHeaders headers = new HttpHeaders();
+		headers.add("Access-Control-Allow-Origin", "*");
 		UserResponse response = new UserResponse();
 
 		response.setUserName(properties.get(userid));
@@ -42,7 +43,8 @@ public class UserCategoryService {
 		response.setCategories(similarityService.getCategoriesBasedOnCategory(
 				userid, categories));
 		response.setCourses(similarityService.getCourses(userid));
-		return new ResponseEntity<UserResponse>(response, HttpStatus.OK);
+
+		return new ResponseEntity<UserResponse>(response,headers, HttpStatus.OK);
 
 	}
 
