@@ -41,7 +41,7 @@ public class UserCategoryService {
 
 		response.setCategories(similarityService.getCategoriesBasedOnCategory(
 				userid, categories));
-
+		response.setCourses(similarityService.getCourses(userid));
 		return new ResponseEntity<UserResponse>(response, HttpStatus.OK);
 
 	}
