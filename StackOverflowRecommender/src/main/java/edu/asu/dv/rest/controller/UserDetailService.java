@@ -30,6 +30,9 @@ public class UserDetailService {
 
 		UserResponse response = new UserResponse();
 		
+		HttpHeaders headers = new HttpHeaders();
+		headers.add("Access-Control-Allow-Origin", "*");
+		
 		response.setUserName(properties.get(userid));
 
 		response.setSimilarUsers(similarityService.getSimilarUsers(userid));
@@ -40,7 +43,7 @@ public class UserDetailService {
 		
 		response.setCourses(similarityService.getCourses(userid));
 
-		return new ResponseEntity<UserResponse>(response, HttpStatus.OK);
+		return new ResponseEntity<UserResponse>(response, headers,HttpStatus.OK);
 
 	}
 
