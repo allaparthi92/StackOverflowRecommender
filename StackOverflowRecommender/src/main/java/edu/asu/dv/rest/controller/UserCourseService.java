@@ -31,7 +31,7 @@ public class UserCourseService {
 	private Map<String, String> properties;
 
 	@PostMapping(value = "users/{userid}/recommend", consumes = MediaType.APPLICATION_JSON_VALUE)
-	public void getUserDetails(
+	public LinkedHashSet<Recommendation> getUserDetails(
 			@RequestBody CourseInput courseInput,
 			@PathVariable("userid") String userid) throws DataLoadException {
 
@@ -42,6 +42,8 @@ public class UserCourseService {
 		LinkedHashSet<Recommendation> list = similarityService.updateUserCourseMap(courseInput, userid);
 		
 		System.out.println(list);
+		 
+		return list;
 		
 	
 	}

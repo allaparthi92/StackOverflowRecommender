@@ -1,5 +1,6 @@
 package edu.asu.dv.rest.controller;
 
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 
@@ -31,14 +32,14 @@ public class UserRecommendationCourseService {
 	private Map<String, String> properties;
 
 	@PostMapping(value = "/user/{userid}/recommendCourses", consumes = MediaType.APPLICATION_JSON_VALUE)
-	public void getUserDetails(@RequestBody List<RecommendationCourse> list,
+	public LinkedHashSet<Recommendation> getUserDetails(@RequestBody List<RecommendationCourse> list,
 			@PathVariable("userid") String userid) throws DataLoadException {
 		{
 
 			HttpHeaders headers = new HttpHeaders();
 			headers.add("Access-Control-Allow-Origin", "*");
-			System.out.println(similarityService.updateRecommendedCourses(userid, list));	
-			
+			//System.out.println(similarityService.updateRecommendedCourses(userid, list));	
+			return similarityService.updateRecommendedCourses(userid, list);
 		}
 	}
 }
