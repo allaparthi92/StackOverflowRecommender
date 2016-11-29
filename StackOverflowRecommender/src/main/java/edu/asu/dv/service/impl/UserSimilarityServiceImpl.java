@@ -148,7 +148,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 				}
 			}
 			userWeight.setUid(user);
-			userWeight.setUserName(properties.get(user));
+			userWeight.setName(properties.get(user));
 			userWeight.setvalue(counter);
 			similarUsers.add(userWeight);
 		});
@@ -375,7 +375,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 				}
 			}
 			userWeight.setUid(user);
-			userWeight.setUserName(properties.get(user));
+			userWeight.setName(properties.get(user));
 			userWeight.setvalue(sum);
 			result.add(userWeight);
 

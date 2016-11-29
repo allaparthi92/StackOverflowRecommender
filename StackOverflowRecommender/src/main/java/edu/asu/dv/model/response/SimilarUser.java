@@ -26,17 +26,17 @@ public class SimilarUser {
 		this.value = value;
 	}
 	
-	public String getUserName() {
+	public String getName() {
 		return name;
 	}
 
-	public void setUserName(String userName) {
+	public void setName(String userName) {
 		this.name = userName;
 	}
 
 	@Override
 	public String toString() {
-		return "SimilarUser [userName=" + name + ",uid=" + uid + ", value=" + value + "]";
+		return "SimilarUser [name=" + name + ",uid=" + uid + ", value=" + value + "]";
 	}
 
 	
