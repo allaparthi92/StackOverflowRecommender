@@ -7,7 +7,7 @@ public class SimilarUser {
 
 	private String uid;
 	private String userName;
-	private Integer weight;
+	private Integer value;
 	
 
 	public String getUid() {
@@ -18,12 +18,12 @@ public class SimilarUser {
 		this.uid = uid;
 	}
 
-	public Integer getWeight() {
-		return weight;
+	public Integer getvalue() {
+		return value;
 	}
 
-	public void setWeight(Integer weight) {
-		this.weight = weight;
+	public void setvalue(Integer value) {
+		this.value = value;
 	}
 	
 	public String getUserName() {
@@ -36,7 +36,7 @@ public class SimilarUser {
 
 	@Override
 	public String toString() {
-		return "SimilarUser [userName=" + userName + ",uid=" + uid + ", weight=" + weight + "]";
+		return "SimilarUser [userName=" + userName + ",uid=" + uid + ", value=" + value + "]";
 	}
 
 	

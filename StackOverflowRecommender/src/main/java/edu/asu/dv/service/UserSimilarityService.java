@@ -15,7 +15,7 @@ public interface UserSimilarityService {
 
 	List<Category> getCategories(String userid);
 
-	List<Course> getCourses(String userid);
+	List<String> getCourses(String userid);
 
 	List<Category> getCategoriesBasedOnCategory(String userid,
 			List<String> categories);
@@ -23,4 +23,6 @@ public interface UserSimilarityService {
 			String userid);
 	List<SimilarUser> getSimilarUsersBasedOnCategories(String userid,
 			List<String> categories) ;
+	
+	List<String> updatedCourses(List<String> Courses, String userid);
 }

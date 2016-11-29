@@ -3,8 +3,10 @@ package edu.asu.dv.util;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 import edu.asu.dv.exception.DataLoadException;
+import edu.asu.dv.model.Recommendation;
 import edu.asu.dv.model.User;
 
 public interface DataLoader {
@@ -16,6 +18,10 @@ public interface DataLoader {
 	 * @throws DataLoadException
 	 * @throws IOException
 	 */
-	HashMap<String, ArrayList<User>> loadUserData() throws DataLoadException, IOException;
+	HashMap<String, ArrayList<User>> loadUserData() throws DataLoadException,
+			IOException;
+
+	HashMap<String, List<Recommendation>> loadCourseData()
+			throws DataLoadException, IOException;
 
 }

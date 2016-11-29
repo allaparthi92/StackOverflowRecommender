@@ -1,9 +1,11 @@
 package edu.asu.dv.rest.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -28,6 +30,15 @@ public class UserCategoryService {
 	public ResponseEntity<UserResponse> getUserDetails(
 			@RequestBody List<String> categories,
 			@PathVariable("userid") String userid) throws DataLoadException {
+		
+		if(null == categories || categories.size()==0 ){
+			categories = new ArrayList<String>();
+			categories.add("Web-Development");
+			categories.add("Backend-Technologies");
+			categories.add("Database");
+			categories.add("Others");
+			
+		}
 		HttpHeaders headers = new HttpHeaders();
 		headers.add("Access-Control-Allow-Origin", "*");
 		UserResponse response = new UserResponse();
@@ -42,7 +53,7 @@ public class UserCategoryService {
 
 		response.setCategories(similarityService.getCategoriesBasedOnCategory(
 				userid, categories));
-		response.setCourses(similarityService.getCourses(userid));
+		//response.setCourses(similarityService.getCourses(userid));
 
 		return new ResponseEntity<UserResponse>(response,headers, HttpStatus.OK);
 

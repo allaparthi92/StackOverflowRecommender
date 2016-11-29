@@ -16,6 +16,8 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import edu.asu.dv.exception.DataLoadException;
+import edu.asu.dv.model.Course;
+import edu.asu.dv.model.Recommendation;
 import edu.asu.dv.model.User;
 import edu.asu.dv.util.DataLoader;
 
@@ -68,6 +70,33 @@ public class JSONLoader implements DataLoader {
 
 		return userMap;
 	}
+	
+	public HashMap<String, List<Recommendation>> loadCourseData()
+			throws DataLoadException, IOException {
+		
+		HashMap<String, List<Recommendation>> CourseTagMap = new HashMap<String,List<Recommendation>>();
+		ObjectMapper mapper1 = new ObjectMapper();
+		Resource resource = new ClassPathResource("mapping/Courses.json");
+		File file = resource.getFile();
+		
+		try {
+
+			List<Course> list = mapper1.readValue(file,new TypeReference<List<Course>>() {});
+			for (Course course : list) {
+				CourseTagMap.put(course.getName(),course.getRecommendations());
+			}
+
+		} catch (IOException e) {
+			throw new DataLoadException(e);
+
+		}
+		System.out.println(CourseTagMap);
+				return CourseTagMap;
+		
+	}
+
+	
+	
 
 //	@Override
 //	public HashMap<String, String> loadUserName() throws DataLoadException,

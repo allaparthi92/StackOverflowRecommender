@@ -20,7 +20,7 @@ public class UserResponse {
 
 	private List<Category> categories = new ArrayList<>();
 
-	private List<Course> courses = new ArrayList<>();
+	private List<String> courses = new ArrayList<>();
 
 	public List<SimilarUser> getSimilarUsers() {
 		return similarUsers;
@@ -54,11 +54,11 @@ public class UserResponse {
 		this.userName = userName;
 	}
 
-	public List<Course> getCourses() {
+	public List<String> getCourses() {
 		return courses;
 	}
 
-	public void setCourses(List<Course> courses) {
+	public void setCourses(List<String> courses) {
 		this.courses = courses;
 	}
 

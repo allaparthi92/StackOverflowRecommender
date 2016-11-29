@@ -4,19 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Course {
-	
-	private String name;
-	
-	private List<Recommendation> recommendations = new ArrayList<>();
-	
-	
-	public Course() {
-	}
 
-	public Course(String name, List<Recommendation> recommendations) {
-		super();
-		this.name = name;
-		this.recommendations = recommendations;
+	private String name;
+
+	private List<Recommendation> recommendations = new ArrayList<>();
+
+	private List<String> users;
+
+	public Course() {
 	}
 
 	public String getName() {
@@ -35,12 +30,18 @@ public class Course {
 		this.recommendations = recommendations;
 	}
 
+	public List<String> getUsers() {
+		return users;
+	}
+
+	public void setUsers(List<String> users) {
+		this.users = users;
+	}
+
 	@Override
 	public String toString() {
 		return "Course [name=" + name + ", recommendations=" + recommendations
-				+ "]";
+				+ ", users=" + users + "]";
 	}
-	
-	
-	
+
 }
