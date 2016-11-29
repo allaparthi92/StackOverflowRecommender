@@ -9,6 +9,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,6 +19,7 @@ import edu.asu.dv.exception.DataLoadException;
 import edu.asu.dv.model.response.UserResponse;
 import edu.asu.dv.service.UserSimilarityService;
 
+@CrossOrigin(maxAge = 3600)
 @RestController
 public class UserCategoryService {
 	@Autowired
@@ -25,38 +27,58 @@ public class UserCategoryService {
 
 	@javax.annotation.Resource(name = "userNameProperties")
 	private Map<String, String> properties;
-	
-	@PostMapping(value = "users/{userid}/similarusers", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<UserResponse> getUserDetails(
-			@RequestBody List<String> categories,
+
+	@PostMapping(value = "users/{userid}/similarusers", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<UserResponse> getUserDetails(@RequestBody String cat,
 			@PathVariable("userid") String userid) throws DataLoadException {
-		
-		if(null == categories || categories.size()==0 ){
-			categories = new ArrayList<String>();
-			categories.add("Web-Development");
-			categories.add("Backend-Technologies");
-			categories.add("Database");
-			categories.add("Others");
+
+		List<String> categories = new ArrayList<>();
+		if (cat.length() > 0 || cat.contains(":")) {
+			String x[] = cat.split(":");
+			String y = x[1].replace("}", "").replace("[", "").replace("]", "").replace("\"", "");
+
+			if (y.contains(",")) {
+				String z[] = y.split(",");
+
+				for (int i = 0; i < z.length; i++) {
+					categories.add(z[i]);
+				}
+			} else {
+				categories.add(y);
+			}
+
+			if (null == categories || categories.size() == 0) {
+				categories = new ArrayList<String>();
+				categories.add("Web-Development");
+				categories.add("Backend-Technologies");
+				categories.add("Database");
+				categories.add("Others");
+
+			}
+			System.out.println(categories);
+			HttpHeaders headers = new HttpHeaders();
+			headers.add("Access-Control-Allow-Origin", "*");
+			UserResponse response = new UserResponse();
+
+			response.setUserName(properties.get(userid));
+
+			response.setTags(similarityService.getTagesBasedONCategories(
+					categories, userid));
+
+			response.setSimilarUsers(similarityService
+					.getSimilarUsersBasedOnCategories(userid, categories));
+
+			response.setCategories(similarityService
+					.getCategoriesBasedOnCategory(userid, categories));
+			response.setCourses(similarityService.getCourses(userid));
 			
+			response.setRecommendedCourses(similarityService.userRecommendedCoursePopulate().get(userid));
+
+			return new ResponseEntity<UserResponse>(response, headers,
+					HttpStatus.OK);
 		}
-		HttpHeaders headers = new HttpHeaders();
-		headers.add("Access-Control-Allow-Origin", "*");
-		UserResponse response = new UserResponse();
 
-		response.setUserName(properties.get(userid));
-
-		response.setTags(similarityService.getTagesBasedONCategories(
-				categories, userid));
-
-		response.setSimilarUsers(similarityService
-				.getSimilarUsersBasedOnCategories(userid, categories));
-
-		response.setCategories(similarityService.getCategoriesBasedOnCategory(
-				userid, categories));
-		//response.setCourses(similarityService.getCourses(userid));
-
-		return new ResponseEntity<UserResponse>(response,headers, HttpStatus.OK);
-
+		return null;
 	}
 
 }

@@ -31,5 +31,12 @@ public class ApplicationConfig {
 		bean.setLocation(new ClassPathResource("mapping/userNames.properties"));
 		return bean;
 	}
+	
+	@Bean(name = "recommededProperties")
+	public PropertiesFactoryBean CourseMapper() {
+		PropertiesFactoryBean bean = new PropertiesFactoryBean();
+		bean.setLocation(new ClassPathResource("mapping/recommendedCourses.properties"));
+		return bean;
+	}
 
 }

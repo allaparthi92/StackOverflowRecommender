@@ -3,6 +3,7 @@ package edu.asu.dv.util;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 
 import edu.asu.dv.exception.DataLoadException;
@@ -21,7 +22,7 @@ public interface DataLoader {
 	HashMap<String, ArrayList<User>> loadUserData() throws DataLoadException,
 			IOException;
 
-	HashMap<String, List<Recommendation>> loadCourseData()
+	HashMap<String, LinkedHashSet<Recommendation>> loadCourseData()
 			throws DataLoadException, IOException;
 
 }

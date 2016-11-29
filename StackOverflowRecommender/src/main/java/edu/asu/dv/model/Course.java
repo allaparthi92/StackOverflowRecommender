@@ -1,13 +1,14 @@
 package edu.asu.dv.model;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
 
 public class Course {
 
 	private String name;
 
-	private List<Recommendation> recommendations = new ArrayList<>();
+	private LinkedHashSet<Recommendation> recommendations = new LinkedHashSet<>();
 
 	private List<String> users;
 
@@ -22,11 +23,11 @@ public class Course {
 		this.name = name;
 	}
 
-	public List<Recommendation> getRecommendations() {
+	public LinkedHashSet<Recommendation> getRecommendations() {
 		return recommendations;
 	}
 
-	public void setRecommendations(List<Recommendation> recommendations) {
+	public void setRecommendations(LinkedHashSet<Recommendation> recommendations) {
 		this.recommendations = recommendations;
 	}
 

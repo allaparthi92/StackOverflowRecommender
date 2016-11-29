@@ -1,9 +1,11 @@
 package edu.asu.dv.model.response;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
 
 import edu.asu.dv.model.Course;
+import edu.asu.dv.model.Recommendation;
 
 /**
  * 
@@ -20,7 +22,9 @@ public class UserResponse {
 
 	private List<Category> categories = new ArrayList<>();
 
-	private List<String> courses = new ArrayList<>();
+	private LinkedHashSet<Recommendation> courses = new LinkedHashSet<>();
+	
+	private LinkedHashSet<Recommendation> recommendedCoursesByUser = new LinkedHashSet<>(); 
 
 	public List<SimilarUser> getSimilarUsers() {
 		return similarUsers;
@@ -54,19 +58,29 @@ public class UserResponse {
 		this.userName = userName;
 	}
 
-	public List<String> getCourses() {
+	public LinkedHashSet<Recommendation> getCourses() {
 		return courses;
 	}
 
-	public void setCourses(List<String> courses) {
+	public void setCourses(LinkedHashSet<Recommendation> courses) {
 		this.courses = courses;
+	}
+
+	public LinkedHashSet<Recommendation> getRecommendedCourses() {
+		return recommendedCoursesByUser;
+	}
+
+	public void setRecommendedCourses(LinkedHashSet<Recommendation> recommendedCourses) {
+		this.recommendedCoursesByUser = recommendedCourses;
 	}
 
 	@Override
 	public String toString() {
 		return "UserResponse [userName=" + userName + ", similarUsers="
 				+ similarUsers + ", tags=" + tags + ", categories="
-				+ categories + ", courses=" + courses + "]";
+				+ categories + ", courses=" + courses + ", recommendedCourses="
+				+ recommendedCoursesByUser + "]";
 	}
+	
 
 }

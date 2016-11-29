@@ -1,9 +1,13 @@
 package edu.asu.dv.service;
 
+import java.util.HashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 
 import edu.asu.dv.exception.DataLoadException;
-import edu.asu.dv.model.Course;
+import edu.asu.dv.model.CourseInput;
+import edu.asu.dv.model.Recommendation;
+import edu.asu.dv.model.RecommendationCourse;
 import edu.asu.dv.model.response.Category;
 import edu.asu.dv.model.response.SimilarUser;
 import edu.asu.dv.model.response.Tag;
@@ -15,7 +19,7 @@ public interface UserSimilarityService {
 
 	List<Category> getCategories(String userid);
 
-	List<String> getCourses(String userid);
+	LinkedHashSet<Recommendation> getCourses(String userid);
 
 	List<Category> getCategoriesBasedOnCategory(String userid,
 			List<String> categories);
@@ -23,6 +27,18 @@ public interface UserSimilarityService {
 			String userid);
 	List<SimilarUser> getSimilarUsersBasedOnCategories(String userid,
 			List<String> categories) ;
+	HashMap<String, LinkedHashSet<Recommendation>> userCourseRecommendation();
 	
-	List<String> updatedCourses(List<String> Courses, String userid);
+	HashMap<String,Recommendation> populateIDCourseMap();
+	
+	HashMap<String, LinkedHashSet<Recommendation>> userRecommendedCoursePopulate();
+	
+	LinkedHashSet<Recommendation> updateRecommendedCourses(String userid,
+			List<RecommendationCourse> recommendedCourses);
+	
+	HashMap<String, LinkedHashSet<Recommendation>> getCourseTagMap();
+	
+	LinkedHashSet<Recommendation> updateUserCourseMap(CourseInput courseInput, String userid);
+
+
 }

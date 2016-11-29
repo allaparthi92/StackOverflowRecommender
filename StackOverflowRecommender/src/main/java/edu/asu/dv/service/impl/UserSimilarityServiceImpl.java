@@ -3,12 +3,13 @@ package edu.asu.dv.service.impl;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
@@ -21,7 +22,9 @@ import org.springframework.stereotype.Service;
 
 import edu.asu.dv.exception.DataLoadException;
 import edu.asu.dv.model.Course;
+import edu.asu.dv.model.CourseInput;
 import edu.asu.dv.model.Recommendation;
+import edu.asu.dv.model.RecommendationCourse;
 import edu.asu.dv.model.User;
 import edu.asu.dv.model.response.Category;
 import edu.asu.dv.model.response.SimilarUser;
@@ -39,6 +42,9 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 	@javax.annotation.Resource(name = "userNameProperties")
 	private Map<String, String> properties;
 
+	@javax.annotation.Resource(name = "recommededProperties")
+	private Map<String, String> recommmedProperties;
+
 	@Resource(name = "categoryTagProperties")
 	private Map<String, String> catProperties;
 
@@ -47,14 +53,27 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 	private HashMap<String, List<String>> similarUserMap = null;
 
-	private HashMap<String, List<Recommendation>> courseTagMap = null;
+	private HashMap<String, LinkedHashSet<Recommendation>> courseTagMap = null;
 
 	private HashMap<String, List<Tag>> tagsUserMap = null;
+
+	private HashMap<String, LinkedHashSet<Recommendation>> userCourseMap = new HashMap<>();
+
+	private HashMap<String, Recommendation> IDCourseMap = new HashMap<>();
+
+	private HashMap<String, LinkedHashSet<Recommendation>> userRecommendedCourseMap = new HashMap<>();
 
 	@PostConstruct
 	public void init() throws DataLoadException, IOException {
 		similarUserMap = findSimilarUsers(loader.loadUserData());
 		courseTagMap = loader.loadCourseData();
+		userCourseMap = userCourseRecommendation();
+		IDCourseMap = populateIDCourseMap();
+		userRecommendedCourseMap = userRecommendedCoursePopulate();
+	}
+
+	public HashMap<String, LinkedHashSet<Recommendation>> getCourseTagMap() {
+		return courseTagMap;
 	}
 
 	@Override
@@ -444,54 +463,208 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 	// services*****************************************//
 
 	@Override
-	public List<String> getCourses(String userid) {
+	public LinkedHashSet<Recommendation> getCourses(String userid) {
 
-		List<String> result = new ArrayList<String>();
+		LinkedHashSet<Recommendation> result = new LinkedHashSet<Recommendation>();
 
 		List<Tag> userTags = tagsUserMap.get(userid);
-		TreeMap<Integer, List<Recommendation>> map = new TreeMap<>(
+		TreeMap<Integer, Set<Recommendation>> map = new TreeMap<>(
 				Collections.reverseOrder());
 		for (Tag tag : userTags) {
 
 			if (courseTagMap.containsKey(tag.getName())) {
-				List<Recommendation> list = courseTagMap.get(tag.getName());
+				Set<Recommendation> list = courseTagMap.get(tag.getName());
 				map.put(tag.getvalue(), list);
 			}
 		}
 
-		for (Map.Entry<Integer, List<Recommendation>> entry : map.entrySet()) {
+		for (Map.Entry<Integer, Set<Recommendation>> entry : map.entrySet()) {
 
 			for (Recommendation recommendation : entry.getValue()) {
 				if (result.size() < 10) {
-					result.add(recommendation.getName());
+					result.add(recommendation);
 
 				}
 			}
 		}
 
 		return result;
+
 	}
 
-	public List<String> updatedCourses(List<String> Courses, String userid) {
+	public HashMap<String, Recommendation> populateIDCourseMap() {
 
-		List<String> result = new ArrayList<String>();
+		for (Entry<String, LinkedHashSet<Recommendation>> entry : courseTagMap
+				.entrySet()) {
 
-		List<String> list = getCourses(userid);
-
-		for (String s : Courses) {
-			if (result.size() < 10) {
-				result.add(s);
+			for (Recommendation reco : entry.getValue()) {
+				if (reco != null) {
+					String x = reco.getId();
+					IDCourseMap.put(x, reco);
+				}
 			}
+		}
+		return IDCourseMap;
+
+	}
+
+	public HashMap<String, LinkedHashSet<Recommendation>> userCourseRecommendation() {
+
+		for (Entry<String, List<Tag>> entry : tagsUserMap.entrySet()) {
+
+			List<Tag> list = entry.getValue();
+
+			LinkedHashSet<Recommendation> mainLi = new LinkedHashSet<>();
+			for (Tag tag : list) {
+				if (courseTagMap.containsKey(tag.getName())) {
+					LinkedHashSet<Recommendation> li = courseTagMap.get(tag.getName());
+					if (li != null) {
+						mainLi.addAll(li);
+					}
+				}
+			}
+
+			userCourseMap.put(entry.getKey(), mainLi);
+
+		}
+
+		return userCourseMap;
+
+	}
+
+	public LinkedHashSet<Recommendation> updateRecommendedCourses(String userid,
+			List<RecommendationCourse> recommendedCourses) {
+		userRecommendedCourseMap = userRecommendedCoursePopulate();
+
+		for (RecommendationCourse cor : recommendedCourses) {
+
+			if (cor.getValue().equals("false")) {
+				LinkedHashSet<Recommendation> li = userRecommendedCourseMap.get(userid);
+				Recommendation cour = IDCourseMap.get(cor.getId());
+				li.remove(cour);
+				userRecommendedCourseMap.put(userid, li);
+			} else {
+				LinkedHashSet<Recommendation> li = userRecommendedCourseMap.get(userid);
+				Recommendation cour = IDCourseMap.get(cor.getId());
+				li.add(cour);
+				userRecommendedCourseMap.put(userid, li);
+			}
+		}
+
+		return userRecommendedCourseMap.get(userid);
+
+	}
+
+	public HashMap<String, LinkedHashSet<Recommendation>> userRecommendedCoursePopulate() {
+
+		for (Entry<String, String> entry : recommmedProperties.entrySet()) {
+			LinkedHashSet<Recommendation> list = new LinkedHashSet<Recommendation>();
+			String x[] = entry.getValue().split(",");
+			for (int i = 0; i < x.length; i++) {
+				Recommendation rec = IDCourseMap.get(x[i]);
+				list.add(rec);
+			}
+			userRecommendedCourseMap.put(entry.getKey(), list);
+		}
+		return userRecommendedCourseMap;
+
+	}
+
+	public LinkedHashSet<Recommendation> updateUserCourseMap(CourseInput courseInput, String userid) {
+
+		if (courseInput.getUsers() == null) {
+			LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
+			LinkedHashSet<Recommendation> result = new LinkedHashSet<>();
+			for (String str : courseInput.getTags()) {
+				LinkedHashSet<Recommendation> list = courseTagMap.get(str);
+				Mainlist.addAll(list);
+			}
+			LinkedHashSet<Recommendation> li = userCourseMap.get(userid);
+			for (Recommendation s : Mainlist) {
+				if (result.size() < 10) {
+					result.add(s);
+				}
+			}
+
+			for (Recommendation s : li) {
+				if (result.size() < 10) {
+					result.add(s);
+				}
+			}
+			userCourseMap.put(userid, result);
+		} else if (courseInput.getTags() == null) {
+			LinkedHashSet<Recommendation> li = userCourseMap.get(userid);
+			LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
+			LinkedHashSet<Recommendation> result = new LinkedHashSet<>();
+			for (String str : courseInput.getUsers()) {
+				LinkedHashSet<Recommendation> list = userRecommendedCourseMap.get(str);
+				Mainlist.addAll(list);
+			}
+			for (Recommendation s : Mainlist) {
+				if (result.size() < 10) {
+					result.add(s);
+				}
+			}
+
+			for (Recommendation s : li) {
+				if (result.size() < 10) {
+					result.add(s);
+				}
+			}
+			userCourseMap.put(userid, result);
+		} else {
+			LinkedHashSet<Recommendation> li = userCourseMap.get(userid);
+			LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
+			LinkedHashSet<Recommendation> result = new LinkedHashSet<>();
+			for (String str : courseInput.getUsers()) {
+				LinkedHashSet<Recommendation> list = userRecommendedCourseMap.get(str);
+				Mainlist.addAll(list);
+			}
+			for (String str : courseInput.getTags()) {
+				LinkedHashSet<Recommendation> list = courseTagMap.get(str);
+				Mainlist.addAll(list);
+			}
+
+			for (Recommendation s : Mainlist) {
+				if (result.size() < 10) {
+					result.add(s);
+				}
+			}
+
+			for (Recommendation s : li) {
+				if (result.size() < 10) {
+					result.add(s);
+				}
+			}
+			userCourseMap.put(userid, result);
+
 		}
 		
-		for (String s : list) {
-			if (result.size() < 10) {
-				result.add(s);
-			}
-		}
-
-		return result;
+		return userCourseMap.get(userid);
 
 	}
+
+	// public List<Recommendation> updatedCourses(List<String> Courses, String
+	// userid) {
+	//
+	// List<String> result = new ArrayList<String>();
+	//
+	// List<String> list = getCourses(userid);
+	//
+	// for (String s : Courses) {
+	// if (result.size() < 10) {
+	// result.add(s);
+	// }
+	// }
+	//
+	// for (String s : list) {
+	// if (result.size() < 10) {
+	// result.add(s);
+	// }
+	// }
+	//
+	// return result;
+	//
+	// }
 
 }

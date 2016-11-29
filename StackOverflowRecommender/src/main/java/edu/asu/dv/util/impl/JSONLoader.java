@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
@@ -71,10 +72,11 @@ public class JSONLoader implements DataLoader {
 		return userMap;
 	}
 	
-	public HashMap<String, List<Recommendation>> loadCourseData()
+	@SuppressWarnings("unchecked")
+	public HashMap<String, LinkedHashSet<Recommendation>> loadCourseData()
 			throws DataLoadException, IOException {
 		
-		HashMap<String, List<Recommendation>> CourseTagMap = new HashMap<String,List<Recommendation>>();
+		HashMap<String, LinkedHashSet<Recommendation>> CourseTagMap = new HashMap<String,LinkedHashSet<Recommendation>>();
 		ObjectMapper mapper1 = new ObjectMapper();
 		Resource resource = new ClassPathResource("mapping/Courses.json");
 		File file = resource.getFile();
@@ -83,7 +85,7 @@ public class JSONLoader implements DataLoader {
 
 			List<Course> list = mapper1.readValue(file,new TypeReference<List<Course>>() {});
 			for (Course course : list) {
-				CourseTagMap.put(course.getName(),course.getRecommendations());
+				CourseTagMap.put(course.getName(),(LinkedHashSet<Recommendation>) course.getRecommendations());
 			}
 
 		} catch (IOException e) {

@@ -1,0 +1,140 @@
+[{
+		"name": "c#",
+		"recommendations": [
+
+			{
+				"id": 1,
+				"name": "C# Tutorials",
+				"previewLink": "https://msdn.microsoft.com/en-us/library/aa288436(v=vs.71).aspx"
+			}, {
+				"id": 2,
+				"name": "C# Tutorial Point",
+				"previewLink": "https://www.tutorialspoint.com/csharp/"
+			}, {
+				"id": 3,
+				"name": "C# Tutorial for Beginners: Learn C# from Scratch",
+				"previewLink": "https://www.youtube.com/watch?v=gfkTfcpWqAY"
+			}, {
+				"id": 4,
+				"name": "C# Station",
+				"previewLink": "http://csharp-station.com/"
+			}, {
+				"id": 5,
+				"name": "C Sharp (programming language)",
+				"previewLink": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+			}
+		]
+	},
+
+	{
+		"name": "php",
+		"recommendations": [
+
+			{
+				"id": 6,
+				"name": "PHP 5 Tutorial",
+				"previewLink": "http://www.w3schools.com/php/"
+			}, {
+				"id": 7,
+				"name": "Continue your learning by starting PHP.",
+				"previewLink": "https://www.codecademy.com/learn/php"
+			}, {
+				"id": 8,
+				"name": "Learn PHP",
+				"previewLink": "https://www.tutorialspoint.com/php/"
+			}, {
+				"id": 9,
+				"name": "PHP Agency, Inc.",
+				"previewLink": "https://www.youtube.com/user/myphpdream"
+			}, {
+				"id": 10,
+				"name": "Building Dynamic websites. Harvard OpencourseWare. CS E-75",
+				"previewLink": "https://www.youtube.com/watch?v=h2Nq0qv0K8M"
+			}
+		]
+	},
+
+	{
+		"name": "javascript",
+		"recommendations": [
+
+			{
+				"id": 11,
+				"name": "JavaScript Road Trip",
+				"previewLink": "https://www.codeschool.com/courses/javascript-road-trip-part-1"
+			}, {
+				"id": 12,
+				"name": "JavaScript Tutorial",
+				"previewLink": "http://www.w3schools.com/js/"
+			}, {
+				"id": 13,
+				"name": "MDN : JavaScript Tutorial",
+				"previewLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+			}, {
+				"id": 14,
+				"name": "Continue your learning by starting JavaScript",
+				"previewLink": "https://www.codecademy.com/learn/javascript"
+			}, {
+				"id": 15,
+				"name": "JavaScript Tutorial for Absolute Beginners",
+				"previewLink": "https://www.youtube.com/watch?v=XL9Ri8pO68w"
+			}
+		]
+	},
+
+	{
+		"name": "jQuery",
+		"recommendations": [
+
+			{
+				"id": 16,
+				"name": "jQuery Tutorial - W3Schools",
+				"previewLink": "http://www.w3schools.com/jquery/"
+			}, {
+				"id": 17,
+				"name": "JQuery UI",
+				"previewLink": "https://jqueryui.com/"
+			}, {
+				"id": 18,
+				"name": "JQuery Mobile",
+				"previewLink": "https://jquerymobile.com/"
+			}, {
+				"id": 19,
+				"name": "Learn Code academy: JQuery",
+				"previewLink": "https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw"
+			}, {
+				"id": 20,
+				"name": "AJAX using JQuery ",
+				"previewLink": "https://www.udemy.com/learn-ajax-using-javascript-jquery-in-2-hrs-2-projects/"
+			}
+		]
+	},
+
+	{
+		"name": "wpf",
+		"recommendations": [
+
+			{
+				"id": 21,
+				"name": "ETech Zone : WPF Tutorial With Visual C# 2010",
+				"previewLink": "https://www.youtube.com/watch?v=C1WK_rKje6s&list=PLBW1ls5xyzO1UEXanPZOtIEpuwy32knIt"
+			}, {
+				"id": 22,
+				"name": "Windows Presentation Foundation",
+				"previewLink": "https://msdn.microsoft.com/en-us/library/ms754130(v=vs.110).aspx"
+			}, {
+				"id": 23,
+				"name": "WPF tutorial",
+				"previewLink": "http://www.wpf-tutorial.com/about-wpf/what-is-wpf/"
+			}, {
+				"id": 24,
+				"name": "Learn WPF",
+				"previewLink": "https://www.visualstudio.com/vs/wpf/"
+			}, {
+				"id": 25,
+				"name": "lynda.com: Creating a dramatic Windows application with WPF ",
+				"previewLink": "https://www.youtube.com/watch?v=-eg2TsHTWyw"
+			}
+		]
+	}
+]

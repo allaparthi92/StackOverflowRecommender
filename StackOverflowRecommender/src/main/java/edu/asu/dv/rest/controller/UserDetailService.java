@@ -1,5 +1,6 @@
 package edu.asu.dv.rest.controller;
 
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import edu.asu.dv.exception.DataLoadException;
+import edu.asu.dv.model.Recommendation;
 import edu.asu.dv.model.response.UserResponse;
 import edu.asu.dv.service.UserSimilarityService;
 
@@ -41,9 +43,10 @@ public class UserDetailService {
 		response.setTags(similarityService.getUserTags(userid));
 
 		response.setCategories(similarityService.getCategories(userid));
-		
+	
 		response.setCourses(similarityService.getCourses(userid));
-
+		
+		response.setRecommendedCourses(similarityService.userRecommendedCoursePopulate().get(userid));
 		return new ResponseEntity<UserResponse>(response, headers,HttpStatus.OK);
 
 	}
