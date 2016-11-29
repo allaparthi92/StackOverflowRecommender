@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class SimilarUser {
 
 	private String uid;
-	private String userName;
+	private String name;
 	private Integer value;
 	
 
@@ -27,16 +27,16 @@ public class SimilarUser {
 	}
 	
 	public String getUserName() {
-		return userName;
+		return name;
 	}
 
 	public void setUserName(String userName) {
-		this.userName = userName;
+		this.name = userName;
 	}
 
 	@Override
 	public String toString() {
-		return "SimilarUser [userName=" + userName + ",uid=" + uid + ", value=" + value + "]";
+		return "SimilarUser [userName=" + name + ",uid=" + uid + ", value=" + value + "]";
 	}
 
 	
