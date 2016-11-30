@@ -55,7 +55,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 	private HashMap<String, LinkedHashSet<Recommendation>> courseTagMap = null;
 
-	private HashMap<String, List<Tag>> tagsUserMap = null;
+	private HashMap<String, Set<Tag>> tagsUserMap = null;
 
 	private HashMap<String, LinkedHashSet<Recommendation>> userCourseMap = new HashMap<>();
 
@@ -79,7 +79,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 	@Override
 	public List<Category> getCategories(String userid) {
 		Map<String, Set<String>> tagCatMap = catMapper.getTagCategories();
-		List<Tag> userTags = tagsUserMap.get(userid);
+		Set<Tag> userTags = tagsUserMap.get(userid);
 
 		Map<String, Integer> catTagCount = new HashMap<>();
 		Map<String, Set<String>> catTagMap = new HashMap<>();
@@ -133,9 +133,9 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 		List<SimilarUser> similarUsers = new ArrayList<>();
 		List<String> users = similarUserMap.get(userid);
-		List<Tag> curUserTagDetail = tagsUserMap.get(userid);
+		Set<Tag> curUserTagDetail = tagsUserMap.get(userid);
 		users.forEach(user -> {
-			List<Tag> curUserTagDetail2 = tagsUserMap.get(user);
+			Set<Tag> curUserTagDetail2 = tagsUserMap.get(user);
 			int counter = 0;
 			SimilarUser userWeight = new SimilarUser();
 			for (Tag firstUserDetail : curUserTagDetail) {
@@ -179,11 +179,11 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			HashMap<String, ArrayList<User>> userMap) {
 
 		HashMap<String, List<String>> similarUserMap = new HashMap<String, List<String>>();
-		tagsUserMap = new HashMap<String, List<Tag>>();
+		tagsUserMap = new HashMap<String, Set<Tag>>();
 		HashMap<String, List<String>> tagUserString = new HashMap<>();
 		Set<String> tagSet = new HashSet<String>();
 		userMap.forEach((username, userObj) -> {
-			List<Tag> tags = new ArrayList<>();
+			Set<Tag> tags = new HashSet<>();
 			List<String> tagString = new ArrayList<>();
 			userObj.forEach(z -> {
 				tagString.add(z.getTag_name());
@@ -306,7 +306,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			String userid) {
 		List<Tag> tagList = new ArrayList<Tag>();
 		Set<String> tagSet = new HashSet<>();
-		List<Tag> userTags = tagsUserMap.get(userid);
+		Set<Tag> userTags = tagsUserMap.get(userid);
 		for (String category : categories) {
 			String tagS = catProperties.get(category);
 			String tagsArray[] = tagS.split(",");
@@ -467,7 +467,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 		LinkedHashSet<Recommendation> result = new LinkedHashSet<Recommendation>();
 
-		List<Tag> userTags = tagsUserMap.get(userid);
+		Set<Tag> userTags = tagsUserMap.get(userid);
 		TreeMap<Integer, Set<Recommendation>> map = new TreeMap<>(
 				Collections.reverseOrder());
 		for (Tag tag : userTags) {
@@ -510,9 +510,9 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 	public HashMap<String, LinkedHashSet<Recommendation>> userCourseRecommendation() {
 
-		for (Entry<String, List<Tag>> entry : tagsUserMap.entrySet()) {
+		for (Entry<String, Set<Tag>> entry : tagsUserMap.entrySet()) {
 
-			List<Tag> list = entry.getValue();
+			Set<Tag> list = entry.getValue();
 
 			LinkedHashSet<Recommendation> mainLi = new LinkedHashSet<>();
 			for (Tag tag : list) {

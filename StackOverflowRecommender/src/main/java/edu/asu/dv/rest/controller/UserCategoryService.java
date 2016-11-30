@@ -1,6 +1,7 @@
 package edu.asu.dv.rest.controller;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import edu.asu.dv.exception.DataLoadException;
+import edu.asu.dv.model.response.Tag;
 import edu.asu.dv.model.response.UserResponse;
 import edu.asu.dv.service.UserSimilarityService;
 
@@ -28,14 +30,19 @@ public class UserCategoryService {
 	@javax.annotation.Resource(name = "userNameProperties")
 	private Map<String, String> properties;
 
+	@SuppressWarnings("unchecked")
 	@PostMapping(value = "users/{userid}/similarusers", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<UserResponse> getUserDetails(@RequestBody String cat,
 			@PathVariable("userid") String userid) throws DataLoadException {
-
+		
+		if(cat==null || cat.length()==0 ||cat.equals("{}")){
+			return null;
+		}
 		List<String> categories = new ArrayList<>();
 		if (cat.length() > 0 || cat.contains(":")) {
 			String x[] = cat.split(":");
-			String y = x[1].replace("}", "").replace("[", "").replace("]", "").replace("\"", "");
+			String y = x[1].replace("}", "").replace("[", "").replace("]", "")
+					.replace("\"", "");
 
 			if (y.contains(",")) {
 				String z[] = y.split(",");
@@ -62,8 +69,13 @@ public class UserCategoryService {
 
 			response.setUserName(properties.get(userid));
 
-			response.setTags(similarityService.getTagesBasedONCategories(
-					categories, userid));
+			List<Tag> list = similarityService.getTagesBasedONCategories(
+					categories, userid);
+			LinkedHashSet<Tag> lsit = new LinkedHashSet<Tag>(list);
+
+			List<Tag> li = new ArrayList<Tag>(lsit);
+
+			response.setTags(li);
 
 			response.setSimilarUsers(similarityService
 					.getSimilarUsersBasedOnCategories(userid, categories));
@@ -71,8 +83,9 @@ public class UserCategoryService {
 			response.setCategories(similarityService
 					.getCategoriesBasedOnCategory(userid, categories));
 			response.setCourses(similarityService.getCourses(userid));
-			
-			response.setRecommendedCourses(similarityService.userRecommendedCoursePopulate().get(userid));
+
+			response.setRecommendedCourses(similarityService
+					.userRecommendedCoursePopulate().get(userid));
 
 			return new ResponseEntity<UserResponse>(response, headers,
 					HttpStatus.OK);
