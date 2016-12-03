@@ -31,11 +31,10 @@ public class UserRecommendationCourseService {
 	@javax.annotation.Resource(name = "userNameProperties")
 	private Map<String, String> properties;
 
-	@PostMapping(value = "/user/{userid}/recommendCourses", consumes = MediaType.APPLICATION_JSON_VALUE)
+	@PostMapping(value = "/user/{userid}/addtorecommendation", consumes = MediaType.APPLICATION_JSON_VALUE)
 	public LinkedHashSet<Recommendation> getUserDetails(@RequestBody List<RecommendationCourse> list,
 			@PathVariable("userid") String userid) throws DataLoadException {
 		{
-
 			HttpHeaders headers = new HttpHeaders();
 			headers.add("Access-Control-Allow-Origin", "*");
 			//System.out.println(similarityService.updateRecommendedCourses(userid, list));	

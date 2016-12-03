@@ -48,7 +48,7 @@ public class UserDetailService {
 	
 		response.setCourses(similarityService.getCourses(userid));
 		
-		response.setRecommendedCourses(similarityService.userRecommendedCoursePopulate().get(userid));
+		response.setRecommendedCourses(similarityService.getuserRecommendedCourseMap().get(userid));
 		return new ResponseEntity<UserResponse>(response, headers,HttpStatus.OK);
 
 	}

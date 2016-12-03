@@ -72,6 +72,46 @@ public class JSONLoader implements DataLoader {
 		return userMap;
 	}
 	
+	public HashMap<String, String> loadNodesWeight()
+			throws DataLoadException, IOException {
+
+		HashMap<String, String> nodeMap = new HashMap<String, String>();
+		ObjectMapper mapper1 = new ObjectMapper();
+		Resource resource = new ClassPathResource("data/");
+		File folder = resource.getFile();
+		File[] listOfFiles = folder.listFiles();
+
+		for (int i = 0; i < listOfFiles.length - 1; i++) {
+			if (listOfFiles[i].isFile()) {
+				try {
+
+					List<User> list = mapper1.readValue(new ClassPathResource(
+							"data/" + listOfFiles[i].getName()).getFile(),
+							new TypeReference<List<User>>() {
+							});
+					for (User user : list) {
+						
+						if (nodeMap.containsKey(user.getUser_id())) {
+							int sum =0;
+							String x = nodeMap.get(user.getUser_id());
+							sum = Integer.valueOf(x)+Integer.valueOf(user.getQuestion_count());
+							nodeMap.put(user.getUser_id(), String.valueOf(sum));
+						} else {
+							
+							nodeMap.put(user.getUser_id(),  String.valueOf(user.getQuestion_count()));
+						}
+					}
+
+				} catch (IOException e) {
+					throw new DataLoadException(e);
+
+				}
+			}
+		}
+
+		return nodeMap;
+	}
+	
 	@SuppressWarnings("unchecked")
 	public HashMap<String, LinkedHashSet<Recommendation>> loadCourseData()
 			throws DataLoadException, IOException {

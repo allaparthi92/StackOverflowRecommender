@@ -24,5 +24,8 @@ public interface DataLoader {
 
 	HashMap<String, LinkedHashSet<Recommendation>> loadCourseData()
 			throws DataLoadException, IOException;
+	
+	HashMap<String, String> loadNodesWeight()
+			throws DataLoadException, IOException;
 
 }
