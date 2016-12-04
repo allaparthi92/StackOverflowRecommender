@@ -511,21 +511,16 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			}
 			return Mainlist;
 		} else if (courseInput.getTags().size() == 0) {
-
-			LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
-			LinkedHashSet<Recommendation> result = new LinkedHashSet<>();
-			for (String str : courseInput.getUsers()) {
-				LinkedHashSet<Recommendation> list = userRecommendedCourseMap.get(str);
-				if (list != null) {
-					Mainlist.addAll(list);
-				}
-			}
-			for (Recommendation s : Mainlist) {
-				if (result.size() < 10) {
-					result.add(s);
-				}
-			}
-			return Mainlist;
+			return new LinkedHashSet<>();
+			/*
+			 * LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
+			 * LinkedHashSet<Recommendation> result = new LinkedHashSet<>(); for
+			 * (String str : courseInput.getUsers()) {
+			 * LinkedHashSet<Recommendation> list =
+			 * userRecommendedCourseMap.get(str); if (list != null) {
+			 * Mainlist.addAll(list); } } for (Recommendation s : Mainlist) { if
+			 * (result.size() < 10) { result.add(s); } } return Mainlist;
+			 */
 		} else {
 
 			LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();

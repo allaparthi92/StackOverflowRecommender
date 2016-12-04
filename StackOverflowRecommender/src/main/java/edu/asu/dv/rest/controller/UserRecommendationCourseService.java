@@ -28,7 +28,7 @@ public class UserRecommendationCourseService {
 	@javax.annotation.Resource(name = "userNameProperties")
 	private Map<String, String> properties;
 
-	@PostMapping(value = "/user/{userid}/addtorecommendation", consumes = MediaType.APPLICATION_JSON_VALUE)
+	@PostMapping(value = "/user/{userid}/addToRecommendation", consumes = MediaType.APPLICATION_JSON_VALUE)
 	public LinkedHashSet<Recommendation> getUserDetails(@RequestBody List<RecommendationCourse> list,
 			@PathVariable("userid") String userid) throws DataLoadException {
 		{
