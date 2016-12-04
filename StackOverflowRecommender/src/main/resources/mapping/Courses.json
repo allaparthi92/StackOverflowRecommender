@@ -1,140 +1,4231 @@
 [{
+		"name": ".net",
+		"recommendations": [{
+			"id": "1",
+			"name": "Udacity - Free Online Classes & Nanodegrees",
+			"previewLink": "https://www.udacity.com/"
+		}, {
+			"id": "2",
+			"name": "All Courses and Nanodegree Programs | Udacity",
+			"previewLink": "https://www.udacity.com/courses/all"
+		}, {
+			"id": "3",
+			"name": ".Net for Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/dot-net-for-beginners/"
+		}, {
+			"id": "4",
+			"name": "The Complete ASP.NET MVC 5 Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-aspnet-mvc-5-course/"
+		}, {
+			"id": "5",
+			"name": "Courses | Coursera",
+			"previewLink": "https://www.coursera.org/courses"
+		}]
+	}, {
+		"name": "accessibility",
+		"recommendations": [{
+			"id": "6",
+			"name": "Web Accessibility | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-accessibility--ud891"
+		}, {
+			"id": "7",
+			"name": "4 Ways To Take This Class - Udacity",
+			"previewLink": "https://classroom.udacity.com/courses/ep245"
+		}, {
+			"id": "8",
+			"name": "Web Accessibility: Learn Best Practices, Tools & Techniques | Udemy",
+			"previewLink": "https://www.udemy.com/website-accessibility-course/"
+		}, {
+			"id": "9",
+			"name": "Designing Web Accessibility for a Beautiful Web | Udemy",
+			"previewLink": "https://www.udemy.com/designing-web-accessibility-for-a-beautiful-web/"
+		}, {
+			"id": "10",
+			"name": "Coursera's accessibility policy – Coursera Help Center",
+			"previewLink": "https://learner.coursera.help/hc/en-us/articles/209818883-Coursera-s-accessibility-policy"
+		}]
+	}, {
+		"name": "actionmailer",
+		"recommendations": [{
+			"id": "12",
+			"name": "RuBot/Gemfile.lock at master · udacity/RuBot · GitHub",
+			"previewLink": "https://github.com/udacity/RuBot/blob/master/Gemfile.lock"
+		}, {
+			"id": "13",
+			"name": "Comprehensive Ruby on Rails | Udemy",
+			"previewLink": "https://www.udemy.com/comprehensive-ruby-on-rails/"
+		}, {
+			"id": "14",
+			"name": "Udemy-Professional-Rails/test.rb at master · JulianNicholls/Udemy-Professional-Rails · GitHub",
+			"previewLink": "https://github.com/JulianNicholls/Udemy-Professional-Rails/blob/master/config/environments/test.rb"
+		}, {
+			"id": "15",
+			"name": "rails-coursera/Gemfile.lock at master · nkalodimas/rails-coursera · GitHub",
+			"previewLink": "https://github.com/nkalodimas/rails-coursera/blob/master/assignment3/todolists/Gemfile.lock"
+		}, {
+			"id": "16",
+			"name": "coursera-web-applications-001/Gemfile.lock at master · butlermh/coursera-web-applications-001 · GitHub",
+			"previewLink": "https://github.com/butlermh/coursera-web-applications-001/blob/master/Gemfile.lock"
+		}]
+	}, {
+		"name": "actionscript-3",
+		"recommendations": [{
+			"id": "17",
+			"name": "Explore and be inspired. Discover thousands of the ...",
+			"previewLink": "https://curiosity.com/paths/flash-actionscript-3-beginner-to-advanced-mobile-games-udemy/"
+		}, {
+			"id": "18",
+			"name": "Actionscript 3 (Beginner to Advanced) + Mobile Games | Udemy",
+			"previewLink": "https://www.udemy.com/flash-actionscript-30-beginner-to-advanced/"
+		}, {
+			"id": "19",
+			"name": "Actionscript 3 (Beginner to Advanced) + Mobile Games | Udemy",
+			"previewLink": "https://www.udemy.com/flash-actionscript-30-beginner-to-advanced/"
+		}, {
+			"id": "20",
+			"name": "Mobile Actionscript 3 Basics | Udemy",
+			"previewLink": "https://www.udemy.com/mobileas3/"
+		}, {
+			"id": "21",
+			"name": "ActionScript - Online Courses, Classes, Training, Tutorials on Lynda",
+			"previewLink": "https://www.lynda.com/ActionScript-training-tutorials/148-0.html"
+		}]
+	}, {
+		"name": "activerecord",
+		"recommendations": [{
+			"id": "23",
+			"name": "Well... dang.",
+			"previewLink": "https://www.udacity.com/degrees/nd020"
+		}, {
+			"id": "24",
+			"name": "Ruby on Rails Developer",
+			"previewLink": "https://br.udacity.com/course/ruby-on-rails-developer--nd020"
+		}, {
+			"id": "25",
+			"name": "The Complete Ruby on Rails Developer Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-ruby-on-rails-developer-course/"
+		}, {
+			"id": "26",
+			"name": "The Professional Ruby on Rails Developer | Udemy",
+			"previewLink": "https://www.udemy.com/pro-rubyonrails/"
+		}, {
+			"id": "27",
+			"name": "Rails with Active Record and Action Pack - Johns Hopkins University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/rails-with-active-record"
+		}]
+	}, {
+		"name": "akka",
+		"recommendations": [{
+			"id": "29",
+			"name": "Functional Programming Principles in Scala - École Polytechnique Fédérale de Lausanne | Coursera",
+			"previewLink": "https://www.coursera.org/learn/progfun1"
+		}, {
+			"id": "30",
+			"name": "Learning Akka | Udemy",
+			"previewLink": "https://www.udemy.com/learning-akka/"
+		}, {
+			"id": "31",
+			"name": "Beginning Scala Programming | Udemy",
+			"previewLink": "https://www.udemy.com/beginning-scala-programming/"
+		}, {
+			"id": "32",
+			"name": "New Coursera Course on Principles of Reactive Programming | Akka",
+			"previewLink": "http://akka.io/news/2013/08/27/coursera-course-reactive.html"
+		}, {
+			"id": "33",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/scala"
+		}]
+	}, {
+		"name": "algorithm",
+		"recommendations": [{
+			"id": "34",
+			"name": "Intro to Algorithms | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-algorithms--cs215"
+		}, {
+			"id": "35",
+			"name": "Computability, Complexity & Algorithms | Udacity",
+			"previewLink": "https://www.udacity.com/course/computability-complexity-algorithms--ud061"
+		}, {
+			"id": "36",
+			"name": "Introduction to Data Structures & Algorithms in Java | Udemy",
+			"previewLink": "https://www.udemy.com/introduction-to-data-structures-algorithms-in-java/"
+		}, {
+			"id": "37",
+			"name": "Comprehensive Algorithms | Udemy",
+			"previewLink": "https://www.udemy.com/comprehensive-algorithms/"
+		}, {
+			"id": "38",
+			"name": "Algorithms, Part I - Princeton University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/introduction-to-algorithms"
+		}]
+	}, {
+		"name": "amazon-s3",
+		"recommendations": [{
+			"id": "40",
+			"name": "Amazon S3 vs. Udacity | G2 Crowd",
+			"previewLink": "https://www.g2crowd.com/compare/amazon-s3-vs-udacity"
+		}, {
+			"id": "41",
+			"name": "Getting Started with CUDA and Parallel Programming in the AWS Cloud : Articles & Tutorials : Amazon Web Services",
+			"previewLink": "https://aws.amazon.com/articles/7249489223918169"
+		}, {
+			"id": "42",
+			"name": "Amazon s3 Mastery - THE How-To' Guides For Amazon S3 | Udemy",
+			"previewLink": "https://www.udemy.com/amazon-s3-mastery/"
+		}, {
+			"id": "43",
+			"name": "AWS Certified Solutions Architect - Associate 2016 | Udemy",
+			"previewLink": "https://www.udemy.com/aws-certified-solutions-architect-associate/"
+		}, {
+			"id": "44",
+			"name": "AWS Case Study: Coursera",
+			"previewLink": "https://aws.amazon.com/solutions/case-studies/coursera/"
+		}]
+	}, {
+		"name": "android",
+		"recommendations": [{
+			"id": "46",
+			"name": "Android | Udacity",
+			"previewLink": "https://www.udacity.com/courses/android"
+		}, {
+			"id": "47",
+			"name": "Developing Android Apps | Udacity",
+			"previewLink": "https://www.udacity.com/course/developing-android-apps--ud853"
+		}, {
+			"id": "48",
+			"name": "The Complete Android N Developer Course | Udemy",
+			"previewLink": "https://www.udemy.com/complete-android-n-developer-course/"
+		}, {
+			"id": "49",
+			"name": "Master Android 7 App Development With Java | Udemy",
+			"previewLink": "https://www.udemy.com/master-android-7-nougat-java-app-development-step-by-step/"
+		}, {
+			"id": "50",
+			"name": "Programming Mobile Applications for Android Handheld Systems: Part 1 - University of Maryland, College Park | Coursera",
+			"previewLink": "https://www.coursera.org/learn/android-programming"
+		}]
+	}, {
+		"name": "apache-spark",
+		"recommendations": [{
+			"id": "51",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/hadoop/lecture/9cq0R/introduction-to-apache-spark"
+		}, {
+			"id": "52",
+			"name": "Big Data Analysis with Apache Spark | edX",
+			"previewLink": "https://www.edx.org/course/big-data-analysis-apache-spark-uc-berkeleyx-cs110x"
+		}, {
+			"id": "53",
+			"name": "Taming Big Data with Apache Spark and Python - Hands On! | Udemy",
+			"previewLink": "https://www.udemy.com/taming-big-data-with-apache-spark-hands-on/"
+		}, {
+			"id": "54",
+			"name": "Learn Apache Spark from Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-apache-spark-from-scratch/"
+		}, {
+			"id": "55",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/hadoop/lecture/9cq0R/introduction-to-apache-spark"
+		}]
+	}, {
+		"name": "api",
+		"recommendations": [{
+			"id": "57",
+			"name": "Designing RESTful APIs | Udacity",
+			"previewLink": "https://www.udacity.com/course/designing-restful-apis--ud388"
+		}, {
+			"id": "58",
+			"name": "Google Maps APIs | Udacity",
+			"previewLink": "https://www.udacity.com/course/google-maps-apis--ud864"
+		}, {
+			"id": "59",
+			"name": "API v2.0 Reference | Udemy",
+			"previewLink": "https://www.udemy.com/developers/"
+		}, {
+			"id": "60",
+			"name": "APIs: Crash Course | Udemy",
+			"previewLink": "https://www.udemy.com/learn-apis/"
+		}, {
+			"id": "61",
+			"name": "403 Forbidden",
+			"previewLink": "https://building.coursera.org/app-platform/catalog"
+		}]
+	}, {
+		"name": "arrays",
+		"recommendations": [{
+			"id": "63",
+			"name": "Intro to Java Programming | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-java-programming--cs046"
+		}, {
+			"id": "64",
+			"name": "Java Programming Basics | Udacity",
+			"previewLink": "https://www.udacity.com/course/java-programming-basics--ud282"
+		}, {
+			"id": "65",
+			"name": "Ultimate JavaScript Arrays | Udemy",
+			"previewLink": "https://www.udemy.com/js-arrays/"
+		}, {
+			"id": "66",
+			"name": "JavaScript Everything Arrays | Udemy",
+			"previewLink": "https://www.udemy.com/javascript-arrays/"
+		}, {
+			"id": "67",
+			"name": "Java Programming: Arrays, Lists, and Structured Data - Duke University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/java-programming-arrays-lists-data"
+		}]
+	}, {
+		"name": "asp.net",
+		"recommendations": [{
+			"id": "69",
+			"name": "Learn ASP.NET MVC Online – Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-mvc-8322"
+		}, {
+			"id": "70",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-development--cs253"
+		}, {
+			"id": "71",
+			"name": "The Complete ASP.NET MVC 5 Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-aspnet-mvc-5-course/"
+		}, {
+			"id": "72",
+			"name": "Comprehensive ASP.net MVC | Udemy",
+			"previewLink": "https://www.udemy.com/comprehensive-aspnet-mvc/"
+		}, {
+			"id": "73",
+			"name": "Web Application Development: Basic Concepts - University of New Mexico | Coursera",
+			"previewLink": "https://www.coursera.org/learn/web-app"
+		}]
+	}, {
+		"name": "asp.net-mvc",
+		"recommendations": [{
+			"id": "75",
+			"name": "Learn ASP.NET MVC Online – Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-mvc-8322"
+		}, {
+			"id": "76",
+			"name": "The Complete ASP.NET MVC 5 Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-aspnet-mvc-5-course/"
+		}, {
+			"id": "77",
+			"name": "The Complete ASP.NET MVC 5 Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-aspnet-mvc-5-course/"
+		}, {
+			"id": "78",
+			"name": "Comprehensive ASP.net MVC | Udemy",
+			"previewLink": "https://www.udemy.com/comprehensive-aspnet-mvc/"
+		}, {
+			"id": "79",
+			"name": "Learn ASP.NET MVC Online – Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-mvc-8322"
+		}]
+	}, {
+		"name": "asp.net-mvc-3",
+		"recommendations": [{
+			"id": "81",
+			"name": "Learn ASP.NET MVC Online – Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-mvc-8322"
+		}, {
+			"id": "82",
+			"name": "ASP.NET MVC 3 | The ASP.NET Site",
+			"previewLink": "https://www.asp.net/mvc/mvc3"
+		}, {
+			"id": "83",
+			"name": "Comprehensive ASP.net MVC | Udemy",
+			"previewLink": "https://www.udemy.com/comprehensive-aspnet-mvc/"
+		}, {
+			"id": "84",
+			"name": "ASP . NET MVC 3 razor com c# | Udemy",
+			"previewLink": "https://www.udemy.com/asp-net-mvc-3-razor-com-c/"
+		}, {
+			"id": "85",
+			"name": "Comprehensive ASP.net MVC | Udemy",
+			"previewLink": "https://www.udemy.com/comprehensive-aspnet-mvc/"
+		}]
+	}, {
+		"name": "asp.net-mvc-4",
+		"recommendations": [{
+			"id": "87",
+			"name": "Learn ASP.NET MVC Online – Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-mvc-8322"
+		}, {
+			"id": "88",
+			"name": "ASP.NET - Online Courses, Classes, Training, Tutorials on Lynda",
+			"previewLink": "https://www.lynda.com/ASP-NET-training-tutorials/157-0.html"
+		}, {
+			"id": "89",
+			"name": "Comprehensive ASP.net MVC | Udemy",
+			"previewLink": "https://www.udemy.com/comprehensive-aspnet-mvc/"
+		}, {
+			"id": "90",
+			"name": "The Complete ASP.NET MVC 5 Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-aspnet-mvc-5-course/"
+		}, {
+			"id": "91",
+			"name": "Learn ASP.NET MVC Online – Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/en-US/training-courses/introduction-to-asp-net-mvc-8322"
+		}]
+	}, {
+		"name": "bash",
+		"recommendations": [{
+			"id": "93",
+			"name": "Linux Command Line Basics | Udacity",
+			"previewLink": "https://www.udacity.com/course/linux-command-line-basics--ud595"
+		}, {
+			"id": "94",
+			"name": "Configuring Linux Web Servers | Udacity",
+			"previewLink": "https://www.udacity.com/course/configuring-linux-web-servers--ud299"
+		}, {
+			"id": "95",
+			"name": "BASH Programming Course: Master the Linux Command Line! | Udemy",
+			"previewLink": "https://www.udemy.com/bash-programming/"
+		}, {
+			"id": "96",
+			"name": "Basics of Bash Scripting | Udemy",
+			"previewLink": "https://www.udemy.com/basics-of-bash-scripting/"
+		}, {
+			"id": "97",
+			"name": "Browse | Coursera",
+			"previewLink": "https://class.coursera.org/foe-001/"
+		}]
+	}, {
+		"name": "boost",
+		"recommendations": [{
+			"id": "99",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud501/l-4802710867/m-4797313394"
+		}, {
+			"id": "100",
+			"name": "Introducing Teams: How Peer Support Can Boost Achievement | Udacity",
+			"previewLink": "http://blog.udacity.com/2015/09/introducing-teams-how-peer-support-can-boost-achievement.html"
+		}, {
+			"id": "101",
+			"name": "CCNA Boost | Udemy",
+			"previewLink": "https://www.udemy.com/ccna-boost/"
+		}, {
+			"id": "102",
+			"name": "Become a SuperLearner 2: Learn Speed Reading & Boost Memory | Udemy",
+			"previewLink": "https://www.udemy.com/become-a-superlearner-2-speed-reading-memory-accelerated-learning/"
+		}, {
+			"id": "103",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/practical-machine-learning/lecture/9mGzA/boosting"
+		}]
+	}, {
+		"name": "browser",
+		"recommendations": [{
+			"id": "105",
+			"name": "Programming Languages: Building A Web Browser | Udacity",
+			"previewLink": "https://www.udacity.com/course/programming-languages--cs262"
+		}, {
+			"id": "106",
+			"name": "Browser Rendering Optimization | Udacity",
+			"previewLink": "https://www.udacity.com/course/browser-rendering-optimization--ud860"
+		}, {
+			"id": "107",
+			"name": "Online Courses - Anytime, Anywhere | Udemy",
+			"previewLink": "https://www.udemy.com/static/upgrade-your-browser/"
+		}, {
+			"id": "108",
+			"name": "Browser Developer Tools | Udemy",
+			"previewLink": "https://www.udemy.com/browser-developer-tools/"
+		}, {
+			"id": "109",
+			"name": "Recommended browsers and devices – Coursera Help Center",
+			"previewLink": "https://learner.coursera.help/hc/en-us/articles/209818543-Recommended-browsers-and-devices"
+		}]
+	}, {
+		"name": "c",
+		"recommendations": [{
+			"id": "110",
+			"name": "C Programming For Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/c-programming-for-beginners/"
+		}, {
+			"id": "111",
+			"name": "C Programming - Complete Tutorial For Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/c-for-technical-interview/"
+		}]
+	}, {
 		"name": "c#",
-		"recommendations": [
-
-			{
-				"id": 1,
-				"name": "C# Tutorials",
-				"previewLink": "https://msdn.microsoft.com/en-us/library/aa288436(v=vs.71).aspx"
-			}, {
-				"id": 2,
-				"name": "C# Tutorial Point",
-				"previewLink": "https://www.tutorialspoint.com/csharp/"
-			}, {
-				"id": 3,
-				"name": "C# Tutorial for Beginners: Learn C# from Scratch",
-				"previewLink": "https://www.youtube.com/watch?v=gfkTfcpWqAY"
-			}, {
-				"id": 4,
-				"name": "C# Station",
-				"previewLink": "http://csharp-station.com/"
-			}, {
-				"id": 5,
-				"name": "C Sharp (programming language)",
-				"previewLink": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
-			}
-		]
-	},
-
-	{
-		"name": "php",
-		"recommendations": [
-
-			{
-				"id": 6,
-				"name": "PHP 5 Tutorial",
-				"previewLink": "http://www.w3schools.com/php/"
-			}, {
-				"id": 7,
-				"name": "Continue your learning by starting PHP.",
-				"previewLink": "https://www.codecademy.com/learn/php"
-			}, {
-				"id": 8,
-				"name": "Learn PHP",
-				"previewLink": "https://www.tutorialspoint.com/php/"
-			}, {
-				"id": 9,
-				"name": "PHP Agency, Inc.",
-				"previewLink": "https://www.youtube.com/user/myphpdream"
-			}, {
-				"id": 10,
-				"name": "Building Dynamic websites. Harvard OpencourseWare. CS E-75",
-				"previewLink": "https://www.youtube.com/watch?v=h2Nq0qv0K8M"
-			}
-		]
-	},
-
-	{
+		"recommendations": [{
+			"id": "112",
+			"name": "Programming with C# | edX",
+			"previewLink": "https://www.edx.org/course/programming-c-microsoft-dev204x-2"
+		}, {
+			"id": "113",
+			"name": "Learning to program: Why Python? | Udacity",
+			"previewLink": "http://blog.udacity.com/2012/05/learning-to-program-why-python.html"
+		}, {
+			"id": "114",
+			"name": "Programming for Complete Beginners in C# | Udemy",
+			"previewLink": "https://www.udemy.com/programming-for-complete-beginners-in-csharp/"
+		}, {
+			"id": "115",
+			"name": "C# Basics for Beginners: Learn C# Fundamentals by Coding | Udemy",
+			"previewLink": "https://www.udemy.com/csharp-tutorial-for-beginners/"
+		}, {
+			"id": "116",
+			"name": "Beginning Game Programming with C# - University of Colorado System | Coursera",
+			"previewLink": "https://www.coursera.org/learn/game-programming"
+		}]
+	}, {
+		"name": "c++",
+		"recommendations": [{
+			"id": "117",
+			"name": "Udacity - Free Online Classes & Nanodegrees",
+			"previewLink": "https://www.udacity.com/"
+		}, {
+			"id": "118",
+			"name": "Intro to Programming | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-programming--ud000"
+		}, {
+			"id": "119",
+			"name": "C++ Tutorial for Complete Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/free-learn-c-tutorial-beginners/"
+		}, {
+			"id": "120",
+			"name": "Top C++ Courses and Tutorials",
+			"previewLink": "https://www.udemy.com/topic/C-plus-plus-tutorials/"
+		}, {
+			"id": "121",
+			"name": "C++ For C Programmers, Part A - University of California, Santa Cruz | Coursera",
+			"previewLink": "https://www.coursera.org/learn/c-plus-plus-a"
+		}]
+	}, {
+		"name": "c++11",
+		"recommendations": [{
+			"id": "123",
+			"name": "Udacity - Free Online Classes & Nanodegrees",
+			"previewLink": "https://www.udacity.com/"
+		}, {
+			"id": "124",
+			"name": "All Courses and Nanodegree Programs | Udacity",
+			"previewLink": "https://www.udacity.com/courses/all"
+		}, {
+			"id": "125",
+			"name": "Learn Advanced C++ Programming | Udemy",
+			"previewLink": "https://www.udemy.com/learn-advanced-c-programming/"
+		}, {
+			"id": "126",
+			"name": "Advanced C++ Programming Training Course | Udemy",
+			"previewLink": "https://www.udemy.com/advanced-c-programming/"
+		}, {
+			"id": "127",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/c-plus-plus-a/lecture/Qml0C/4-6-stl-and-stl-c-11"
+		}]
+	}, {
+		"name": "ckeditor",
+		"recommendations": [{
+			"id": "129",
+			"name": "",
+			"previewLink": "https://profiles.udacity.com/u/michelehcenter"
+		}, {
+			"id": "130",
+			"name": "udacity-full-stack/README.md at master · mascot6699/udacity-full-stack · GitHub",
+			"previewLink": "https://github.com/mascot6699/udacity-full-stack/blob/master/Multi%20User%20Blog/README.md"
+		}, {
+			"id": "131",
+			"name": "Editor Wysiwyg - Curso de Instalação CKEditor e CkFinder | Udemy",
+			"previewLink": "https://www.udemy.com/ckeditor/"
+		}, {
+			"id": "132",
+			"name": "CKEditor vs. Udemy | G2 Crowd",
+			"previewLink": "https://www.g2crowd.com/compare/ckeditor-vs-udemy"
+		}, {
+			"id": "133",
+			"name": "Extending CKEditor in Liferay | JaPy Software",
+			"previewLink": "https://hahamo.wordpress.com/2015/02/10/extending-ckeditor-in-liferay/"
+		}]
+	}, {
+		"name": "clearcase",
+		"recommendations": [{
+			"id": "135",
+			"name": "Rational ClearCase vs. Udacity | G2 Crowd",
+			"previewLink": "https://www.g2crowd.com/compare/rational-clearcase-vs-udacity"
+		}, {
+			"id": "136",
+			"name": "ClearQuest vs. Udacity | G2 Crowd",
+			"previewLink": "https://www.g2crowd.com/compare/rational-clearquest-vs-udacity"
+		}, {
+			"id": "137",
+			"name": "Rational ClearCase vs. Udemy | G2 Crowd",
+			"previewLink": "https://www.g2crowd.com/compare/rational-clearcase-vs-udemy"
+		}, {
+			"id": "138",
+			"name": "Git Complete Hands on Training for Web Developers | Udemy",
+			"previewLink": "https://www.udemy.com/git-version-control-training/"
+		}, {
+			"id": "139",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/advanced-competitive-strategy/lecture/Cddd9/strategic-pricing"
+		}]
+	}, {
+		"name": "coldfusion",
+		"recommendations": [{
+			"id": "141",
+			"name": "Udacity full stack web developer nanodegree - learnprogramming",
+			"previewLink": "https://m.reddit.com/r/learnprogramming/comments/3j4utl/udacity_full_stack_web_developer_nanodegree/"
+		}, {
+			"id": "142",
+			"name": "Entwickeln von Android Apps | Udacity",
+			"previewLink": "https://de.udacity.com/course/developing-android-apps--ud853/"
+		}, {
+			"id": "143",
+			"name": "ColdBox Platform Developer Week 2012 | Udemy",
+			"previewLink": "https://www.udemy.com/coldbox-platform-developer-week-2012/"
+		}, {
+			"id": "144",
+			"name": "New ColdFusion Training Videos Available! » Adobe ColdFusion Blog",
+			"previewLink": "http://blogs.coldfusion.com/post.cfm/new-coldfusion-training-videos-available"
+		}, {
+			"id": "145",
+			"name": "I have been working on ColdFusion for 3 years, but there aren't many opportunities. Should I change my technology? If yes, then which? - Quora",
+			"previewLink": "https://www.quora.com/I-have-been-working-on-ColdFusion-for-3-years-but-there-arent-many-opportunities-Should-I-change-my-technology-If-yes-then-which"
+		}]
+	}, {
+		"name": "collections",
+		"recommendations": [{
+			"id": "147",
+			"name": "All Courses and Nanodegree Programs | Udacity",
+			"previewLink": "https://www.udacity.com/courses/all"
+		}, {
+			"id": "148",
+			"name": "Android Tutorials: How to create <anything> in Android | Udacity",
+			"previewLink": "https://www.udacity.com/course/how-to-create-anything-in-android--ud802"
+		}, {
+			"id": "149",
+			"name": "Introduction to Collections & Generics in Java | Udemy",
+			"previewLink": "https://www.udemy.com/introduction-to-generics-in-java/"
+		}, {
+			"id": "150",
+			"name": "Java Collections And Generics | Udemy",
+			"previewLink": "https://www.udemy.com/java-collections-and-generics/"
+		}, {
+			"id": "151",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/java-for-android/lecture/iygxk/the-collections-framework-part-1"
+		}]
+	}, {
+		"name": "computer-science",
+		"recommendations": [{
+			"id": "153",
+			"name": "Intro to Computer Science | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-computer-science--cs101"
+		}, {
+			"id": "154",
+			"name": "Introduction To Theoretical Computer Science | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-theoretical-computer-science--cs313"
+		}, {
+			"id": "155",
+			"name": "Computer Science for Beginners learn by building 6 Java apps | Udemy",
+			"previewLink": "https://www.udemy.com/computer-science-for-everyone/"
+		}, {
+			"id": "156",
+			"name": "Decoding AP Computer Science A | Udemy",
+			"previewLink": "https://www.udemy.com/decoding-ap-computer-science-a/"
+		}, {
+			"id": "157",
+			"name": "Coursera",
+			"previewLink": "https://www.coursera.org/university-programs/masters-in-computer-data-science"
+		}]
+	}, {
+		"name": "cross-browser",
+		"recommendations": [{
+			"id": "158",
+			"name": "Programming Languages: Building A Web Browser | Udacity",
+			"previewLink": "https://www.udacity.com/course/programming-languages--cs262"
+		}, {
+			"id": "159",
+			"name": "ByteBracket Tournament Program | Udacity",
+			"previewLink": "https://www.udacity.com/bytebracket"
+		}, {
+			"id": "160",
+			"name": "Simplified Cross Browser Web Testing Using VirtualBox | Udemy",
+			"previewLink": "https://www.udemy.com/cross-browser-web-testing-virtualbox/"
+		}, {
+			"id": "161",
+			"name": "HTML And CSS For The Real World, A Complete Beginners Course | Udemy",
+			"previewLink": "https://www.udemy.com/html-and-css-for-the-real-world-a-complete-beginners-course/"
+		}, {
+			"id": "162",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/html/lecture/Lhlau/01-02-the-evolution-of-html"
+		}]
+	}, {
+		"name": "css",
+		"recommendations": [{
+			"id": "164",
+			"name": "Intro to HTML & CSS Online Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-html-and-css--ud304"
+		}, {
+			"id": "165",
+			"name": "Einführung in HTML und CSS | Udacity",
+			"previewLink": "https://de.udacity.com/course/intro-to-html-and-css--ud304/"
+		}, {
+			"id": "166",
+			"name": "HTML and CSS for Beginners - Build a Website & Launch ONLINE | Udemy",
+			"previewLink": "https://www.udemy.com/html-and-css-for-beginners-crash-course-learn-fast-easy/"
+		}, {
+			"id": "167",
+			"name": "CSS | Udemy",
+			"previewLink": "https://www.udemy.com/csswebdev/"
+		}, {
+			"id": "168",
+			"name": "HTML, CSS and JavaScript - The Hong Kong University of Science and Technology | Coursera",
+			"previewLink": "https://www.coursera.org/learn/html-css-javascript"
+		}]
+	}, {
+		"name": "css3",
+		"recommendations": [{
+			"id": "170",
+			"name": "Intro to HTML & CSS Online Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-html-and-css--ud304"
+		}, {
+			"id": "171",
+			"name": "Responsive Web Design Fundamentals | Udacity",
+			"previewLink": "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"
+		}, {
+			"id": "172",
+			"name": "Learning CSS3 - A Comprehensive Tutorial For Web Developers | Udemy",
+			"previewLink": "https://www.udemy.com/learning-css3/"
+		}, {
+			"id": "173",
+			"name": "Learn To Build Beautiful HTML5 And CSS3 Websites In 1 Month | Udemy",
+			"previewLink": "https://www.udemy.com/learn-to-build-beautiful-html5-and-css3-websites-in-1-month/"
+		}, {
+			"id": "174",
+			"name": "Introduction to CSS3 - University of Michigan | Coursera",
+			"previewLink": "https://www.coursera.org/learn/introcss"
+		}]
+	}, {
+		"name": "csv",
+		"recommendations": [{
+			"id": "176",
+			"name": "udacity/aadhaar_data.csv at master · upjohnc/udacity · GitHub",
+			"previewLink": "https://github.com/upjohnc/udacity/blob/master/Project%205/aadhaar_data.csv"
+		}, {
+			"id": "177",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud162/l-423988728/e-416569109/m-416569110"
+		}, {
+			"id": "178",
+			"name": "The Python CSV Module Read and Write Methods in Action",
+			"previewLink": "https://blog.udemy.com/python-csv/"
+		}, {
+			"id": "179",
+			"name": "Convert Excel to CSV in a Few Easy Steps",
+			"previewLink": "https://blog.udemy.com/convert-excel-to-csv-2/"
+		}, {
+			"id": "180",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/java-programming/lecture/EvDlD/using-csv-libraries"
+		}]
+	}, {
+		"name": "cxf",
+		"recommendations": [{
+			"id": "182",
+			"name": "مرجع تخصصی برنامه نویسی - دانلود آموزشهای Udacity - مطالب ابر apache cxf چیست",
+			"previewLink": "http://udacity.mihanblog.com/post/tag/apache%20cxf%20%DA%86%DB%8C%D8%B3%D8%AA"
+		}, {
+			"id": "183",
+			"name": "Business Analyst / IT Developer - Web Interfaces / Data Analytics | jobs.iet.ch",
+			"previewLink": "https://jobs.iet.ch/job/3949"
+		}, {
+			"id": "184",
+			"name": "RESTful Java Web Services | Udemy",
+			"previewLink": "https://www.udemy.com/rest-web-services-using-java-ee/"
+		}, {
+			"id": "185",
+			"name": "برچسب Coursera - مرجع تخصصی برنامه نویسی - دانلود آموزشهای آپاچی CXF",
+			"previewLink": "http://apache-cxf.blogsky.com/tag/Coursera"
+		}]
+	}, {
+		"name": "data-binding",
+		"recommendations": [{
+			"id": "186",
+			"name": "Google Developer Certifications | Udacity",
+			"previewLink": "https://www.udacity.com/google-certifications"
+		}, {
+			"id": "187",
+			"name": "WPF: Building Windows Desktop Apps | Udemy",
+			"previewLink": "https://www.udemy.com/wpf_apps/"
+		}, {
+			"id": "188",
+			"name": "Angular 2 - The Complete Guide | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-guide-to-angular-2/"
+		}, {
+			"id": "189",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/ruby-on-rails"
+		}, {
+			"id": "190",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/full-stack"
+		}]
+	}, {
+		"name": "database",
+		"recommendations": [{
+			"id": "191",
+			"name": "Intro to Relational Databases | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+		}, {
+			"id": "192",
+			"name": "Einstieg in relationale Datenbanken | Udacity",
+			"previewLink": "https://de.udacity.com/course/intro-to-relational-databases--ud197/"
+		}, {
+			"id": "193",
+			"name": "Online Courses on Designing and Managing Databases",
+			"previewLink": "https://www.udemy.com/courses/development/databases/"
+		}, {
+			"id": "194",
+			"name": "Database Design and MySQL | Udemy",
+			"previewLink": "https://www.udemy.com/calebthevideomaker2-database-and-mysql-classes/"
+		}, {
+			"id": "195",
+			"name": "Database Management Essentials - University of Colorado System | Coursera",
+			"previewLink": "https://www.coursera.org/learn/database-management"
+		}]
+	}, {
+		"name": "date",
+		"recommendations": [{
+			"id": "196",
+			"name": "Udacity Support",
+			"previewLink": "https://udacity.zendesk.com/hc/en-us"
+		}, {
+			"id": "197",
+			"name": "Udacity - Wikipedia",
+			"previewLink": "https://en.wikipedia.org/wiki/Udacity"
+		}, {
+			"id": "198",
+			"name": "Why I stopped selling courses on udemy - Blog - Osherove",
+			"previewLink": "http://osherove.com/blog/2014/5/7/why-i-stopped-selling-courses-on-udemy.html"
+		}, {
+			"id": "199",
+			"name": "Dating, Relationship and Conversation Skills For Men | Udemy",
+			"previewLink": "https://www.udemy.com/dating-relationship-and-conversation-skills-for-manly-men/"
+		}, {
+			"id": "200",
+			"name": "Session schedules – Coursera Help Center",
+			"previewLink": "https://learner.coursera.help/hc/en-us/articles/208279766-Session-schedules"
+		}]
+	}, {
+		"name": "design-patterns",
+		"recommendations": [{
+			"id": "202",
+			"name": "JavaScript Design Patterns | Udacity",
+			"previewLink": "https://www.udacity.com/course/javascript-design-patterns--ud989"
+		}, {
+			"id": "203",
+			"name": "Software Architecture & Design | Udacity",
+			"previewLink": "https://www.udacity.com/course/software-architecture-design--ud821"
+		}, {
+			"id": "204",
+			"name": "Java Design Patterns and Architecture | Udemy",
+			"previewLink": "https://www.udemy.com/java-design-patterns-tutorial/"
+		}, {
+			"id": "205",
+			"name": "Experience Design Patterns In Java | Udemy",
+			"previewLink": "https://www.udemy.com/experience-design-patterns/"
+		}, {
+			"id": "206",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/web-app/lecture/VAJkL/video-4-design-patterns"
+		}]
+	}, {
+		"name": "devise",
+		"recommendations": [{
+			"id": "207",
+			"name": "Design of Computer Programs | Udacity",
+			"previewLink": "https://www.udacity.com/course/design-of-computer-programs--cs212"
+		}, {
+			"id": "208",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud890/l-5243991811/m-5444818653"
+		}, {
+			"id": "209",
+			"name": "Comprehensive Ruby on Rails | Udemy",
+			"previewLink": "https://www.udemy.com/comprehensive-ruby-on-rails/"
+		}, {
+			"id": "210",
+			"name": "Development Essentials - Ruby On Rails | Udemy",
+			"previewLink": "https://www.udemy.com/development-essentials-ruby-on-rails/"
+		}, {
+			"id": "211",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/ruby-on-rails-web-services-mongodb/lecture/mvc1f/devise"
+		}]
+	}, {
+		"name": "dictionary",
+		"recommendations": [{
+			"id": "213",
+			"name": "Udacity - definition of Udacity by The Free Dictionary",
+			"previewLink": "http://www.thefreedictionary.com/Udacity"
+		}, {
+			"id": "214",
+			"name": "Udacity dictionary definition | Udacity defined",
+			"previewLink": "http://www.yourdictionary.com/udacity"
+		}, {
+			"id": "215",
+			"name": "Udemy definition by Babylon’s free dictionary",
+			"previewLink": "http://dictionary.babylon-software.com/udemy/"
+		}, {
+			"id": "216",
+			"name": "The Founder's Dictionary",
+			"previewLink": "https://blog.udemy.com/founders-dictionary/"
+		}, {
+			"id": "217",
+			"name": "Coursera - definition of Coursera by The Free Dictionary",
+			"previewLink": "http://www.thefreedictionary.com/Coursera"
+		}]
+	}, {
+		"name": "django",
+		"recommendations": [{
+			"id": "219",
+			"name": "Full Stack Foundations | Udacity",
+			"previewLink": "https://www.udacity.com/course/full-stack-foundations--ud088"
+		}, {
+			"id": "220",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-development--cs253"
+		}, {
+			"id": "221",
+			"name": "Learn Python Django From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-python-django-from-scratch/"
+		}, {
+			"id": "222",
+			"name": "Coding for Entrepreneurs: Learn Python, Django, and More. | Udemy",
+			"previewLink": "https://www.udemy.com/coding-for-entrepreneurs/"
+		}, {
+			"id": "223",
+			"name": "9 online resources for learning Python & Django - Appsembler : Appsembler",
+			"previewLink": "http://www.appsembler.com/blog/9-online-resources-for-learning-python-django/"
+		}]
+	}, {
+		"name": "django-forms",
+		"recommendations": [{
+			"id": "225",
+			"name": "Full Stack Foundations | Udacity",
+			"previewLink": "https://www.udacity.com/course/full-stack-foundations--ud088"
+		}, {
+			"id": "226",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-development--cs253"
+		}, {
+			"id": "227",
+			"name": "Learn Python Django From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-python-django-from-scratch/"
+		}, {
+			"id": "228",
+			"name": "Coding for Entrepreneurs: Learn Python, Django, and More. | Udemy",
+			"previewLink": "https://www.udemy.com/coding-for-entrepreneurs/"
+		}, {
+			"id": "229",
+			"name": "Programming for Everybody (Getting Started with Python) - University of Michigan | Coursera",
+			"previewLink": "https://www.coursera.org/learn/python"
+		}]
+	}, {
+		"name": "django-models",
+		"recommendations": [{
+			"id": "231",
+			"name": "Full Stack Foundations | Udacity",
+			"previewLink": "https://www.udacity.com/course/full-stack-foundations--ud088"
+		}, {
+			"id": "232",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-development--cs253"
+		}, {
+			"id": "233",
+			"name": "Learn Python Django From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-python-django-from-scratch/"
+		}, {
+			"id": "234",
+			"name": "Coding for Entrepreneurs: Learn Python, Django, and More. | Udemy",
+			"previewLink": "https://www.udemy.com/coding-for-entrepreneurs/"
+		}, {
+			"id": "235",
+			"name": "9 online resources for learning Python & Django - Appsembler : Appsembler",
+			"previewLink": "http://www.appsembler.com/blog/9-online-resources-for-learning-python-django/"
+		}]
+	}, {
+		"name": "django-views",
+		"recommendations": [{
+			"id": "237",
+			"name": "Full Stack Foundations | Udacity",
+			"previewLink": "https://www.udacity.com/course/full-stack-foundations--ud088"
+		}, {
+			"id": "238",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-development--cs253"
+		}, {
+			"id": "239",
+			"name": "Learn Python Django From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-python-django-from-scratch/"
+		}, {
+			"id": "240",
+			"name": "Try Django 1.9 | Build a Blog and Learn Python's #1 Library | Udemy",
+			"previewLink": "https://www.udemy.com/try-django/"
+		}, {
+			"id": "241",
+			"name": "Programming for Everybody (Getting Started with Python) - University of Michigan | Coursera",
+			"previewLink": "https://www.coursera.org/learn/python"
+		}]
+	}, {
+		"name": "dll",
+		"recommendations": [{
+			"id": "242",
+			"name": "Georgia Tech Computer Science Degrees | Udacity",
+			"previewLink": "https://www.udacity.com/georgia-tech"
+		}, {
+			"id": "243",
+			"name": "Udacity-SDC_Behavior-Cloning/.gitignore at master · dolaameng/Udacity-SDC_Behavior-Cloning · GitHub",
+			"previewLink": "https://github.com/dolaameng/Udacity-SDC_Behavior-Cloning/blob/master/.gitignore"
+		}, {
+			"id": "244",
+			"name": "udemy-dl 0.2.1 : Python Package Index",
+			"previewLink": "https://pypi.python.org/pypi/udemy-dl"
+		}, {
+			"id": "245",
+			"name": "GitHub - nishad/udemy-dl-windows: A windows utility to download courses from udemy for personal offline use",
+			"previewLink": "https://github.com/nishad/udemy-dl-windows"
+		}, {
+			"id": "246",
+			"name": "GitHub - coursera-dl/coursera-dl: Script for downloading Coursera.org videos and naming them.",
+			"previewLink": "https://github.com/coursera-dl/coursera-dl"
+		}]
+	}, {
+		"name": "dvcs",
+		"recommendations": [{
+			"id": "248",
+			"name": "Writing READMEs | Udacity",
+			"previewLink": "https://www.udacity.com/course/writing-readmes--ud777"
+		}, {
+			"id": "249",
+			"name": "Get Started with Open Source Projects on GitHub - Part II | Udacity",
+			"previewLink": "http://blog.udacity.com/2013/10/get-started-with-open-source-projects_8.html"
+		}, {
+			"id": "250",
+			"name": "Git Tutorial: A Comprehensive Guide",
+			"previewLink": "https://blog.udemy.com/git-tutorial-a-comprehensive-guide/"
+		}, {
+			"id": "251",
+			"name": "Git Complete Hands on Training for Web Developers | Udemy",
+			"previewLink": "https://www.udemy.com/git-version-control-training/"
+		}, {
+			"id": "252",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/ruby-on-rails-intro/lecture/8F19A/introduction-to-git"
+		}]
+	}, {
+		"name": "eclipse",
+		"recommendations": [{
+			"id": "254",
+			"name": "Software Development Processes | Udacity",
+			"previewLink": "https://www.udacity.com/course/software-development-process--ud805"
+		}, {
+			"id": "255",
+			"name": "Intro to Java Programming | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-java-programming--cs046"
+		}, {
+			"id": "256",
+			"name": "Beginners Eclipse Java IDE Training Course | Udemy",
+			"previewLink": "https://www.udemy.com/beginners-eclipse-java-ide-training-course/"
+		}, {
+			"id": "257",
+			"name": "Eclipse IDE for Beginners: Increase Your Java Productivity | Udemy",
+			"previewLink": "https://www.udemy.com/luv2code-eclipse-ide-for-beginners/"
+		}, {
+			"id": "258",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/object-oriented-java/lecture/f1CgB/project-setting-up-the-starter-code-in-eclipse"
+		}]
+	}, {
+		"name": "ef-code-first",
+		"recommendations": [{
+			"id": "260",
+			"name": "Entity Framework Code First to a New Database",
+			"previewLink": "https://msdn.microsoft.com/en-us/library/jj193542(v=vs.113).aspx"
+		}, {
+			"id": "261",
+			"name": "Entity Framework Code First to an Existing Database",
+			"previewLink": "https://msdn.microsoft.com/en-us/library/jj200620(v=vs.113).aspx"
+		}, {
+			"id": "262",
+			"name": "Complete Entity Framework Code First : Asp net | Udemy",
+			"previewLink": "https://www.udemy.com/entity-framework-code-first/"
+		}, {
+			"id": "263",
+			"name": "Entity Framework in Depth | Udemy",
+			"previewLink": "https://www.udemy.com/entity-framework-tutorial/"
+		}, {
+			"id": "264",
+			"name": "Entity Framework Code First Basic FAQ – Part 1 – HintDesk",
+			"previewLink": "http://hintdesk.com/entity-framework-code-first-basic-faq/"
+		}]
+	}, {
+		"name": "emacs",
+		"recommendations": [{
+			"id": "266",
+			"name": "Writing READMEs | Udacity",
+			"previewLink": "https://www.udacity.com/course/writing-readmes--ud777"
+		}, {
+			"id": "267",
+			"name": "A Cautionary Tale of Learning to Code. My own.",
+			"previewLink": "https://medium.freecodecamp.com/a-cautionary-tale-of-learning-to-code-my-own-eddb24d9d5a7"
+		}, {
+			"id": "268",
+			"name": "Vim vs Emacs: Which Text Editor Do You Need?",
+			"previewLink": "https://blog.udemy.com/vim-vs-emacs/"
+		}, {
+			"id": "269",
+			"name": "Linux for Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/linuxforbeginners/"
+		}, {
+			"id": "270",
+			"name": "Emacs for Programming Languages course on Coursera",
+			"previewLink": "http://tuhdo.github.io/emacs-for-proglang.html"
+		}]
+	}, {
+		"name": "entity-framework",
+		"recommendations": [{
+			"id": "272",
+			"name": "Introduction to Entity Framework",
+			"previewLink": "https://msdn.microsoft.com/en-us/library/aa937723(v=vs.113).aspx"
+		}, {
+			"id": "273",
+			"name": "Entity Framework | The ASP.NET Site",
+			"previewLink": "https://www.asp.net/entity-framework"
+		}, {
+			"id": "274",
+			"name": "Entity Framework in Depth | Udemy",
+			"previewLink": "https://www.udemy.com/entity-framework-tutorial/"
+		}, {
+			"id": "275",
+			"name": "Asp.Net MVC With Entity Framework From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/aspnet-mvc-with-entity-framework-from-scratch/"
+		}, {
+			"id": "276",
+			"name": "Beginning Game Programming with C# - University of Colorado System | Coursera",
+			"previewLink": "https://www.coursera.org/learn/game-programming"
+		}]
+	}, {
+		"name": "escaping",
+		"recommendations": [{
+			"id": "277",
+			"name": "udacity cs 262 escaping the escape · GitHub",
+			"previewLink": "https://gist.github.com/2472553"
+		}, {
+			"id": "278",
+			"name": "Intro to Backend | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-backend--ud171"
+		}, {
+			"id": "279",
+			"name": "Escape Email Overwhelm! In Under 1 Hour | Udemy",
+			"previewLink": "https://www.udemy.com/how-to-get-your-email-inbox-to-zero-today/"
+		}, {
+			"id": "280",
+			"name": "Escape Perfectionism, Gain Excellence. | Udemy",
+			"previewLink": "https://www.udemy.com/escape-perfectionism-gain-excellence/"
+		}, {
+			"id": "281",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/discrete-optimization/lecture/dxU3E/ls-6-escaping-local-minima-connectivity"
+		}]
+	}, {
+		"name": "excel",
+		"recommendations": [{
+			"id": "283",
+			"name": "Mastering Data Analysis in Excel - Duke University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/analytics-excel"
+		}, {
+			"id": "284",
+			"name": "Reviews and ratings for Microsoft Excel online courses | CourseTalk",
+			"previewLink": "https://www.coursetalk.com/subjects/microsoft-excel/courses"
+		}, {
+			"id": "285",
+			"name": "Microsoft Training - Online Courses in Top Programs",
+			"previewLink": "https://www.udemy.com/courses/office-productivity/microsoft/"
+		}, {
+			"id": "286",
+			"name": "Microsoft Excel - From Beginner to Expert in 6 Hours | Udemy",
+			"previewLink": "https://www.udemy.com/thebestexcel/"
+		}]
+	}, {
+		"name": "excel-vba",
+		"recommendations": [{
+			"id": "287",
+			"name": "Reviews for Introduction to VBA/Excel Programming from Open Education by Blackboard | Class Central",
+			"previewLink": "https://www.class-central.com/mooc/1797/open-education-by-blackboard-introduction-to-vba-excel-programming"
+		}, {
+			"id": "288",
+			"name": "Visual Basic for Excel - Microsoft VBA Excel Tutorial | Udemy",
+			"previewLink": "https://www.udemy.com/learning-visual-basic-for-microsoft-excel/"
+		}, {
+			"id": "289",
+			"name": "Ultimate Excel VBA | Udemy",
+			"previewLink": "https://www.udemy.com/ultimate-excel-vba/"
+		}, {
+			"id": "290",
+			"name": "The Ultimate Excel Programmer Course | Udemy",
+			"previewLink": "https://www.udemy.com/ultimate-excel-programmer/"
+		}, {
+			"id": "291",
+			"name": "Mastering Data Analysis in Excel - Duke University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/analytics-excel"
+		}]
+	}, {
+		"name": "exception",
+		"recommendations": [{
+			"id": "293",
+			"name": "Problem Set Solutions/Interrupts Exceptions/Problem 8 - Udacity",
+			"previewLink": "https://www.udacity.com/wiki/hpca/problem-set-solutions/interrupts-exceptions/problem8"
+		}, {
+			"id": "294",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-cs262/l-48755021/e-48452950/m-48697653"
+		}, {
+			"id": "295",
+			"name": "Java Exceptions Handling, Assertion, Java Logging API | Udemy",
+			"previewLink": "https://www.udemy.com/java-exceptions-handling-assertion-java-logging-api/"
+		}, {
+			"id": "296",
+			"name": "Mastering Java Exceptions with Best Practices | Udemy",
+			"previewLink": "https://www.udemy.com/mastering-java-exceptions-with-best-practices/"
+		}, {
+			"id": "297",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/java-for-android/lecture/BSlaU/exception-handling"
+		}]
+	}, {
+		"name": "expression-blend",
+		"recommendations": [{
+			"id": "299",
+			"name": "About Expression Blend",
+			"previewLink": "https://msdn.microsoft.com/en-us/library/cc296376.aspx"
+		}, {
+			"id": "300",
+			"name": "Welcome to Expression Blend",
+			"previewLink": "https://msdn.microsoft.com/en-us/library/cc294537.aspx"
+		}, {
+			"id": "301",
+			"name": "مرجع تخصصی برنامه نویسی - دانلود آموزشهای Udemy - مطالب ابر Microsoft Expression Blend",
+			"previewLink": "http://udemy.mihanblog.com/post/tag/Microsoft%20Expression%20Blend"
+		}, {
+			"id": "302",
+			"name": "Public Speaking Blueprint | Udemy",
+			"previewLink": "https://www.udemy.com/public-speaking-blueprint/"
+		}, {
+			"id": "303",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/data-manipulation/lecture/5oK1y/indexes"
+		}]
+	}, {
+		"name": "extjs",
+		"recommendations": [{
+			"id": "305",
+			"name": "Extjs Tutorials for Beginners and Programmers | Codementor",
+			"previewLink": "https://www.codementor.io/extjs/tutorial"
+		}, {
+			"id": "306",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-cs256/l-440859210/m-451498557"
+		}, {
+			"id": "307",
+			"name": "Building Applications with Ext JS | Udemy",
+			"previewLink": "https://www.udemy.com/building-applications-with-ext-js/"
+		}, {
+			"id": "308",
+			"name": "Fundamentos de Ext JS | Udemy",
+			"previewLink": "https://www.udemy.com/ext-js-fundamentos/"
+		}, {
+			"id": "309",
+			"name": "Training – how to design and build great web apps | Sencha",
+			"previewLink": "https://www.sencha.com/training/"
+		}]
+	}, {
+		"name": "ffmpeg",
+		"recommendations": [{
+			"id": "311",
+			"name": "How to split a video in parts with FFmpeg - Quora",
+			"previewLink": "https://www.quora.com/How-do-I-split-a-video-in-parts-with-FFmpeg"
+		}, {
+			"id": "312",
+			"name": "FFMPEG Tutorial for Newbies by Udemy - be the first to review this course | CourseTalk",
+			"previewLink": "https://www.coursetalk.com/providers/udemy/courses/ffmpeg-tutorial-for-newbies"
+		}, {
+			"id": "313",
+			"name": "GitHub - nishad/udemy-dl: Python script to download a udemy.com course, for personal offline use.",
+			"previewLink": "https://github.com/nishad/udemy-dl"
+		}, {
+			"id": "314",
+			"name": "Building Coursera | HTTP Live Streaming at Coursera: Education at your Fingertips",
+			"previewLink": "https://building.coursera.org/blog/2014/06/26/http-live-streaming-at-coursera-education-at-your-fingertips/"
+		}, {
+			"id": "315",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/internet-of-things-communication/lecture/Spo8E/codec-selection"
+		}]
+	}, {
+		"name": "file",
+		"recommendations": [{
+			"id": "316",
+			"name": "Writing READMEs | Udacity",
+			"previewLink": "https://www.udacity.com/course/writing-readmes--ud777"
+		}, {
+			"id": "317",
+			"name": "Intro to Relational Databases | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+		}, {
+			"id": "318",
+			"name": "Create a Drag & Drop File Uploader For Websites | Udemy",
+			"previewLink": "https://www.udemy.com/create-a-udemy-style-drag-drop-file-uploader-for-websites/"
+		}, {
+			"id": "319",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/data-cleaning/lecture/BH8lL/downloading-files"
+		}, {
+			"id": "320",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/data-cleaning/lecture/fDm1d/reading-local-files"
+		}]
+	}, {
+		"name": "firefox",
+		"recommendations": [{
+			"id": "321",
+			"name": "Udacity course not loading with Firefox – Code Yarns",
+			"previewLink": "https://codeyarns.com/2012/02/27/udacity-course-not-loading-with-firefox/"
+		}, {
+			"id": "322",
+			"name": "udemy.com HTML5 video playback not supported by Firefox? | Firefox Support Forum | Mozilla Support",
+			"previewLink": "https://support.mozilla.org/questions/1079885"
+		}, {
+			"id": "323",
+			"name": "Fix Udemy videos not loading - gHacks Tech News",
+			"previewLink": "http://www.ghacks.net/2014/12/02/fix-udemy-videos-not-loading/"
+		}, {
+			"id": "324",
+			"name": "courserax :: Add-ons for Firefox",
+			"previewLink": "https://addons.mozilla.org/en-US/firefox/addon/courserax/"
+		}, {
+			"id": "325",
+			"name": "coursera :: Tag :: Add-ons for Firefox",
+			"previewLink": "https://addons.mozilla.org/en-US/firefox/tag/coursera"
+		}]
+	}, {
+		"name": "flash",
+		"recommendations": [{
+			"id": "326",
+			"name": "Technology Course Requirements | Udacity",
+			"previewLink": "https://www.udacity.com/tech-requirements"
+		}, {
+			"id": "327",
+			"name": "Visualizing Algebra (Intermediate College Algebra) Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/visualizing-algebra--ma006"
+		}, {
+			"id": "328",
+			"name": "Learn Adobe Flash From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-adobe-flash-from-scratch/"
+		}, {
+			"id": "329",
+			"name": "Adobe Flash CS5.5 for Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/learn-adobe-flash-with-infinite-skills/"
+		}, {
+			"id": "330",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/internet-of-things-dragonboard/lecture/HkJHO/re-flash-operating-system"
+		}]
+	}, {
+		"name": "flex",
+		"recommendations": [{
+			"id": "331",
+			"name": "Box model flex (udacity)",
+			"previewLink": "http://codepen.io/broerjuang/pen/mVozop"
+		}, {
+			"id": "332",
+			"name": "Udacity-RWDF/flex-container.html at master · petele/Udacity-RWDF · GitHub",
+			"previewLink": "https://github.com/petele/Udacity-RWDF/blob/master/Lesson3/flexbox/flex-container.html"
+		}, {
+			"id": "333",
+			"name": "Professional CSS Flexbox | Udemy",
+			"previewLink": "https://www.udemy.com/css-flexbox/"
+		}, {
+			"id": "334",
+			"name": "Build Modern Web Layouts With Flexbox | Udemy",
+			"previewLink": "https://www.udemy.com/css-flexbox-m/"
+		}, {
+			"id": "335",
+			"name": "Building Coursera | Flexbox @ Work",
+			"previewLink": "https://building.coursera.org/blog/2015/06/23/flexbox-at-work/"
+		}]
+	}, {
+		"name": "gcc",
+		"recommendations": [{
+			"id": "337",
+			"name": "Udacity · GitHub",
+			"previewLink": "https://github.com/udacity"
+		}, {
+			"id": "338",
+			"name": "GitHub - udacity/create-your-own-adventure",
+			"previewLink": "https://github.com/udacity/create-your-own-adventure"
+		}, {
+			"id": "339",
+			"name": "C Programming for Beginners - Go from Zero to Hero! | Udemy",
+			"previewLink": "https://www.udemy.com/c-programming-for-beginners-go-from-zero-to-hero/"
+		}, {
+			"id": "340",
+			"name": "From 0 to 1: C Programming - Drill Deep | Udemy",
+			"previewLink": "https://www.udemy.com/from-0-to-1-c-programming/"
+		}, {
+			"id": "341",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/arduino-platform/lecture/s8O46/lecture-1-1-setting-up-your-environment"
+		}]
+	}, {
+		"name": "git",
+		"recommendations": [{
+			"id": "343",
+			"name": "How to Use Version Control in Git & GitHub | Udacity",
+			"previewLink": "https://www.udacity.com/course/how-to-use-git-and-github--ud775"
+		}, {
+			"id": "344",
+			"name": "A Beginner's Git and GitHub Tutorial | Udacity",
+			"previewLink": "http://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html"
+		}, {
+			"id": "345",
+			"name": "Git Complete: The definitive, step-by-step guide to Git | Udemy",
+			"previewLink": "https://www.udemy.com/git-complete/"
+		}, {
+			"id": "346",
+			"name": "Git Started with GitHub | Udemy",
+			"previewLink": "https://www.udemy.com/git-started-with-github/"
+		}, {
+			"id": "347",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/ruby-on-rails-intro/lecture/8F19A/introduction-to-git"
+		}]
+	}, {
+		"name": "github",
+		"recommendations": [{
+			"id": "349",
+			"name": "Udacity · GitHub",
+			"previewLink": "https://github.com/udacity"
+		}, {
+			"id": "350",
+			"name": "What Exactly Is GitHub Anyway? | TechCrunch",
+			"previewLink": "http://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/"
+		}, {
+			"id": "351",
+			"name": "Git Started with GitHub | Udemy",
+			"previewLink": "https://www.udemy.com/git-started-with-github/"
+		}, {
+			"id": "352",
+			"name": "Udemy Engineering · GitHub",
+			"previewLink": "https://github.com/udemy"
+		}, {
+			"id": "353",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/data-scientists-tools/lecture/SqWSK/introduction-to-github"
+		}]
+	}, {
+		"name": "graphics",
+		"recommendations": [{
+			"id": "355",
+			"name": "Interactive 3D Graphics Course With Three.js & WebGL | Udacity",
+			"previewLink": "https://www.udacity.com/course/interactive-3d-graphics--cs291"
+		}, {
+			"id": "356",
+			"name": "Interactive 3D Graphics",
+			"previewLink": "https://in.udacity.com/course/interactive-3d-graphics--cs291"
+		}, {
+			"id": "357",
+			"name": "Introduction to Graphic Design | Udemy",
+			"previewLink": "https://www.udemy.com/introduction-to-graphic-design/"
+		}, {
+			"id": "358",
+			"name": "Top Online Graphic Design Courses",
+			"previewLink": "https://www.udemy.com/courses/design/graphic-design/online-graphic-design-courses/"
+		}, {
+			"id": "359",
+			"name": "Interactive Computer Graphics - The University of Tokyo | Coursera",
+			"previewLink": "https://www.coursera.org/learn/interactive-computer-graphics"
+		}]
+	}, {
+		"name": "gwt",
+		"recommendations": [{
+			"id": "361",
+			"name": "ud406/GdxDefinition.gwt.xml at master · udacity/ud406 · GitHub",
+			"previewLink": "https://github.com/udacity/ud406/blob/master/2.1.01-Demo-ImportAndRunAProject/html/src/com/udacity/gamedev/firstdemo/GdxDefinition.gwt.xml"
+		}, {
+			"id": "362",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/courses/web-development"
+		}, {
+			"id": "363",
+			"name": "Getting started with GWT | Udemy",
+			"previewLink": "https://www.udemy.com/getting-started-with-gwt/"
+		}, {
+			"id": "364",
+			"name": "GWT-Google Web Toolkit em 107 videoaulas | Udemy",
+			"previewLink": "https://www.udemy.com/gwt-google-web-toolkit-em-107-videoaulas/"
+		}, {
+			"id": "365",
+			"name": "coursera/.metadata/.plugins/com.google.gwt.eclipse.core at master · elreplicante/coursera · GitHub",
+			"previewLink": "https://github.com/elreplicante/coursera/tree/master/.metadata/.plugins/com.google.gwt.eclipse.core"
+		}]
+	}, {
+		"name": "h.264",
+		"recommendations": [{
+			"id": "366",
+			"name": "Udacity - Soft Archive.PRO",
+			"previewLink": "http://tags.softarchive.pro/Udacity/"
+		}, {
+			"id": "367",
+			"name": "Video Quality: Optimal Video Export Settings – Udemy",
+			"previewLink": "https://support.udemy.com/hc/en-us/articles/229232767-Video-Quality-Optimal-Video-Export-Settings"
+		}, {
+			"id": "368",
+			"name": "Mastering the Adobe Media Encoder CC | Udemy",
+			"previewLink": "https://www.udemy.com/mastering-the-adobe-media-encoder-an-online-course/"
+		}, {
+			"id": "369",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/digital/lecture/ZW2bX/h-264"
+		}, {
+			"id": "370",
+			"name": "Fundamentals of Digital Image and Video Processing - Northwestern University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/digital"
+		}]
+	}, {
+		"name": "haskell",
+		"recommendations": [{
+			"id": "371",
+			"name": "Introduction to Functional Programming | edX",
+			"previewLink": "https://www.edx.org/course/introduction-functional-programming-delftx-fp101x-0"
+		}, {
+			"id": "372",
+			"name": "[Haskell-cafe] Teaching Haskell @ MOOCs like Coursera or Udacity",
+			"previewLink": "https://www.haskell.org/pipermail/haskell-cafe/2012-October/104106.html"
+		}, {
+			"id": "373",
+			"name": "Curso Haskell para Iniciantes | Udemy",
+			"previewLink": "https://www.udemy.com/curso-haskell/"
+		}, {
+			"id": "374",
+			"name": "Udemy – Haskell Programming [100% off] Worth $249!",
+			"previewLink": "http://www.anycouponcode.net/udemy-haskell-programming-100-off-worth-249/"
+		}, {
+			"id": "375",
+			"name": "Erik Meijer: Introduction to Functional Programming : haskell",
+			"previewLink": "https://www.reddit.com/r/haskell/comments/27bnt7/erik_meijer_introduction_to_functional_programming/"
+		}]
+	}, {
+		"name": "header",
+		"recommendations": [{
+			"id": "376",
+			"name": "Intro to Programming | Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud000/l-4179118595/m-3913658626"
+		}, {
+			"id": "377",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud311/l-8538152908/e-9046960861/m-9047990807"
+		}, {
+			"id": "378",
+			"name": "Logo, Header and Image Basics for Online Business/Wordpress | Udemy",
+			"previewLink": "https://www.udemy.com/logo-header-and-image-basics-for-online-business-wordpress/"
+		}, {
+			"id": "379",
+			"name": "C Programming For Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/c-programming-for-beginners/"
+		}, {
+			"id": "380",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/duke-programming-web/lecture/ubcKz/building-a-web-page-html-headers-and-paragraphs"
+		}]
+	}, {
+		"name": "heroku",
+		"recommendations": [{
+			"id": "382",
+			"name": "Deploying Applications with Heroku | Udacity",
+			"previewLink": "https://www.udacity.com/course/deploying-applications-with-heroku--ud272"
+		}, {
+			"id": "383",
+			"name": "udacity-fswd-nanodegree_project-3/heroku.py at master · danhayden/udacity-fswd-nanodegree_project-3 · GitHub",
+			"previewLink": "https://github.com/danhayden/udacity-fswd-nanodegree_project-3/blob/master/heroku.py"
+		}, {
+			"id": "384",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/ruby-on-rails-intro/lecture/QnIXE/deploying-to-heroku"
+		}, {
+			"id": "385",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/rails-with-active-record/lecture/I48Bn/deploying-to-heroku-and-enabling-ssl"
+		}]
+	}, {
+		"name": "hibernate",
+		"recommendations": [{
+			"id": "386",
+			"name": "The Java Spring Tutorial: Learn Java's Popular Web Framework | Udemy",
+			"previewLink": "https://www.udemy.com/javaspring/"
+		}, {
+			"id": "387",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud821/l-1916538621/m-1913408641"
+		}, {
+			"id": "388",
+			"name": "Java Persistence: Hibernate and JPA Fundamentals | Udemy",
+			"previewLink": "https://www.udemy.com/hibernate-and-jpa-fundamentals/"
+		}, {
+			"id": "389",
+			"name": "Spring and Hibernate for Beginners: Learn Step-By-Step | Udemy",
+			"previewLink": "https://www.udemy.com/spring-hibernate-tutorial/"
+		}, {
+			"id": "390",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/java-programming"
+		}]
+	}, {
+		"name": "html",
+		"recommendations": [{
+			"id": "392",
+			"name": "Intro to HTML & CSS Online Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-html-and-css--ud304"
+		}, {
+			"id": "393",
+			"name": "Einführung in HTML und CSS | Udacity",
+			"previewLink": "https://de.udacity.com/course/intro-to-html-and-css--ud304/"
+		}, {
+			"id": "394",
+			"name": "HTML and CSS for Beginners - Build a Website & Launch ONLINE | Udemy",
+			"previewLink": "https://www.udemy.com/html-and-css-for-beginners-crash-course-learn-fast-easy/"
+		}, {
+			"id": "395",
+			"name": "Learn HTML5 Programming From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-html5-programming-from-scratch/"
+		}, {
+			"id": "396",
+			"name": "HTML, CSS and JavaScript - The Hong Kong University of Science and Technology | Coursera",
+			"previewLink": "https://www.coursera.org/learn/html-css-javascript"
+		}]
+	}, {
+		"name": "html5",
+		"recommendations": [{
+			"id": "398",
+			"name": "HTML5 Game Development | Udacity",
+			"previewLink": "https://www.udacity.com/course/html5-game-development--cs255"
+		}, {
+			"id": "399",
+			"name": "Intro to HTML & CSS Online Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-html-and-css--ud304"
+		}, {
+			"id": "400",
+			"name": "Learn HTML5 Programming From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-html5-programming-from-scratch/"
+		}, {
+			"id": "401",
+			"name": "Build Responsive Real World Websites with HTML5 and CSS3 | Udemy",
+			"previewLink": "https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/"
+		}, {
+			"id": "402",
+			"name": "Introduction to HTML5 - University of Michigan | Coursera",
+			"previewLink": "https://www.coursera.org/learn/html"
+		}]
+	}, {
+		"name": "http",
+		"recommendations": [{
+			"id": "404",
+			"name": "Udemy Online Courses - Learn Anything, On Your Schedule",
+			"previewLink": "https://www.udemy.com/"
+		}, {
+			"id": "405",
+			"name": "Online Courses - Anytime, Anywhere | Udemy",
+			"previewLink": "https://www.udemy.com/courses/"
+		}, {
+			"id": "406",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/"
+		}, {
+			"id": "407",
+			"name": "Courses | Coursera",
+			"previewLink": "https://www.coursera.org/courses"
+		}]
+	}, {
+		"name": "iis",
+		"recommendations": [{
+			"id": "408",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-435448550/c-ud882/l-3520939843/e-3768178944/m-3728669385"
+		}, {
+			"id": "409",
+			"name": "Udacity-Google Partnership",
+			"previewLink": "https://www.udacity.com/google"
+		}, {
+			"id": "410",
+			"name": "Learn IIS: A Tutorial to Quickly Create and Set Up a Website",
+			"previewLink": "https://blog.udemy.com/learn-iis/"
+		}, {
+			"id": "411",
+			"name": "Internet Information Services für Webentwickler | Udemy",
+			"previewLink": "https://www.udemy.com/iis-dev-de/"
+		}, {
+			"id": "412",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/full-stack"
+		}]
+	}, {
+		"name": "image",
+		"recommendations": [{
+			"id": "414",
+			"name": "Learn Responsive Images | Udacity",
+			"previewLink": "https://www.udacity.com/course/responsive-images--ud882"
+		}, {
+			"id": "415",
+			"name": "Computational Photography | Udacity",
+			"previewLink": "https://www.udacity.com/course/computational-photography--ud955"
+		}, {
+			"id": "416",
+			"name": "Udemy Design Service",
+			"previewLink": "https://info.udemy.com/course-image-design"
+		}, {
+			"id": "417",
+			"name": "Fundamentals of Digital Image and Video Processing - Northwestern University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/digital"
+		}, {
+			"id": "418",
+			"name": "Image and Video Processing: From Mars to Hollywood with a Stop at the Hospital - Duke University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/image-processing"
+		}]
+	}, {
+		"name": "intellij-idea",
+		"recommendations": [{
+			"id": "419",
+			"name": "Getting Started",
+			"previewLink": "https://www.jetbrains.com/idea/documentation/"
+		}, {
+			"id": "420",
+			"name": "Java Programming Basics | Udacity",
+			"previewLink": "https://www.udacity.com/course/java-programming-basics--ud282"
+		}, {
+			"id": "421",
+			"name": "IntelliJ IDEA Tricks to Boost Productivity for Java Devs | Udemy",
+			"previewLink": "https://www.udemy.com/intellij-idea-secrets-double-your-coding-speed-in-2-hours/"
+		}, {
+			"id": "422",
+			"name": "Functional Programming Principles in Scala: Setting up IntelliJ | Info | theguardian.com",
+			"previewLink": "https://www.theguardian.com/info/developer-blog/2012/sep/21/funtional-programming-principles-scala-setting-up-intellij"
+		}, {
+			"id": "423",
+			"name": "",
+			"previewLink": "https://pt.coursera.org/learn/progfun1/lecture/gGmT2/intellij-idea"
+		}]
+	}, {
+		"name": "ios",
+		"recommendations": [{
+			"id": "424",
+			"name": "Become an iOS Developer | Udacity",
+			"previewLink": "https://www.udacity.com/course/ios-developer-nanodegree--nd003"
+		}, {
+			"id": "425",
+			"name": "iOS | Udacity",
+			"previewLink": "https://www.udacity.com/courses/ios"
+		}, {
+			"id": "426",
+			"name": "The Complete iOS 10 Developer Course - Build 21 Apps | Udemy",
+			"previewLink": "https://www.udemy.com/complete-ios-10-developer-course/"
+		}, {
+			"id": "427",
+			"name": "iOS 9 and Swift 2: From Beginner to Paid Professional | Udemy",
+			"previewLink": "https://www.udemy.com/ios9-swift/"
+		}, {
+			"id": "428",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/app-development"
+		}]
+	}, {
+		"name": "iphone",
+		"recommendations": [{
+			"id": "430",
+			"name": "Udacity for Mobile | iPad, iPhone and Android",
+			"previewLink": "https://www.udacity.com/mobile"
+		}, {
+			"id": "431",
+			"name": "Intro to iOS App Development with Swift | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585"
+		}, {
+			"id": "432",
+			"name": "Udemy is on mobile! | Udemy",
+			"previewLink": "https://www.udemy.com/mobile/"
+		}, {
+			"id": "433",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/app-development"
+		}]
+	}, {
+		"name": "java",
+		"recommendations": [{
+			"id": "434",
+			"name": "Intro to Java Programming | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-java-programming--cs046"
+		}, {
+			"id": "435",
+			"name": "Java Programming Basics | Udacity",
+			"previewLink": "https://www.udacity.com/course/java-programming-basics--ud282"
+		}, {
+			"id": "436",
+			"name": "Java Tutorial for Complete Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/java-tutorial/"
+		}, {
+			"id": "437",
+			"name": "The Complete Java Developer Course. Learn Step by Step | Udemy",
+			"previewLink": "https://www.udemy.com/java-the-complete-java-developer-course/"
+		}, {
+			"id": "438",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/java-programming"
+		}]
+	}, {
+		"name": "java-8",
+		"recommendations": [{
+			"id": "439",
+			"name": "Intro to Java Programming | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-java-programming--cs046"
+		}, {
+			"id": "440",
+			"name": "Learn Java | Udacity",
+			"previewLink": "https://www.udacity.com/learn/java"
+		}, {
+			"id": "441",
+			"name": "Java Programming for beginners | Udemy",
+			"previewLink": "https://www.udemy.com/java-essential-training-with-java-8/"
+		}, {
+			"id": "442",
+			"name": "What's New in Java 8: Lambdas | Udemy",
+			"previewLink": "https://www.udemy.com/whats-new-in-java-8/"
+		}, {
+			"id": "443",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/java-programming"
+		}]
+	}, {
+		"name": "java-ee",
+		"recommendations": [{
+			"id": "444",
+			"name": "What is the best online course for learning Java EE? - Quora",
+			"previewLink": "https://www.quora.com/What-is-the-best-online-course-for-learning-Java-EE"
+		}, {
+			"id": "445",
+			"name": "Intro to Java Programming | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-java-programming--cs046"
+		}, {
+			"id": "446",
+			"name": "The Java EE Course - build a Java EE app from scratch | Udemy",
+			"previewLink": "https://www.udemy.com/the-java-ee-course/"
+		}, {
+			"id": "447",
+			"name": "Java EE 7 A Practical Training Course From Infinite Skills | Udemy",
+			"previewLink": "https://www.udemy.com/java-ee-7/"
+		}, {
+			"id": "448",
+			"name": "What is the best online course for learning Java EE? - Quora",
+			"previewLink": "https://www.quora.com/What-is-the-best-online-course-for-learning-Java-EE"
+		}]
+	}, {
+		"name": "java-stream",
+		"recommendations": [{
+			"id": "449",
+			"name": "Intro to Java Programming | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-java-programming--cs046"
+		}, {
+			"id": "450",
+			"name": "Real-Time Analytics with Apache Storm | Udacity",
+			"previewLink": "https://www.udacity.com/course/real-time-analytics-with-apache-storm--ud381"
+		}, {
+			"id": "451",
+			"name": "Learn Java Programming From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-java-programming-from-scratch/"
+		}, {
+			"id": "452",
+			"name": "Java Tutorial for Complete Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/java-tutorial/"
+		}, {
+			"id": "453",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/advanced-java-concurrency/lecture/fZUKo/overview-of-java-8-streams"
+		}]
+	}, {
 		"name": "javascript",
-		"recommendations": [
-
-			{
-				"id": 11,
-				"name": "JavaScript Road Trip",
-				"previewLink": "https://www.codeschool.com/courses/javascript-road-trip-part-1"
-			}, {
-				"id": 12,
-				"name": "JavaScript Tutorial",
-				"previewLink": "http://www.w3schools.com/js/"
-			}, {
-				"id": 13,
-				"name": "MDN : JavaScript Tutorial",
-				"previewLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-			}, {
-				"id": 14,
-				"name": "Continue your learning by starting JavaScript",
-				"previewLink": "https://www.codecademy.com/learn/javascript"
-			}, {
-				"id": 15,
-				"name": "JavaScript Tutorial for Absolute Beginners",
-				"previewLink": "https://www.youtube.com/watch?v=XL9Ri8pO68w"
-			}
-		]
+		"recommendations": [{
+			"id": "455",
+			"name": "JavaScript Basics for Beginners Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/javascript-basics--ud804"
+		}, {
+			"id": "456",
+			"name": "Object-Oriented JavaScript Programming Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/object-oriented-javascript--ud015"
+		}, {
+			"id": "457",
+			"name": "JavaScript: Understanding the Weird Parts | Udemy",
+			"previewLink": "https://www.udemy.com/understand-javascript/"
+		}, {
+			"id": "458",
+			"name": "JavaScript from Beginner to Expert | Udemy",
+			"previewLink": "https://www.udemy.com/javascript-from-beginner-to-expert-bring-life-to-your-site/"
+		}, {
+			"id": "459",
+			"name": "HTML, CSS and JavaScript - The Hong Kong University of Science and Technology | Coursera",
+			"previewLink": "https://www.coursera.org/learn/html-css-javascript"
+		}]
+	}, {
+		"name": "javascript-events",
+		"recommendations": [{
+			"id": "460",
+			"name": "JavaScript Basics for Beginners Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/javascript-basics--ud804"
+		}, {
+			"id": "461",
+			"name": "Object-Oriented JavaScript Programming Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/object-oriented-javascript--ud015"
+		}, {
+			"id": "462",
+			"name": "JavaScript from Beginner to Expert | Udemy",
+			"previewLink": "https://www.udemy.com/javascript-from-beginner-to-expert-bring-life-to-your-site/"
+		}, {
+			"id": "463",
+			"name": "Learning JavaScript Programming Tutorial. A Definitive Guide | Udemy",
+			"previewLink": "https://www.udemy.com/programming-javascript/"
+		}, {
+			"id": "464",
+			"name": "Interactivity with JavaScript - University of Michigan | Coursera",
+			"previewLink": "https://www.coursera.org/learn/javascript"
+		}]
+	}, {
+		"name": "jaxb",
+		"recommendations": [{
+			"id": "466",
+			"name": "About me · Pushing Pixels",
+			"previewLink": "http://www.pushing-pixels.org/about-me"
+		}, {
+			"id": "467",
+			"name": "Java Web Services | Udemy",
+			"previewLink": "https://www.udemy.com/java-web-services/"
+		}, {
+			"id": "468",
+			"name": "GitHub - GLinBoy/JAXBDemo: Sample of JAXB of Udemy Java Web Services (06 JAX-WS AND JAXB) http://bit.ly/1jSX1Hf",
+			"previewLink": "https://github.com/GLinBoy/JAXBDemo"
+		}, {
+			"id": "469",
+			"name": "Maven Repository: com.sun.xml.bind » jaxb-xjc » 2.2.1.1",
+			"previewLink": "https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-xjc/2.2.1.1"
+		}, {
+			"id": "470",
+			"name": "An Introduction to Working With JAXB - DZone Java",
+			"previewLink": "https://dzone.com/articles/an-introduction-to-working-with-jaxb-2"
+		}]
+	}, {
+		"name": "jersey",
+		"recommendations": [{
+			"id": "471",
+			"name": "Offline Web Applications | Udacity",
+			"previewLink": "https://www.udacity.com/course/offline-web-applications--ud899"
+		}, {
+			"id": "472",
+			"name": "Web Tooling & Automation | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-tooling-automation--ud892"
+		}, {
+			"id": "473",
+			"name": "RESTful Java Web Services | Udemy",
+			"previewLink": "https://www.udemy.com/rest-web-services-using-java-ee/"
+		}, {
+			"id": "474",
+			"name": "Java Web Services | Udemy",
+			"previewLink": "https://www.udemy.com/java-web-services/"
+		}, {
+			"id": "475",
+			"name": "Rutgers the State University of New Jersey | Coursera",
+			"previewLink": "https://www.coursera.org/rutgers"
+		}]
+	}, {
+		"name": "jpa",
+		"recommendations": [{
+			"id": "477",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-development--cs253"
+		}, {
+			"id": "478",
+			"name": "",
+			"previewLink": "https://profiles.udacity.com/u/kartikshah"
+		}, {
+			"id": "479",
+			"name": "Java Persistence: Hibernate and JPA Fundamentals | Udemy",
+			"previewLink": "https://www.udemy.com/hibernate-and-jpa-fundamentals/"
+		}, {
+			"id": "480",
+			"name": "Hibernate and Java Persistence API (JPA) Fundamentals | Udemy",
+			"previewLink": "https://www.udemy.com/hibernate-and-java-persistence-api-jpa-fundamentals/"
+		}, {
+			"id": "481",
+			"name": "Java Persistence: Hibernate and JPA Fundamentals | Udemy",
+			"previewLink": "https://www.udemy.com/hibernate-and-jpa-fundamentals/"
+		}]
+	}, {
+		"name": "jqgrid",
+		"recommendations": [{
+			"id": "483",
+			"name": "How to send a business object from a jquery ajax call to an MVC.NET controller action | Robert Corvus",
+			"previewLink": "http://robertcorvus.com/how-to-send-a-business-object-from-a-jquery-ajax-call-to-an-mvc-net-controller-action/"
+		}, {
+			"id": "484",
+			"name": "so.txt · GitHub",
+			"previewLink": "https://gist.github.com/7693216"
+		}, {
+			"id": "485",
+			"name": "Learning ASP.Net MVC - A Course For ASP.NET Developers | Udemy",
+			"previewLink": "https://www.udemy.com/learning-aspnet-mvc-a-course-for-aspnet-developers/"
+		}, {
+			"id": "486",
+			"name": "jqGrid ajax Operations in ASP.NMET MVC – Sergey Barskiy's Blog",
+			"previewLink": "http://www.dotnetspeak.com/asp-net-mvc/jqgrid-ajax-operations-in-asp-nmet-mvc/"
+		}, {
+			"id": "487",
+			"name": "Dark - IT: Custom data loading to jqGrid",
+			"previewLink": "http://dark-it.blogspot.com/2009/07/custom-data-loading-to-jqgrid.html"
+		}]
+	}, {
+		"name": "jquery",
+		"recommendations": [{
+			"id": "489",
+			"name": "Intro to jQuery | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-jquery--ud245"
+		}, {
+			"id": "490",
+			"name": "Einstieg in jQuery | Udacity",
+			"previewLink": "https://de.udacity.com/course/intro-to-jquery--ud245/"
+		}, {
+			"id": "491",
+			"name": "Learn jQuery: An In-depth Course For Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/jquery/"
+		}, {
+			"id": "492",
+			"name": "Learn Javascript & JQuery From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-javascript-jquery-from-scratch/"
+		}, {
+			"id": "493",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/website-coding/supplement/Wy2Ya/jquery"
+		}]
+	}, {
+		"name": "jquery-plugins",
+		"recommendations": [{
+			"id": "494",
+			"name": "Intro to jQuery | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-jquery--ud245"
+		}, {
+			"id": "495",
+			"name": "Intro to AJAX | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-ajax--ud110"
+		}, {
+			"id": "496",
+			"name": "Learn jQuery: An In-depth Course For Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/jquery/"
+		}, {
+			"id": "497",
+			"name": "jQuery Mastery and Plugins | Udemy",
+			"previewLink": "https://www.udemy.com/jquery-projects/"
+		}, {
+			"id": "498",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/website-coding/supplement/Wy2Ya/jquery"
+		}]
+	}, {
+		"name": "jquery-ui",
+		"recommendations": [{
+			"id": "499",
+			"name": "Intro to jQuery | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-jquery--ud245"
+		}, {
+			"id": "500",
+			"name": "Intro to AJAX | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-ajax--ud110"
+		}, {
+			"id": "986",
+			"name": "jQuery UI In Depth | Udemy",
+			"previewLink": "https://www.udemy.com/jquery-ui-in-depth/"
+		}, {
+			"id": "987",
+			"name": "jQuery UI Development | Udemy",
+			"previewLink": "https://www.udemy.com/jquery-ui-development/"
+		}, {
+			"id": "988",
+			"name": "Front-End Web UI Frameworks and Tools - The Hong Kong University of Science and Technology | Coursera",
+			"previewLink": "https://www.coursera.org/learn/web-frameworks"
+		}]
+	}, {
+		"name": "jsf",
+		"recommendations": [{
+			"id": "989",
+			"name": "Do anyone know online training courses for advanced java and JSF? - Quora",
+			"previewLink": "https://www.quora.com/Do-anyone-know-online-training-courses-for-advanced-java-and-JSF"
+		}, {
+			"id": "990",
+			"name": "Intro to Java Programming | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-java-programming--cs046"
+		}, {
+			"id": "991",
+			"name": "JSF - Java Server Faces for Beginners - Build a Database App | Udemy",
+			"previewLink": "https://www.udemy.com/jsf-tutorial/"
+		}, {
+			"id": "992",
+			"name": "Learn Java Server Faces (JSF) from scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-java-server-faces-jsf-from-scratch/"
+		}, {
+			"id": "993",
+			"name": "Do anyone know online training courses for advanced java and JSF? - Quora",
+			"previewLink": "https://www.quora.com/Do-anyone-know-online-training-courses-for-advanced-java-and-JSF"
+		}]
+	}, {
+		"name": "json",
+		"recommendations": [{
+			"id": "994",
+			"name": "iOS Networking with Swift: Web Services, APIs, and JSON | Udacity",
+			"previewLink": "https://www.udacity.com/course/ios-networking-with-swift--ud421"
+		}, {
+			"id": "995",
+			"name": "Introduction to JavaScript Object Notation (JSON) | Udemy",
+			"previewLink": "https://www.udemy.com/json-training-a-javascript-object-notation-course/"
+		}, {
+			"id": "996",
+			"name": "Mastering JSON - Java Script Object Notation | Udemy",
+			"previewLink": "https://www.udemy.com/mastering-json/"
+		}, {
+			"id": "997",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/data-cleaning/lecture/eDrOh/reading-json"
+		}, {
+			"id": "998",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/python-data/lecture/6RZNW/douglas-crockford-javascript-object-notation-json"
+		}]
+	}, {
+		"name": "junit",
+		"recommendations": [{
+			"id": "999",
+			"name": "JUnit Tutorial for Beginners - Learn Java Unit Testing | Udemy",
+			"previewLink": "https://www.udemy.com/junit-tutorial-for-beginners-with-java-examples/"
+		}, {
+			"id": "1000",
+			"name": "JUnit and Mockito Crash Course | Udemy",
+			"previewLink": "https://www.udemy.com/junitandmockitocrashcourse/"
+		}, {
+			"id": "1001",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/kcx5o/support-junit-in-eclipse"
+		}, {
+			"id": "1002",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/0Wycw/in-the-real-world-unit-testing"
+		}]
+	}, {
+		"name": "liferay",
+		"recommendations": [{
+			"id": "1003",
+			"name": "Launch Enterprise Portal & CMS instantly with Liferay | Udemy",
+			"previewLink": "https://www.udemy.com/liferay-training/"
+		}, {
+			"id": "1004",
+			"name": "Developing Liferay Plugins | Udemy",
+			"previewLink": "https://www.udemy.com/developing-liferay-plugins/"
+		}, {
+			"id": "1006",
+			"name": "Liferay For Dummies: Help new users get the most out of Liferay - Community Forums | Liferay",
+			"previewLink": "https://web.liferay.com/community/forums/-/message_boards/message/11394608"
+		}, {
+			"id": "1007",
+			"name": "Liferay Training",
+			"previewLink": "https://www.liferay.com/services/training"
+		}]
+	}, {
+		"name": "liferay-6",
+		"recommendations": [{
+			"id": "1008",
+			"name": "Liferay: Put people at the heart of your business",
+			"previewLink": "https://www.liferay.com/"
+		}, {
+			"id": "1009",
+			"name": "Liferay 6.2 CE GA6 Now Available - Blog",
+			"previewLink": "https://web.liferay.com/web/james.falkner/blog/-/blogs/liferay-6-2-ce-ga6-now-available"
+		}, {
+			"id": "1100",
+			"name": "Launch Enterprise Portal & CMS instantly with Liferay | Udemy",
+			"previewLink": "https://www.udemy.com/liferay-training/"
+		}, {
+			"id": "1011",
+			"name": "Developing Liferay Plugins | Udemy",
+			"previewLink": "https://www.udemy.com/developing-liferay-plugins/"
+		}, {
+			"id": "1012",
+			"name": "Liferay For Dummies: Help new users get the most out of Liferay - Community Forums | Liferay",
+			"previewLink": "https://web.liferay.com/community/forums/-/message_boards/message/11394608"
+		}]
+	}, {
+		"name": "linq",
+		"recommendations": [{
+			"id": "1013",
+			"name": "C#.NET LINQ Tutorial - LINQ Fundamentals | Udemy",
+			"previewLink": "https://www.udemy.com/cnet-linq-query-basics/"
+		}, {
+			"id": "1014",
+			"name": "LINQ to XML Tutorial | Udemy",
+			"previewLink": "https://www.udemy.com/linq-to-xml-tutorial/"
+		}, {
+			"id": "1015",
+			"name": "LINQ Fundamentals | Pluralsight",
+			"previewLink": "https://www.pluralsight.com/courses/linq-fundamentals"
+		}, {
+			"id": "1016",
+			"name": "New Coursera Course on Principles of Reactive Programming | Akka",
+			"previewLink": "http://akka.io/news/2013/08/27/coursera-course-reactive.html"
+		}]
+	}, {
+		"name": "linux",
+		"recommendations": [{
+			"id": "1017",
+			"name": "Linux Command Line Basics | Udacity",
+			"previewLink": "https://www.udacity.com/course/linux-command-line-basics--ud595"
+		}, {
+			"id": "1018",
+			"name": "Configuring Linux Web Servers | Udacity",
+			"previewLink": "https://www.udacity.com/course/configuring-linux-web-servers--ud299"
+		}, {
+			"id": "1019",
+			"name": "Learn Linux in 5 Days and Level Up Your Career | Udemy",
+			"previewLink": "https://www.udemy.com/learn-linux-in-5-days/"
+		}, {
+			"id": "1020",
+			"name": "Linux for Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/linuxforbeginners/"
+		}, {
+			"id": "1021",
+			"name": "Introduction to Linux | edX",
+			"previewLink": "https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-0"
+		}]
+	}, {
+		"name": "log4j",
+		"recommendations": [{
+			"id": "1022",
+			"name": "ud381/TotalRankingsBolt.java at master · udacity/ud381 · GitHub",
+			"previewLink": "https://github.com/udacity/ud381/blob/master/lesson3/stage5/src/jvm/udacity/storm/TotalRankingsBolt.java"
+		}, {
+			"id": "1023",
+			"name": "ud381/AbstractRankerBolt.java at master · udacity/ud381 · GitHub",
+			"previewLink": "https://github.com/udacity/ud381/blob/master/lesson3/stage5/src/jvm/udacity/storm/AbstractRankerBolt.java"
+		}, {
+			"id": "1024",
+			"name": "Selenium WebDriver With Java - Novice To Ninja + Interview | Udemy",
+			"previewLink": "https://www.udemy.com/selenium-webdriver-with-java-testng-and-log4j/"
+		}, {
+			"id": "1025",
+			"name": "Apache Log4J Logging Framework Tutorial for Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/apache-log4j-tutorial/"
+		}, {
+			"id": "1026",
+			"name": "coursera/log4j.properties at master · words-sdsc/coursera · GitHub",
+			"previewLink": "https://github.com/words-sdsc/coursera/blob/master/big-data-3/setup/log4j.properties"
+		}]
+	}, {
+		"name": "log4j2",
+		"recommendations": [{
+			"id": "1027",
+			"name": "asynchronous-logging-with-log4j-2--转 - 一天不进步，就是退步 - 博客园",
+			"previewLink": "http://www.cnblogs.com/davidwang456/p/5369594.html"
+		}, {
+			"id": "1028",
+			"name": "How to monitor your Java application logs | EVERYTHING ABOUT WEB AND NETWORK MONITORING",
+			"previewLink": "http://www.monitis.com/blog/how-to-monitor-your-java-application-logs/"
+		}, {
+			"id": "1029",
+			"name": "SDLC with SOA Spring Java JMS GIT ActiveMQ MongoDB Jenkins | Udemy",
+			"previewLink": "https://www.udemy.com/sdlc-with-soa-spring-jms-git-activemq-mongodb-jenkins/"
+		}, {
+			"id": "1030",
+			"name": "Log4j2 Example Tutorial - JournalDev",
+			"previewLink": "http://www.journaldev.com/7128/log4j2-example-tutorial-configuration-levels-appenders/journaldevweblogging"
+		}, {
+			"id": "1031",
+			"name": "Log4J 2 Configuration: Using the Properties File - DZone Java",
+			"previewLink": "https://dzone.com/articles/log4j-2-configuration-using-properties-file"
+		}]
 	},
 
 	{
-		"name": "jQuery",
-		"recommendations": [
-
-			{
-				"id": 16,
-				"name": "jQuery Tutorial - W3Schools",
-				"previewLink": "http://www.w3schools.com/jquery/"
-			}, {
-				"id": 17,
-				"name": "JQuery UI",
-				"previewLink": "https://jqueryui.com/"
-			}, {
-				"id": 18,
-				"name": "JQuery Mobile",
-				"previewLink": "https://jquerymobile.com/"
-			}, {
-				"id": 19,
-				"name": "Learn Code academy: JQuery",
-				"previewLink": "https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw"
-			}, {
-				"id": 20,
-				"name": "AJAX using JQuery ",
-				"previewLink": "https://www.udemy.com/learn-ajax-using-javascript-jquery-in-2-hrs-2-projects/"
-			}
-		]
-	},
-
-	{
+		"name": "logging",
+		"recommendations": [{
+			"id": "506",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ma008/l-172950398/e-179639600/m-179639601"
+		}, {
+			"id": "507",
+			"name": "Udacity - Free Online Classes & Nanodegrees",
+			"previewLink": "https://www.udacity.com/"
+		}, {
+			"id": "508",
+			"name": "Online Courses - Anytime, Anywhere | Udemy",
+			"previewLink": "https://www.udemy.com/gift/java-exceptions-handling-assertion-java-logging-api/"
+		}, {
+			"id": "509",
+			"name": "Java Exceptions Handling, Assertion, Java Logging API | Udemy",
+			"previewLink": "https://www.udemy.com/java-exceptions-handling-assertion-java-logging-api/"
+		}, {
+			"id": "510",
+			"name": "Coursera - Free Online Courses From Top Universities",
+			"previewLink": "https://www.coursera.org/reset"
+		}]
+	}, {
+		"name": "math",
+		"recommendations": [{
+			"id": "511",
+			"name": "Intro Algebra Review | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-algebra-review--ma004"
+		}, {
+			"id": "512",
+			"name": "Math Archives | Udacity",
+			"previewLink": "http://blog.udacity.com/category/math"
+		}, {
+			"id": "513",
+			"name": "Math and Science Online Courses from Beginner to Advanced",
+			"previewLink": "https://www.udemy.com/courses/academics/math-and-science/"
+		}, {
+			"id": "514",
+			"name": "Master the Fundamentals of Math | Udemy",
+			"previewLink": "https://www.udemy.com/fundamentals-of-math/"
+		}]
+	}, {
+		"name": "maven",
+		"recommendations": [{
+			"id": "515",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud381/l-2731858540/m-3391938695"
+		}, {
+			"id": "516",
+			"name": "Developing Scalable Apps with Google App Engine | Udacity",
+			"previewLink": "https://www.udacity.com/course/developing-scalable-apps-in-java--ud859"
+		}, {
+			"id": "517",
+			"name": "Java Maven :101 Stop Building Java Programs the Hard Way! | Udemy",
+			"previewLink": "https://www.udemy.com/apachemaven/"
+		}, {
+			"id": "518",
+			"name": "Learn Maven | Udemy",
+			"previewLink": "https://www.udemy.com/learn-maven/"
+		}, {
+			"id": "519",
+			"name": "Are there any online courses to learn about build tools like Maven and Ant? - Quora",
+			"previewLink": "https://www.quora.com/Are-there-any-online-courses-to-learn-about-build-tools-like-Maven-and-Ant"
+		}]
+	}, {
+		"name": "maven-3",
+		"recommendations": [{
+			"id": "521",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud381/l-2731858540/m-3391938695"
+		}, {
+			"id": "522",
+			"name": "Real-Time Analytics with Apache Storm | Udacity",
+			"previewLink": "https://www.udacity.com/course/real-time-analytics-with-apache-storm--ud381"
+		}, {
+			"id": "523",
+			"name": "Java Maven :101 Stop Building Java Programs the Hard Way! | Udemy",
+			"previewLink": "https://www.udemy.com/apachemaven/"
+		}, {
+			"id": "524",
+			"name": "Learning Apache Maven | Udemy",
+			"previewLink": "https://www.udemy.com/learning-apache-maven/"
+		}, {
+			"id": "525",
+			"name": "Are there any online courses to learn about build tools like Maven and Ant? - Quora",
+			"previewLink": "https://www.quora.com/Are-there-any-online-courses-to-learn-about-build-tools-like-Maven-and-Ant"
+		}]
+	}, {
+		"name": "mef",
+		"recommendations": [{
+			"id": "527",
+			"name": "Georgia Tech Launches First ‘Massive-Online’ Degree Program | AT&T",
+			"previewLink": "http://about.att.com/newsroom/georgia_tech_launches_first_massive_online_degree_program.html"
+		}, {
+			"id": "528",
+			"name": "Udacity Program at Georgia Tech University | AT&T",
+			"previewLink": "http://about.att.com/newsroom/rethink_what_you_can_accomplish_in_your_pajamas.html"
+		}, {
+			"id": "529",
+			"name": "Managed Extensibility Framework, MEF, from Novice to Guru | Udemy",
+			"previewLink": "https://www.udemy.com/managed-extensibility-framework-mef-from-novice-to-guru/"
+		}, {
+			"id": "530",
+			"name": "Managed Extensibility Framework - Udemy Coupon Deals, Udemy Coupon Code, 100% coupons",
+			"previewLink": "http://udemycoupon.discountsglobal.com/coupon-tag/managed-extensibility-framework/"
+		}, {
+			"id": "531",
+			"name": "Midwest Alternative Energy Venture Forum | Home",
+			"previewLink": "https://www.chicagobooth.edu/mef/2013/"
+		}]
+	}, {
+		"name": "mercurial",
+		"recommendations": [{
+			"id": "533",
+			"name": "Writing READMEs | Udacity",
+			"previewLink": "https://www.udacity.com/course/writing-readmes--ud777"
+		}, {
+			"id": "534",
+			"name": "Mercurial vs. Udacity | G2 Crowd",
+			"previewLink": "https://www.g2crowd.com/compare/mercurial-vs-udacity"
+		}, {
+			"id": "535",
+			"name": "Setup OS X development environments | Udemy",
+			"previewLink": "https://www.udemy.com/setup-os-x-development-environments/"
+		}, {
+			"id": "536",
+			"name": "PM IT: Project Management Professional for Software Projects | Udemy",
+			"previewLink": "https://www.udemy.com/project-management-in-it-industry/"
+		}, {
+			"id": "537",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/ruby-on-rails-intro/lecture/8F19A/introduction-to-git"
+		}]
+	}, {
+		"name": "mobile-website",
+		"recommendations": [{
+			"id": "539",
+			"name": "Mobile Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/course/mobile-web-development--cs256"
+		}, {
+			"id": "540",
+			"name": "Udacity for Mobile | iPad, iPhone and Android",
+			"previewLink": "https://www.udacity.com/mobile"
+		}, {
+			"id": "541",
+			"name": "Developing Mobile Websites | Udemy",
+			"previewLink": "https://www.udemy.com/developing-mobile-websites/"
+		}, {
+			"id": "542",
+			"name": "Udemy is on mobile! | Udemy",
+			"previewLink": "https://www.udemy.com/mobile/"
+		}, {
+			"id": "543",
+			"name": "Mobile | Coursera",
+			"previewLink": "https://www.coursera.org/about/mobile"
+		}]
+	}, {
+		"name": "mongodb",
+		"recommendations": [{
+			"id": "544",
+			"name": "Data Wrangling with MongoDB Online Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/data-wrangling-with-mongodb--ud032"
+		}, {
+			"id": "545",
+			"name": "Data Wrangling mit MongoDB | Udacity",
+			"previewLink": "https://de.udacity.com/course/data-wrangling-with-mongodb--ud032/"
+		}, {
+			"id": "546",
+			"name": "Projects in MongoDB - Learn MongoDB Building Ten Projects | Udemy",
+			"previewLink": "https://www.udemy.com/projects-in-mongodb/"
+		}, {
+			"id": "547",
+			"name": "Learning MongoDB - A Training Video From Infinite Skills | Udemy",
+			"previewLink": "https://www.udemy.com/mongodb-training/"
+		}, {
+			"id": "548",
+			"name": "Web Application Development with JavaScript and MongoDB - University of London, Goldsmiths, University of London | Coursera",
+			"previewLink": "https://www.coursera.org/learn/web-application-development"
+		}]
+	}, {
+		"name": "mongoose",
+		"recommendations": [{
+			"id": "550",
+			"name": "Data Wrangling with MongoDB Online Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/data-wrangling-with-mongodb--ud032"
+		}, {
+			"id": "551",
+			"name": "Mountain Bikes",
+			"previewLink": "http://metafast.xyz/mongoose-full-suspension-mountain-bike-reviews-udacity"
+		}, {
+			"id": "552",
+			"name": "Mongoose: MongoDB Object-Document Mapper for NodeJS Apps | Udemy",
+			"previewLink": "https://www.udemy.com/mongoose/"
+		}, {
+			"id": "553",
+			"name": "MongooseJS Essentials - Learn MongoDB for Node.js | Udemy",
+			"previewLink": "https://www.udemy.com/mongoosejs-essentials/"
+		}, {
+			"id": "554",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/server-side-development/lecture/j0NA0/rest-api-with-express-mongodb-and-mongoose"
+		}]
+	}, {
+		"name": "ms-access",
+		"recommendations": [{
+			"id": "556",
+			"name": "Free Microsoft Access 2010 Online Course | ALISON",
+			"previewLink": "https://alison.com/courses/Microsoft-Access-2010"
+		}, {
+			"id": "557",
+			"name": "Microsoft Access Tutorials and Training - YouTube",
+			"previewLink": "https://www.youtube.com/user/learnmsaccess"
+		}, {
+			"id": "558",
+			"name": "Microsoft Access 2016 Master Class: Beginner to Advanced | Udemy",
+			"previewLink": "https://www.udemy.com/microsoftaccess/"
+		}, {
+			"id": "559",
+			"name": "The Ultimate Microsoft Access 2013 Training Bundle 19 Hours | Udemy",
+			"previewLink": "https://www.udemy.com/the-ultimate-microsoft-access-2013-training-bundle/"
+		}, {
+			"id": "560",
+			"name": "What are some great online courses that will help me become really familiar with Microsoft Access? - Quora",
+			"previewLink": "https://www.quora.com/What-are-some-great-online-courses-that-will-help-me-become-really-familiar-with-Microsoft-Access"
+		}]
+	}, {
+		"name": "multithreading",
+		"recommendations": [{
+			"id": "561",
+			"name": "Java Multithreading | Udemy",
+			"previewLink": "https://www.udemy.com/java-multithreading/"
+		}, {
+			"id": "562",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud098/l-634918936"
+		}, {
+			"id": "563",
+			"name": "Java Multithreading | Udemy",
+			"previewLink": "https://www.udemy.com/java-multithreading/"
+		}, {
+			"id": "564",
+			"name": "Java Simulations & Multithreading | Udemy",
+			"previewLink": "https://www.udemy.com/java-simulations-multithreading/"
+		}, {
+			"id": "565",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/comparch/lecture/2Hnoa/multithreading-motivation"
+		}]
+	}, {
+		"name": "mvvm",
+		"recommendations": [{
+			"id": "567",
+			"name": "WPF MVVM In Depth | Pluralsight",
+			"previewLink": "https://www.pluralsight.com/courses/wpf-mvvm-in-depth"
+		}, {
+			"id": "568",
+			"name": "Architecting your Android app for an offline mode — Exploits of a Programmer | Vicky Chijwani",
+			"previewLink": "http://vickychijwani.me/udacity-android-nanodegree-weeks-3-7/"
+		}, {
+			"id": "569",
+			"name": "MVVM in WPF Survival Guide From A to Z | Udemy",
+			"previewLink": "https://www.udemy.com/mvvm-in-wpf-survival-guide-from-a-to-z/"
+		}, {
+			"id": "570",
+			"name": "WPF: Building Windows Desktop Apps | Udemy",
+			"previewLink": "https://www.udemy.com/wpf_apps/"
+		}, {
+			"id": "571",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/single-page-web-apps-with-angularjs/lecture/zL8Sf/lecture-3-model-view-viewmodel-mvvm"
+		}]
+	}, {
+		"name": "mysql",
+		"recommendations": [{
+			"id": "573",
+			"name": "Intro to Relational Databases | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+		}, {
+			"id": "574",
+			"name": "Einstieg in relationale Datenbanken | Udacity",
+			"previewLink": "https://de.udacity.com/course/intro-to-relational-databases--ud197/"
+		}, {
+			"id": "575",
+			"name": "MySQL for Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/mysql-db-for-beginners/"
+		}, {
+			"id": "576",
+			"name": "Introduction to MySQL Database | Udemy",
+			"previewLink": "https://www.udemy.com/introduction-to-mysql-database-training-course/"
+		}, {
+			"id": "577",
+			"name": "Managing Big Data with MySQL - Duke University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/analytics-mysql"
+		}]
+	}, {
+		"name": "nhibernate",
+		"recommendations": [{
+			"id": "579",
+			"name": "مرجع تخصصی برنامه نویسی - دانلود آموزشهای Udacity - مطالب ابر آموزش اصول nhibernate",
+			"previewLink": "http://udacity.mihanblog.com/post/tag/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%A7%D8%B5%D9%88%D9%84%20nhibernate"
+		}, {
+			"id": "580",
+			"name": "Comprehensive ASP.net MVC | Udemy",
+			"previewLink": "https://www.udemy.com/comprehensive-aspnet-mvc/"
+		}, {
+			"id": "581",
+			"name": "Orchard CMS Tutorial for Absolute Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/orchard-cms-for-absolute-beginners/"
+		}, {
+			"id": "582",
+			"name": "",
+			"previewLink": "https://www.go1.com/#!/course/nhibernate:-a-comparison-with-entity-framework/569934"
+		}, {
+			"id": "583",
+			"name": "",
+			"previewLink": "https://www.go1.com/#!/course/nhibernate:-configuring-nhibernate-by-code/569773"
+		}]
+	}, {
+		"name": "node.js",
+		"recommendations": [{
+			"id": "584",
+			"name": "What is the best Node.js course online? - Quora",
+			"previewLink": "https://www.quora.com/What-is-the-best-Node-js-course-online"
+		}, {
+			"id": "585",
+			"name": "The Complete Node JS Developer Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-node-js-developer-course/"
+		}, {
+			"id": "586",
+			"name": "Learn and Understand NodeJS | Udemy",
+			"previewLink": "https://www.udemy.com/understand-nodejs/"
+		}, {
+			"id": "587",
+			"name": "The Complete Node JS Developer Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-node-js-developer-course/"
+		}, {
+			"id": "588",
+			"name": "Server-side Development with NodeJS - The Hong Kong University of Science and Technology | Coursera",
+			"previewLink": "https://www.coursera.org/learn/server-side-development"
+		}]
+	}, {
+		"name": "objective-c",
+		"recommendations": [{
+			"id": "589",
+			"name": "Objective-C for Swift Developers | Udacity",
+			"previewLink": "https://www.udacity.com/course/objective-c-for-swift-developers--ud1009"
+		}, {
+			"id": "590",
+			"name": "iOS | Udacity",
+			"previewLink": "https://www.udacity.com/courses/ios"
+		}, {
+			"id": "591",
+			"name": "Learn Objective C",
+			"previewLink": "https://www.udemy.com/courses/development/mobile-apps/learn-objective-c/all-courses/"
+		}, {
+			"id": "592",
+			"name": "iOS 9 & Objective-C - Make 20 Applications | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-ios-9-objective-c-guide-make-20-applications/"
+		}, {
+			"id": "593",
+			"name": "Foundations of Objective-C App Development - University of California, Irvine | Coursera",
+			"previewLink": "https://www.coursera.org/learn/objective-c"
+		}]
+	}, {
+		"name": "oop",
+		"recommendations": [{
+			"id": "594",
+			"name": "Object-Oriented JavaScript Programming Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/object-oriented-javascript--ud015"
+		}, {
+			"id": "595",
+			"name": "Intro to Python Programming Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/programming-foundations-with-python--ud036"
+		}, {
+			"id": "596",
+			"name": "Object Oriented Programming | Udemy",
+			"previewLink": "https://www.udemy.com/object-oriented-programming/"
+		}, {
+			"id": "597",
+			"name": "Introduction to Object Oriented Programming | Udemy",
+			"previewLink": "https://www.udemy.com/introduction-to-object-oriented-programming/"
+		}, {
+			"id": "598",
+			"name": "Object Oriented Programming in Java - University of California, San Diego | Coursera",
+			"previewLink": "https://www.coursera.org/learn/object-oriented-java"
+		}]
+	}, {
+		"name": "opencv",
+		"recommendations": [{
+			"id": "599",
+			"name": "Introduction to Computer Vision | Udacity",
+			"previewLink": "https://www.udacity.com/course/introduction-to-computer-vision--ud810"
+		}, {
+			"id": "600",
+			"name": "Computational Photography | Udacity",
+			"previewLink": "https://www.udacity.com/course/computational-photography--ud955"
+		}, {
+			"id": "601",
+			"name": "Face Detection -Master Open CV with Digital Image Processing | Udemy",
+			"previewLink": "https://www.udemy.com/learn-open-cv-with-microsoft-visual-c/"
+		}, {
+			"id": "602",
+			"name": "Learn Computer Vision with OpenCV Library using Python | Udemy",
+			"previewLink": "https://www.udemy.com/pythoncv/"
+		}, {
+			"id": "603",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/internet-of-things-multimedia/lecture/Ns0M0/simplecv-vs-opencv"
+		}]
+	}, {
+		"name": "opengl",
+		"recommendations": [{
+			"id": "605",
+			"name": "Best Place to learn 3D Computer Graphics? - OpenGL and Vulkan - GameDev.net",
+			"previewLink": "http://www.gamedev.net/topic/651845-best-place-to-learn-3d-computer-graphics/"
+		}, {
+			"id": "606",
+			"name": "Interactive 3D Graphics Course With Three.js & WebGL | Udacity",
+			"previewLink": "https://www.udacity.com/course/interactive-3d-graphics--cs291"
+		}, {
+			"id": "607",
+			"name": "Building Android Games with OpenGL ES | Udemy",
+			"previewLink": "https://www.udemy.com/building-android-games-with-opengl-es/"
+		}, {
+			"id": "608",
+			"name": "Online Courses - Anytime, Anywhere | Udemy",
+			"previewLink": "https://www.udemy.com/using-opengl-and-sdl-in-game-and-graphic-programming-in-c/learn/"
+		}, {
+			"id": "609",
+			"name": "How to learn the basics of computer graphics and OpenGL programming - Quora",
+			"previewLink": "https://www.quora.com/How-do-I-learn-the-basics-of-computer-graphics-and-OpenGL-programming"
+		}]
+	}, {
+		"name": "paperclip",
+		"recommendations": [{
+			"id": "610",
+			"name": "Paperclip | crunchbase",
+			"previewLink": "https://www.crunchbase.com/organization/paperclip"
+		}, {
+			"id": "611",
+			"name": "Development Essentials - Ruby On Rails | Udemy",
+			"previewLink": "https://www.udemy.com/development-essentials-ruby-on-rails/"
+		}, {
+			"id": "612",
+			"name": "One-stop Ruby on Rails: Build Web Applications from Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/build-etsy-yelp-craigslist-and-a-web-scraper-from-scratch/"
+		}, {
+			"id": "613",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/strategic-innovation/lecture/6z62s/the-paper-clip-exercise"
+		}, {
+			"id": "614",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/arts-culture-innovation/lecture/iPz3r/l2-part-1b-paper-clip-exercise"
+		}]
+	}, {
+		"name": "parsing",
+		"recommendations": [{
+			"id": "615",
+			"name": "Helper methods for JSON parsing for Udacity's Developing Android Apps. Sunshine app, Lesson 2: https://www.udacity.com/course/viewer#!/c-ud853/l-1469948762/e-1630778644/m-1630778645 · GitHub",
+			"previewLink": "https://gist.github.com/nicksuch/bd4da8d493aa1bb708b0"
+		}, {
+			"id": "616",
+			"name": "Data Wrangling with MongoDB Online Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/data-wrangling-with-mongodb--ud032"
+		}, {
+			"id": "617",
+			"name": "Android App Development with Parse and Android Studio IDE | Udemy",
+			"previewLink": "https://www.udemy.com/android-app-development-with-parse-and-android-studio-ide/"
+		}, {
+			"id": "618",
+			"name": "Building Websites Using Parse SDK | Udemy",
+			"previewLink": "https://www.udemy.com/building-websites-using-parse-sdk/"
+		}, {
+			"id": "619",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/python-network-data/lecture/ENKTq/parsing-xml-in-python"
+		}]
+	}, {
+		"name": "performance",
+		"recommendations": [{
+			"id": "621",
+			"name": "Website Performance Optimization Testing Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/website-performance-optimization--ud884"
+		}, {
+			"id": "622",
+			"name": "Android App Performance Optimization | Udacity",
+			"previewLink": "https://www.udacity.com/course/android-performance--ud825"
+		}, {
+			"id": "623",
+			"name": "Website Performance Complete Training | Udemy",
+			"previewLink": "https://www.udemy.com/website-performance-complete-training/"
+		}, {
+			"id": "624",
+			"name": "Appraising Performance | Udemy",
+			"previewLink": "https://www.udemy.com/appraising-performance/"
+		}, {
+			"id": "625",
+			"name": "Data Structures and Performance - University of California, San Diego | Coursera",
+			"previewLink": "https://www.coursera.org/learn/data-structures-optimizing-performance"
+		}]
+	}, {
+		"name": "php",
+		"recommendations": [{
+			"id": "627",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-development--cs253"
+		}, {
+			"id": "628",
+			"name": "5 New Web Development Courses Open! | Udacity",
+			"previewLink": "http://blog.udacity.com/2014/09/5-new-web-development-courses-open.html"
+		}, {
+			"id": "629",
+			"name": "PHP for Beginners -Become a PHP Master - Project Included | Udemy",
+			"previewLink": "https://www.udemy.com/php-for-complete-beginners-includes-msql-object-oriented/"
+		}, {
+			"id": "630",
+			"name": "Top PHP Video Tutorials",
+			"previewLink": "https://www.udemy.com/courses/development/web-development/php-video-tutorials/"
+		}]
+	}, {
+		"name": "plugins",
+		"recommendations": [{
+			"id": "631",
+			"name": "Intro to jQuery | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-jquery--ud245"
+		}, {
+			"id": "632",
+			"name": "Web Tooling & Automation | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-tooling-automation--ud892"
+		}, {
+			"id": "633",
+			"name": "Ultimate WordPress Plugin Course | Udemy",
+			"previewLink": "https://www.udemy.com/wordpress-plugin-course/"
+		}, {
+			"id": "634",
+			"name": "Create WordPress Plugins | Udemy",
+			"previewLink": "https://www.udemy.com/create-wordpress-plugins/"
+		}, {
+			"id": "635",
+			"name": "Scribe Plugins by Coursera",
+			"previewLink": "http://coursera.github.io/scribe-plugins/"
+		}]
+	}, {
+		"name": "postgresql",
+		"recommendations": [{
+			"id": "637",
+			"name": "Intro to Relational Databases | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+		}, {
+			"id": "638",
+			"name": "Write Your First Python Application | Udacity",
+			"previewLink": "http://blog.udacity.com/2015/03/write-your-first-python-application.html"
+		}, {
+			"id": "639",
+			"name": "The Complete Python & PostgreSQL Developer Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-python-postgresql-developer-course/"
+		}, {
+			"id": "640",
+			"name": "Learn Database Design using PostgreSQL | Udemy",
+			"previewLink": "https://www.udemy.com/learn-database-design-using-postgresql/"
+		}, {
+			"id": "641",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/big-data-integration-processing/lecture/9yz7F/querying-relational-data-with-postgres"
+		}]
+	}, {
+		"name": "postgresql-9.1",
+		"recommendations": [{
+			"id": "642",
+			"name": "Intro to Relational Databases | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+		}, {
+			"id": "643",
+			"name": "PostgreSQL: Documentation: 9.1: PostgreSQL 9.1.24 Documentation",
+			"previewLink": "https://www.postgresql.org/docs/9.1/static/"
+		}, {
+			"id": "644",
+			"name": "Learn Database Design using PostgreSQL | Udemy",
+			"previewLink": "https://www.udemy.com/learn-database-design-using-postgresql/"
+		}, {
+			"id": "645",
+			"name": "Beginner's Guide to PostgreSQL | Udemy",
+			"previewLink": "https://www.udemy.com/beginners-guide-to-postgresql/"
+		}, {
+			"id": "646",
+			"name": "PostgreSQL: Documentation: 9.1: Server Administration",
+			"previewLink": "https://www.postgresql.org/docs/9.1/static/admin.html"
+		}]
+	}, {
+		"name": "python",
+		"recommendations": [{
+			"id": "648",
+			"name": "Intro to Python Programming Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/programming-foundations-with-python--ud036"
+		}, {
+			"id": "649",
+			"name": "Learn About Python | Udacity",
+			"previewLink": "https://www.udacity.com/learn/python"
+		}, {
+			"id": "650",
+			"name": "Complete Python Bootcamp | Udemy",
+			"previewLink": "https://www.udemy.com/complete-python-bootcamp/"
+		}, {
+			"id": "651",
+			"name": "The Ultimate Python Programming Tutorial | Udemy",
+			"previewLink": "https://www.udemy.com/the-ultimate-python-programming-course/"
+		}, {
+			"id": "652",
+			"name": "Programming for Everybody (Getting Started with Python) - University of Michigan | Coursera",
+			"previewLink": "https://www.coursera.org/learn/python"
+		}]
+	}, {
+		"name": "razor",
+		"recommendations": [{
+			"id": "653",
+			"name": "Udacity – Intro to Artificial Intelligence – Supervised Machine Learning – Occams Razor | Mathalope",
+			"previewLink": "http://mathalope.co.uk/2015/07/04/udacity-intro-to-artificial-intelligence-supervised-machine-learning-occams-razor/"
+		}, {
+			"id": "654",
+			"name": "Udacity - Intro to Artificial Intelligence - Notes | Mathalope",
+			"previewLink": "http://mathalope.co.uk/udacity-intro-to-artificial-intelligence-notes/"
+		}, {
+			"id": "655",
+			"name": "Learn Basic Microsoft Razor with JQuery and Visual Studio | Udemy",
+			"previewLink": "https://www.udemy.com/explorewebsitedevelopment/"
+		}, {
+			"id": "656",
+			"name": "The Complete ASP.NET MVC 5 Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-aspnet-mvc-5-course/"
+		}, {
+			"id": "657",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/ml-classification/lecture/tUvBS/principle-of-occams-razor-learning-simpler-decision-trees"
+		}]
+	}, {
+		"name": "regex",
+		"recommendations": [{
+			"id": "659",
+			"name": "Design of Computer Programs | Udacity",
+			"previewLink": "https://www.udacity.com/course/design-of-computer-programs--cs212"
+		}, {
+			"id": "660",
+			"name": "Writing READMEs | Udacity",
+			"previewLink": "https://www.udacity.com/course/writing-readmes--ud777"
+		}, {
+			"id": "661",
+			"name": "Beginners - Learning Regular Expressions For Programmers | Udemy",
+			"previewLink": "https://www.udemy.com/learning-regular-expressions/"
+		}, {
+			"id": "662",
+			"name": "Java Regular Expression Foundation | Udemy",
+			"previewLink": "https://www.udemy.com/java-regular-expression-foundation/"
+		}, {
+			"id": "663",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/python-network-data/lecture/qxJHd/regular-expressions-part-1"
+		}]
+	}, {
+		"name": "reporting-services",
+		"recommendations": [{
+			"id": "665",
+			"name": "Udacity for Business",
+			"previewLink": "https://www.udacity.com/business"
+		}, {
+			"id": "666",
+			"name": "Udacity Legal Information",
+			"previewLink": "https://www.udacity.com/legal"
+		}, {
+			"id": "667",
+			"name": "Practical SQL Reporting with SSRS | Udemy",
+			"previewLink": "https://www.udemy.com/practical-sql-reporting-with-ssrs/"
+		}, {
+			"id": "668",
+			"name": "Learn SQL Reporting Services Beginning Report Training | Udemy",
+			"previewLink": "https://www.udemy.com/beginner-sql-server-reporting-services/"
+		}]
+	}, {
+		"name": "rest",
+		"recommendations": [{
+			"id": "669",
+			"name": "Designing RESTful APIs | Udacity",
+			"previewLink": "https://www.udacity.com/course/designing-restful-apis--ud388"
+		}, {
+			"id": "670",
+			"name": "Designing RESTful APIs | Udacity",
+			"previewLink": "https://de.udacity.com/course/designing-restful-apis--ud388/"
+		}, {
+			"id": "671",
+			"name": "RESTful Java Web Services | Udemy",
+			"previewLink": "https://www.udemy.com/rest-web-services-using-java-ee/"
+		}, {
+			"id": "672",
+			"name": "WebServices/REST API Testing with SoapUI+ Real Time Projects | Udemy",
+			"previewLink": "https://www.udemy.com/webservices-testing-with-soap-ui/"
+		}, {
+			"id": "673",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/ruby-on-rails-web-services-mongodb/lecture/lCtRB/rest-and-rmm"
+		}]
+	}, {
+		"name": "rspec",
+		"recommendations": [{
+			"id": "675",
+			"name": "udacity-solo/.rspec at master · udacity/udacity-solo · GitHub",
+			"previewLink": "https://github.com/udacity/udacity-solo/blob/master/.rspec"
+		}, {
+			"id": "676",
+			"name": "udacity-solo/spec_helper_acceptance.rb at master · udacity/udacity-solo · GitHub",
+			"previewLink": "https://github.com/udacity/udacity-solo/blob/master/spec/spec_helper_acceptance.rb"
+		}, {
+			"id": "677",
+			"name": "BDD with Ruby on Rails using RSpec 3 and Capybara | Udemy",
+			"previewLink": "https://www.udemy.com/rubyonrails-bdd-rspec-capybara/"
+		}, {
+			"id": "678",
+			"name": "Ruby on Rails 5 - BDD, RSpec and Capybara | Udemy",
+			"previewLink": "https://www.udemy.com/ruby-rails-5-bdd-rspec-capybara/"
+		}, {
+			"id": "679",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/ruby-on-rails-intro/lecture/iBODZ/introduction-to-rspec"
+		}]
+	}, {
+		"name": "rtc",
+		"recommendations": [{
+			"id": "681",
+			"name": "Renton Technical College • Free Online Courses and MOOCs | Class Central",
+			"previewLink": "https://www.class-central.com/university/rtc"
+		}, {
+			"id": "682",
+			"name": "Google: What's next for WebRTC?  |  Web  |  Google Developers",
+			"previewLink": "https://developers.google.com/web/shows/webrtc/2015/krankygeek-12-google"
+		}, {
+			"id": "683",
+			"name": "Learning WebRTC Application Development | Udemy",
+			"previewLink": "https://www.udemy.com/learning-webrtc-application-development/"
+		}, {
+			"id": "684",
+			"name": "Developing Real Time Applications with WebRTC | Udemy",
+			"previewLink": "https://www.udemy.com/developing-real-time-applications-with-webrtc/"
+		}, {
+			"id": "685",
+			"name": "WebRTC Training and Certification with the WSQD™ and WSQI™ - Training and Certification",
+			"previewLink": "https://www.webrtcschool.com/courses/view"
+		}]
+	}, {
+		"name": "ruby",
+		"recommendations": [{
+			"id": "687",
+			"name": "Full Stack Web Developer Nanodegree | Udacity",
+			"previewLink": "https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004"
+		}, {
+			"id": "688",
+			"name": "Beginning Ruby Nanodegree program Archives | Udacity",
+			"previewLink": "http://blog.udacity.com/category/beginning-ruby-nanodegree-program"
+		}, {
+			"id": "689",
+			"name": "Ruby Programming for Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/learn-ruby-programming-in-ten-easy-steps/"
+		}, {
+			"id": "690",
+			"name": "The Complete Ruby on Rails Developer Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-ruby-on-rails-developer-course/"
+		}, {
+			"id": "691",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/ruby-on-rails"
+		}]
+	}, {
+		"name": "ruby-on-rails",
+		"recommendations": [{
+			"id": "693",
+			"name": "Ruby on Rails Archives | Udacity",
+			"previewLink": "http://blog.udacity.com/category/ruby-on-rails"
+		}, {
+			"id": "694",
+			"name": "Ruby on Rails Developer",
+			"previewLink": "https://in.udacity.com/course/ruby-on-rails-developer--nd020"
+		}, {
+			"id": "695",
+			"name": "The Complete Ruby on Rails Developer Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-ruby-on-rails-developer-course/"
+		}, {
+			"id": "696",
+			"name": "The Professional Ruby on Rails Developer | Udemy",
+			"previewLink": "https://www.udemy.com/pro-rubyonrails/"
+		}, {
+			"id": "697",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/ruby-on-rails"
+		}]
+	}, {
+		"name": "ruby-on-rails-3",
+		"recommendations": [{
+			"id": "699",
+			"name": "Ruby on Rails Developer",
+			"previewLink": "https://in.udacity.com/course/ruby-on-rails-developer--nd020"
+		}, {
+			"id": "700",
+			"name": "Ruby on Rails Archives | Udacity",
+			"previewLink": "http://blog.udacity.com/category/ruby-on-rails"
+		}, {
+			"id": "701",
+			"name": "The Complete Ruby on Rails Developer Course | Udemy",
+			"previewLink": "https://www.udemy.com/the-complete-ruby-on-rails-developer-course/"
+		}, {
+			"id": "702",
+			"name": "The Professional Ruby on Rails Developer | Udemy",
+			"previewLink": "https://www.udemy.com/pro-rubyonrails/"
+		}, {
+			"id": "703",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/ruby-on-rails"
+		}]
+	}, {
+		"name": "scala",
+		"recommendations": [{
+			"id": "705",
+			"name": "3 New Programming Languages You Should Know | Udacity",
+			"previewLink": "http://blog.udacity.com/2015/05/3-new-programming-languages-know.html"
+		}, {
+			"id": "706",
+			"name": "Functional Programming Principles in Scala - École Polytechnique Fédérale de Lausanne | Coursera",
+			"previewLink": "https://www.coursera.org/learn/progfun1"
+		}, {
+			"id": "707",
+			"name": "Beginning Scala Programming | Udemy",
+			"previewLink": "https://www.udemy.com/beginning-scala-programming/"
+		}, {
+			"id": "708",
+			"name": "Learn To Build Scala Apps From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-to-build-scala-apps-from-scratch/"
+		}, {
+			"id": "709",
+			"name": "Functional Programming Principles in Scala - École Polytechnique Fédérale de Lausanne | Coursera",
+			"previewLink": "https://www.coursera.org/learn/progfun1"
+		}]
+	}, {
+		"name": "screen-readers",
+		"recommendations": [{
+			"id": "711",
+			"name": "Web Accessibility | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-accessibility--ud891"
+		}, {
+			"id": "712",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud891/l-7962141425/m-7959131646"
+		}, {
+			"id": "713",
+			"name": "Web Accessibility: Learn Best Practices, Tools & Techniques | Udemy",
+			"previewLink": "https://www.udemy.com/website-accessibility-course/"
+		}, {
+			"id": "714",
+			"name": "Speed Reading for Work and Leisure. | Udemy",
+			"previewLink": "https://www.udemy.com/speed-reading/"
+		}, {
+			"id": "715",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/disability-awareness/lecture/BfDgt/screen-reader-demonstration"
+		}]
+	}, {
+		"name": "security",
+		"recommendations": [{
+			"id": "716",
+			"name": "Intro to Information Security | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-information-security--ud459"
+		}, {
+			"id": "717",
+			"name": "Applied Cryptography and Encryption Class Online | Udacity",
+			"previewLink": "https://www.udacity.com/course/applied-cryptography--cs387"
+		}, {
+			"id": "718",
+			"name": "Cyber Security | Udemy",
+			"previewLink": "https://www.udemy.com/cyber-security/"
+		}, {
+			"id": "719",
+			"name": "Network and Security Online Courses - Beginner to Advanced",
+			"previewLink": "https://www.udemy.com/courses/it-and-software/network-and-security/"
+		}, {
+			"id": "720",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/cyber-security"
+		}]
+	}, {
+		"name": "semantic-markup",
+		"recommendations": [{
+			"id": "721",
+			"name": "Web Accessibility | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-accessibility--ud891"
+		}, {
+			"id": "722",
+			"name": "Senior Web Developer Nanodegree by Google | Udacity",
+			"previewLink": "https://www.udacity.com/course/senior-web-developer-nanodegree-by-google--nd802"
+		}, {
+			"id": "723",
+			"name": "Bulletproof HTML and CSS | Udemy",
+			"previewLink": "https://www.udemy.com/html-and-css-deep-dive/"
+		}, {
+			"id": "724",
+			"name": "Advanced CSS Training | Udemy",
+			"previewLink": "https://www.udemy.com/advanced-css-training/"
+		}, {
+			"id": "725",
+			"name": "Building Coursera | Make editing courses on Coursera fun!",
+			"previewLink": "https://building.coursera.org/blog/2015/03/31/make-editing-courses-on-coursera-fun/"
+		}]
+	}, {
+		"name": "silverlight",
+		"recommendations": [{
+			"id": "727",
+			"name": "Udacity обучает разработке HTML5-игр – Russian Coding 4 Fun",
+			"previewLink": "https://blogs.msdn.microsoft.com/rucoding4fun/2013/03/18/udacity-html5/"
+		}, {
+			"id": "728",
+			"name": "Mobile App Development made easy with Visual Studio and Xamarin | The Visual Studio Blog",
+			"previewLink": "https://blogs.msdn.microsoft.com/visualstudio/2016/03/31/mobile-app-development-made-easy-with-visual-studio-and-xamarin/"
+		}, {
+			"id": "729",
+			"name": "Silverlight by Udemy - be the first to review this course | CourseTalk",
+			"previewLink": "https://www.coursetalk.com/providers/udemy/courses/silverlight"
+		}, {
+			"id": "730",
+			"name": "Silverlight by Udemy - online course reviews and ratings | CourseTalk",
+			"previewLink": "https://www.coursetalk.com/amp/providers/udemy/courses/silverlight"
+		}]
+	}, {
+		"name": "soap",
+		"recommendations": [{
+			"id": "731",
+			"name": "Designing RESTful APIs | Udacity",
+			"previewLink": "https://www.udacity.com/course/designing-restful-apis--ud388"
+		}, {
+			"id": "732",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-none/l-300800669/e-300456760/m-300456761"
+		}, {
+			"id": "733",
+			"name": "WebServices/REST API Testing with SoapUI+ Real Time Projects | Udemy",
+			"previewLink": "https://www.udemy.com/webservices-testing-with-soap-ui/"
+		}, {
+			"id": "734",
+			"name": "Advanced Scenery in Soap | Udemy",
+			"previewLink": "https://www.udemy.com/advanced-scenery-in-soap/"
+		}, {
+			"id": "735",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/cloud-applications-part1/lecture/fg2QI/3-3-4-http-soap-rest"
+		}]
+	}, {
+		"name": "spring",
+		"recommendations": [{
+			"id": "737",
+			"name": "All Courses and Nanodegree Programs | Udacity",
+			"previewLink": "https://www.udacity.com/courses/all"
+		}, {
+			"id": "738",
+			"name": "The Java Spring Tutorial: Learn Java's Popular Web Framework | Udemy",
+			"previewLink": "https://www.udemy.com/javaspring/"
+		}, {
+			"id": "739",
+			"name": "The Java Spring Tutorial: Learn Java's Popular Web Framework | Udemy",
+			"previewLink": "https://www.udemy.com/javaspring/"
+		}, {
+			"id": "740",
+			"name": "Spring and Hibernate for Beginners: Learn Step-By-Step | Udemy",
+			"previewLink": "https://www.udemy.com/spring-hibernate-tutorial/"
+		}, {
+			"id": "741",
+			"name": "Courses | Coursera",
+			"previewLink": "https://www.coursera.org/courses"
+		}]
+	}, {
+		"name": "spring-batch",
+		"recommendations": [{
+			"id": "743",
+			"name": "Spring Batch",
+			"previewLink": "http://projects.spring.io/spring-batch/"
+		}, {
+			"id": "744",
+			"name": "1. Spring Batch Introduction",
+			"previewLink": "http://docs.spring.io/spring-batch/reference/html/spring-batch-intro.html"
+		}, {
+			"id": "745",
+			"name": "The Java Spring Tutorial: Learn Java's Popular Web Framework | Udemy",
+			"previewLink": "https://www.udemy.com/javaspring/"
+		}, {
+			"id": "746",
+			"name": "My Next Course on Udemy",
+			"previewLink": "http://therealdanvega.com/blog/2016/01/11/my-next-course-on-udemy"
+		}, {
+			"id": "747",
+			"name": "Spring Batch",
+			"previewLink": "http://projects.spring.io/spring-batch/"
+		}]
+	}, {
+		"name": "spring-boot",
+		"recommendations": [{
+			"id": "749",
+			"name": "Learn Spring Boot - Rapid Spring Application Development | Udemy",
+			"previewLink": "https://www.udemy.com/spring-boot-intro/"
+		}, {
+			"id": "750",
+			"name": "All Courses and Nanodegree Programs | Udacity",
+			"previewLink": "https://www.udacity.com/courses/all"
+		}, {
+			"id": "751",
+			"name": "Learn Spring Boot - Rapid Spring Application Development | Udemy",
+			"previewLink": "https://www.udemy.com/spring-boot-intro/"
+		}, {
+			"id": "752",
+			"name": "Spring Core - Learn Spring Framework 4 and Spring Boot | Udemy",
+			"previewLink": "https://www.udemy.com/spring-core/"
+		}, {
+			"id": "753",
+			"name": "Learn Spring Boot - Rapid Spring Application Development | Udemy",
+			"previewLink": "https://www.udemy.com/spring-boot-intro/"
+		}]
+	}, {
+		"name": "spring-data-jpa",
+		"recommendations": [{
+			"id": "755",
+			"name": "Java Spring Framework 4 with Spring Data JPA and Hibernate | Udemy",
+			"previewLink": "https://www.udemy.com/java-spring-mvc-framework-with-java-based-configuration/"
+		}, {
+			"id": "756",
+			"name": "Learn Spring Boot - Rapid Spring Application Development | Udemy",
+			"previewLink": "https://www.udemy.com/spring-boot-intro/"
+		}, {
+			"id": "757",
+			"name": "Getting Started with Spring Data JPA | Pluralsight",
+			"previewLink": "https://www.pluralsight.com/courses/spring-data-jpa-getting-started"
+		}, {
+			"id": "758",
+			"name": "Spring Data JPA Course - Spring Framework Guru",
+			"previewLink": "https://springframework.guru/spring-courses/spring-data-jpa-course/"
+		}]
+	}, {
+		"name": "spring-mvc",
+		"recommendations": [{
+			"id": "759",
+			"name": "The Java Spring Tutorial: Learn Java's Popular Web Framework | Udemy",
+			"previewLink": "https://www.udemy.com/javaspring/"
+		}, {
+			"id": "760",
+			"name": "What are some good spring online courses? - Quora",
+			"previewLink": "https://www.quora.com/What-are-some-good-spring-online-courses"
+		}, {
+			"id": "761",
+			"name": "Spring MVC For Beginners : Build Java Web App in 25 Steps | Udemy",
+			"previewLink": "https://www.udemy.com/spring-mvc-tutorial-for-beginners-step-by-step/"
+		}, {
+			"id": "762",
+			"name": "The Java Spring Tutorial: Learn Java's Popular Web Framework | Udemy",
+			"previewLink": "https://www.udemy.com/javaspring/"
+		}, {
+			"id": "763",
+			"name": "Web Application Development: Basic Concepts - University of New Mexico | Coursera",
+			"previewLink": "https://www.coursera.org/learn/web-app"
+		}]
+	}, {
+		"name": "sql",
+		"recommendations": [{
+			"id": "765",
+			"name": "Intro to Relational Databases | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+		}, {
+			"id": "766",
+			"name": "What are some good online SQL courses? - Quora",
+			"previewLink": "https://www.quora.com/What-are-some-good-online-SQL-courses"
+		}, {
+			"id": "767",
+			"name": "SQL for Newbs Masterclass: Beginner Data Analysis | Udemy",
+			"previewLink": "https://www.udemy.com/sql-for-newbs/"
+		}, {
+			"id": "768",
+			"name": "Top SQL Courses - Learn SQL for Databases",
+			"previewLink": "https://www.udemy.com/courses/it-and-software/other/sql-courses/"
+		}, {
+			"id": "769",
+			"name": "Managing Big Data with MySQL - Duke University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/analytics-mysql"
+		}]
+	}, {
+		"name": "sql-server",
+		"recommendations": [{
+			"id": "770",
+			"name": "Intro to Relational Databases | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+		}, {
+			"id": "771",
+			"name": "What are some good online SQL courses? - Quora",
+			"previewLink": "https://www.quora.com/What-are-some-good-online-SQL-courses"
+		}]
+	}, {
+		"name": "sql-server-2005",
+		"recommendations": [{
+			"id": "772",
+			"name": "Microsoft SQL Server 101 | Udemy",
+			"previewLink": "https://www.udemy.com/microsoft-sql-server-101/"
+		}, {
+			"id": "773",
+			"name": "Intro to Relational Databases | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-relational-databases--ud197"
+		}, {
+			"id": "774",
+			"name": "SQL Server for Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/sql-server-for-beginners/"
+		}, {
+			"id": "775",
+			"name": "Learn MS SQL Server From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-ms-sql-server-from-scratch/"
+		}, {
+			"id": "776",
+			"name": "SQL Server Training Courses - Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/product-training/sql-server"
+		}]
+	}, {
+		"name": "sql-server-2008",
+		"recommendations": [{
+			"id": "777",
+			"name": "Microsoft - Free Courses from Microsoft | edX",
+			"previewLink": "https://www.edx.org/school/microsoft"
+		}, {
+			"id": "778",
+			"name": "Microsoft SQL Server 101 | Udemy",
+			"previewLink": "https://www.udemy.com/microsoft-sql-server-101/"
+		}, {
+			"id": "779",
+			"name": "SQL Server Training Courses - Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/product-training/sql-server"
+		}]
+	}, {
+		"name": "sqlite",
+		"recommendations": [{
+			"id": "780",
+			"name": "Android Basics: Data Storage | Udacity",
+			"previewLink": "https://www.udacity.com/course/android-basics-data-storage--ud845"
+		}, {
+			"id": "781",
+			"name": "Developing Android Apps | Udacity",
+			"previewLink": "https://www.udacity.com/course/developing-android-apps--ud853"
+		}, {
+			"id": "782",
+			"name": "SQLite Tutorial for Beginners",
+			"previewLink": "https://blog.udemy.com/sqlite-tutorial/"
+		}, {
+			"id": "783",
+			"name": "Learn SQLite Programming on Android Kitkat | Udemy",
+			"previewLink": "https://www.udemy.com/learn-sqlite-programming-on-android-kitkat/"
+		}, {
+			"id": "784",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/rails-with-active-record/lecture/WsyDd/database-setup-and-sqlite"
+		}]
+	}, {
+		"name": "stl",
+		"recommendations": [{
+			"id": "786",
+			"name": "Writing READMEs | Udacity",
+			"previewLink": "https://www.udacity.com/course/writing-readmes--ud777"
+		}, {
+			"id": "787",
+			"name": "College Archives | Udacity",
+			"previewLink": "http://blog.udacity.com/category/college"
+		}, {
+			"id": "788",
+			"name": "Byte-Sized-Chunks: C++ Templates and the STL | Udemy",
+			"previewLink": "https://www.udemy.com/cpp-templates-and-the-stl/"
+		}, {
+			"id": "789",
+			"name": "Advanced C++ Programming Training Course | Udemy",
+			"previewLink": "https://www.udemy.com/advanced-c-programming/"
+		}, {
+			"id": "790",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/c-plus-plus-a/lecture/Qml0C/4-6-stl-and-stl-c-11"
+		}]
+	}, {
+		"name": "string",
+		"recommendations": [{
+			"id": "792",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud000/l-4128968716/m-48700403"
+		}, {
+			"id": "793",
+			"name": "cs101/occurs in the string that <strong>page</strong> refers to.<p></p><p></p> - Udacity",
+			"previewLink": "https://www.udacity.com/wiki/cs101/occurs-in-the-string-that-%3Cstrong%3Epage%3C/strong%3E-refers-to.%3C/p%3E%3Cp%3E%3Ca-href%3D%22/wiki/cs101-unit-1"
+		}, {
+			"id": "794",
+			"name": "38 Java String-Related Techniques Making Your Life Easier | Udemy",
+			"previewLink": "https://www.udemy.com/38-java-string-related-techniques/"
+		}, {
+			"id": "795",
+			"name": "What no one tells you about Pointer, String, Structure-Union | Udemy",
+			"previewLink": "https://www.udemy.com/c-training-series/"
+		}, {
+			"id": "796",
+			"name": "The World of the String Quartet - Curtis Institute of Music | Coursera",
+			"previewLink": "https://www.coursera.org/learn/string-quartet"
+		}]
+	}, {
+		"name": "struts2",
+		"recommendations": [{
+			"id": "798",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-development--cs253"
+		}, {
+			"id": "799",
+			"name": "Where can I find online tutorials and resources for building web applications? - Quora",
+			"previewLink": "https://www.quora.com/Where-can-I-find-online-tutorials-and-resources-for-building-web-applications"
+		}, {
+			"id": "800",
+			"name": "Java EE 7 A Practical Training Course From Infinite Skills | Udemy",
+			"previewLink": "https://www.udemy.com/java-ee-7/"
+		}, {
+			"id": "801",
+			"name": "Struts.xml: The Default Settings for Your Strut Applications",
+			"previewLink": "https://blog.udemy.com/struts-xml/"
+		}, {
+			"id": "802",
+			"name": "Programming Languages, Part A - University of Washington | Coursera",
+			"previewLink": "https://www.coursera.org/learn/programming-languages"
+		}]
+	}, {
+		"name": "styles",
+		"recommendations": [{
+			"id": "804",
+			"name": "Discover 8 Learning Styles and Become a Super Student! | Udemy",
+			"previewLink": "https://www.udemy.com/eight-learning-styles/"
+		}, {
+			"id": "805",
+			"name": "Hand Lettering: Learn Three Styles from A-Z | Udemy",
+			"previewLink": "https://www.udemy.com/hand-lettering-learn-three-styles-from-a-z/"
+		}, {
+			"id": "806",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/managing-human-resources/lecture/VhLUg/video-alternative-managerial-styles"
+		}, {
+			"id": "807",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/fundamentals-of-management/lecture/9FH1O/4-2-leadership-styles"
+		}]
+	}, {
+		"name": "svn",
+		"recommendations": [{
+			"id": "808",
+			"name": "GitHub - udacity/ud615: Course code for Scalable Microservices with Kubernetes",
+			"previewLink": "https://github.com/udacity/ud615"
+		}, {
+			"id": "809",
+			"name": "GitHub - udacity/ud825-render: Course code repository for Android Performance - Rendering lesson",
+			"previewLink": "https://github.com/udacity/ud825-render"
+		}, {
+			"id": "810",
+			"name": "Comprehensive Subversion | Udemy",
+			"previewLink": "https://www.udemy.com/comprehensive-subversion/"
+		}, {
+			"id": "811",
+			"name": "Control de versiones con Subversion | Udemy",
+			"previewLink": "https://www.udemy.com/subversion/"
+		}, {
+			"id": "812",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/real-life-data-science/lecture/Rzn3e/version-control"
+		}]
+	}, {
+		"name": "syntax",
+		"recommendations": [{
+			"id": "814",
+			"name": "Learn Swift Programming Syntax | Udacity",
+			"previewLink": "https://www.udacity.com/course/learn-swift-programming-syntax--ud902"
+		}, {
+			"id": "815",
+			"name": "Java Programming Basics | Udacity",
+			"previewLink": "https://www.udacity.com/course/java-programming-basics--ud282"
+		}, {
+			"id": "816",
+			"name": "R programming in 4 hours - Frequently used syntax by example | Udemy",
+			"previewLink": "https://www.udemy.com/introduction-to-r-programming-learn-r-syntax-by-example/"
+		}, {
+			"id": "817",
+			"name": "The Complete JavaScript Course For Web Development Beginners | Udemy",
+			"previewLink": "https://www.udemy.com/javascriptcourse/"
+		}, {
+			"id": "818",
+			"name": "Coursera | Online Courses From Top Universities. Join for Free",
+			"previewLink": "https://www.coursera.org/learn/matlab/lecture/Cu11o/syntax-and-semantics"
+		}]
+	}, {
+		"name": "templates",
+		"recommendations": [{
+			"id": "820",
+			"name": "Front End Frameworks | Udacity",
+			"previewLink": "https://www.udacity.com/course/front-end-frameworks--ud894"
+		}, {
+			"id": "821",
+			"name": "Intro to Backend | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-backend--ud171"
+		}, {
+			"id": "822",
+			"name": "Udemy Templates from ThemeForest",
+			"previewLink": "https://themeforest.net/tags/udemy"
+		}, {
+			"id": "823",
+			"name": "Complete Web Developer Course to Build Premium Web Templates | Udemy",
+			"previewLink": "https://www.udemy.com/complete-web-developer-course-to-build-premium-web-templates/"
+		}, {
+			"id": "824",
+			"name": "Coursera Templates from ThemeForest",
+			"previewLink": "https://themeforest.net/tags/coursera"
+		}]
+	}, {
+		"name": "text",
+		"recommendations": [{
+			"id": "826",
+			"name": "13 Useful Web Dev Tools You Can't Live Without | Udacity",
+			"previewLink": "http://blog.udacity.com/2015/04/13-useful-web-dev-tools-cant-live-without.html"
+		}, {
+			"id": "827",
+			"name": "Android Visualizer",
+			"previewLink": "http://labs.udacity.com/android-visualizer/"
+		}, {
+			"id": "828",
+			"name": "Course Design - How to Create Impressive Text Animations | Udemy",
+			"previewLink": "https://www.udemy.com/udemy-course-design-text-animations-kinetic-typography/"
+		}, {
+			"id": "829",
+			"name": "Kinetic Typography Crash Course - Create Motion Graphic Text | Udemy",
+			"previewLink": "https://www.udemy.com/kinetic-typography-crash-course/"
+		}, {
+			"id": "830",
+			"name": "Text Mining and Analytics - University of Illinois at Urbana-Champaign | Coursera",
+			"previewLink": "https://www.coursera.org/learn/text-mining"
+		}]
+	}, {
+		"name": "tomcat",
+		"recommendations": [{
+			"id": "832",
+			"name": "A Step by Step Guide to Install LAMP (Linux, Apache, MySQL, Python) on Ubuntu | Udacity",
+			"previewLink": "http://blog.udacity.com/2015/03/step-by-step-guide-install-lamp-linux-apache-mysql-python-ubuntu.html"
+		}, {
+			"id": "833",
+			"name": "The Java Spring Tutorial: Learn Java's Popular Web Framework | Udemy",
+			"previewLink": "https://www.udemy.com/javaspring/"
+		}, {
+			"id": "834",
+			"name": "Your First JSP on Apache Tomcat Server",
+			"previewLink": "https://blog.udemy.com/apache-tomcat-tutorial/"
+		}, {
+			"id": "835",
+			"name": "Java para Web I - html, jsp, tomcat, postgresql | Udemy",
+			"previewLink": "https://www.udemy.com/java-para-web-i-html-jsp-tomcat-postgresql/"
+		}, {
+			"id": "836",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/scala"
+		}]
+	}, {
+		"name": "tsql",
+		"recommendations": [{
+			"id": "838",
+			"name": "T-SQL – A Cup of Tea + Some Lines of Code",
+			"previewLink": "https://kmhorne3.wordpress.com/tag/t-sql/"
+		}, {
+			"id": "839",
+			"name": "18+ Best Online Resources for Learning SQL and Database Concepts",
+			"previewLink": "http://www.vertabelo.com/blog/notes-from-the-lab/18-best-online-resources-for-learning-sql-and-database"
+		}, {
+			"id": "840",
+			"name": "Introduction to T-SQL for Data Analysts | Udemy",
+			"previewLink": "https://www.udemy.com/t-sql-for-data-analysts/"
+		}, {
+			"id": "841",
+			"name": "Advanced Databases and SQL Querying | Udemy",
+			"previewLink": "https://www.udemy.com/advanced-tsql-querying-using-sql-2014/"
+		}]
+	}, {
+		"name": "unix",
+		"recommendations": [{
+			"id": "842",
+			"name": "Linux Command Line Basics | Udacity",
+			"previewLink": "https://www.udacity.com/course/linux-command-line-basics--ud595"
+		}, {
+			"id": "843",
+			"name": "Seven Beginner’s Courses That Everyone Can Master | Udacity",
+			"previewLink": "http://blog.udacity.com/2015/09/seven-beginners-courses-that-everyone-can-master.html"
+		}, {
+			"id": "844",
+			"name": "UNIX/Linux Operating system - Beginner to Advanced | Udemy",
+			"previewLink": "https://www.udemy.com/unix-linux-operating-system/"
+		}, {
+			"id": "845",
+			"name": "Learn Linux: Become an Unix Master | Udemy",
+			"previewLink": "https://www.udemy.com/learn-linux-become-a-unix-master/"
+		}, {
+			"id": "846",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/internet-of-things-dragonboard/lecture/nelGL/unix"
+		}]
+	}, {
+		"name": "url",
+		"recommendations": [{
+			"id": "847",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-cs101/l-48299949/m-48741038"
+		}, {
+			"id": "848",
+			"name": "13 Useful Web Dev Tools You Can't Live Without | Udacity",
+			"previewLink": "http://blog.udacity.com/2015/04/13-useful-web-dev-tools-cant-live-without.html"
+		}, {
+			"id": "849",
+			"name": "What is The Course URL? – Udemy",
+			"previewLink": "https://support.udemy.com/hc/en-us/articles/229605968-What-is-The-Course-URL-"
+		}, {
+			"id": "850",
+			"name": "403 Forbidden",
+			"previewLink": "https://building.coursera.org/app-platform/catalog"
+		}]
+	}, {
+		"name": "user-interface",
+		"recommendations": [{
+			"id": "851",
+			"name": "UX Design for Mobile Developers Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/ux-design-for-mobile-developers--ud849"
+		}, {
+			"id": "852",
+			"name": "Android Development for Beginners: How to Make Apps | Udacity",
+			"previewLink": "https://www.udacity.com/course/ud834"
+		}, {
+			"id": "853",
+			"name": "Master UI Design : Complete Guide To Creating Great UI | Udemy",
+			"previewLink": "https://www.udemy.com/master-ui-design-complete-guide-to-creating-great-ui/"
+		}, {
+			"id": "854",
+			"name": "UI Design in Photoshop - Start Designing Web & Mobile Apps | Udemy",
+			"previewLink": "https://www.udemy.com/learn-photoshop-for-ui-design-from-scratch/"
+		}, {
+			"id": "855",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/user-interface-design"
+		}]
+	}, {
+		"name": "vaadin",
+		"recommendations": [{
+			"id": "857",
+			"name": "Random Thoughts on Java Programming: Vaadin 7",
+			"previewLink": "http://randomthoughtsonjavaprogramming.blogspot.com/2016/01/vaadin-7.html"
+		}, {
+			"id": "858",
+			"name": "Coursera's Scala Course - DZone Java",
+			"previewLink": "https://dzone.com/articles/courseras-scala-course"
+		}]
+	}, {
+		"name": "validation",
+		"recommendations": [{
+			"id": "859",
+			"name": "Model Building and Validation | Udacity",
+			"previewLink": "https://www.udacity.com/course/model-building-and-validation--ud919"
+		}, {
+			"id": "860",
+			"name": "Product Design | Udacity",
+			"previewLink": "https://www.udacity.com/course/product-design--ud509"
+		}, {
+			"id": "861",
+			"name": "Idea Validation: From Idea to Paying Customer in One Day | Udemy",
+			"previewLink": "https://www.udemy.com/idea-validation-from-idea-to-paying-customer-in-2-hours/"
+		}, {
+			"id": "862",
+			"name": "5 Steps to Idea Validation in The Real World | Udemy",
+			"previewLink": "https://www.udemy.com/5-steps-to-idea-validation-in-the-real-world/"
+		}, {
+			"id": "863",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/machinelearningwithbigdata/lecture/u1Y7n/model-evaluation-and-validation"
+		}]
+	}, {
+		"name": "vb.net",
+		"recommendations": [{
+			"id": "865",
+			"name": "learning VB.net : learnprogramming",
+			"previewLink": "https://www.reddit.com/r/learnprogramming/comments/3a690s/learning_vbnet/"
+		}, {
+			"id": "866",
+			"name": "What is the best way to start learning Visual Basic for applications for a financial analyst? - Quora",
+			"previewLink": "https://www.quora.com/What-is-the-best-way-to-start-learning-Visual-Basic-for-applications-for-a-financial-analyst"
+		}, {
+			"id": "867",
+			"name": "Learning Visual Basic .NET - A Guide To VB.NET Programming | Udemy",
+			"previewLink": "https://www.udemy.com/learning-visual-basic-net/"
+		}, {
+			"id": "868",
+			"name": "Learn VB.NET with Microsoft Visual Studio 2013 | Udemy",
+			"previewLink": "https://www.udemy.com/mastervbdotnet/"
+		}, {
+			"id": "869",
+			"name": "Courses | Coursera",
+			"previewLink": "https://www.coursera.org/courses"
+		}]
+	}, {
+		"name": "vba",
+		"recommendations": [{
+			"id": "871",
+			"name": "Reviews for Introduction to VBA/Excel Programming from Open Education by Blackboard | Class Central",
+			"previewLink": "https://www.class-central.com/mooc/1797/open-education-by-blackboard-introduction-to-vba-excel-programming"
+		}, {
+			"id": "872",
+			"name": "Visual Basic for Excel - Microsoft VBA Excel Tutorial | Udemy",
+			"previewLink": "https://www.udemy.com/learning-visual-basic-for-microsoft-excel/"
+		}, {
+			"id": "873",
+			"name": "Ultimate Excel VBA | Udemy",
+			"previewLink": "https://www.udemy.com/ultimate-excel-vba/"
+		}, {
+			"id": "874",
+			"name": "Visual Basic for Excel - Microsoft VBA Excel Tutorial | Udemy",
+			"previewLink": "https://www.udemy.com/learning-visual-basic-for-microsoft-excel/"
+		}, {
+			"id": "875",
+			"name": "Mastering Data Analysis in Excel - Duke University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/analytics-excel"
+		}]
+	}, {
+		"name": "vector",
+		"recommendations": [{
+			"id": "877",
+			"name": "Linear Algebra Refresher Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/linear-algebra-refresher-course--ud953"
+		}, {
+			"id": "878",
+			"name": "Intro to Machine Learning Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
+		}, {
+			"id": "879",
+			"name": "A Beginners Guide to creating Vector Graphics With Photoshop | Udemy",
+			"previewLink": "https://www.udemy.com/beginners-guide-course-to-vector-graphics-with-adobe-photoshop-course/"
+		}, {
+			"id": "880",
+			"name": "How to Create Vector Characters in Illustrator or Photoshop | Udemy",
+			"previewLink": "https://www.udemy.com/how-to-create-vector-characters-in-illustrator-or-photoshop/"
+		}, {
+			"id": "881",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/machine-learning/lecture/38jIT/matrices-and-vectors"
+		}]
+	}, {
+		"name": "video",
+		"recommendations": [{
+			"id": "883",
+			"name": "Udacity - YouTube",
+			"previewLink": "https://www.youtube.com/user/Udacity"
+		}, {
+			"id": "884",
+			"name": "How To Build A Startup: The Lean Launchpad | Udacity",
+			"previewLink": "https://www.udacity.com/course/how-to-build-a-startup--ep245"
+		}, {
+			"id": "885",
+			"name": "Udemy Online Courses - Learn Anything, On Your Schedule",
+			"previewLink": "https://www.udemy.com/"
+		}, {
+			"id": "886",
+			"name": "How to Create an Awesome Demo Video for Your Business | Udemy",
+			"previewLink": "https://www.udemy.com/how-to-create-awesome-demo-videos/"
+		}, {
+			"id": "887",
+			"name": "coursera - YouTube",
+			"previewLink": "https://www.youtube.com/user/coursera"
+		}]
+	}, {
+		"name": "vim",
+		"recommendations": [{
+			"id": "889",
+			"name": "A Beginner's Git and GitHub Tutorial | Udacity",
+			"previewLink": "http://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html"
+		}, {
+			"id": "890",
+			"name": "GitHub - ecmendenhall/udacity-keybindings: Vim keybindings for Udacity's embedded CodeMirror editor.",
+			"previewLink": "https://github.com/ecmendenhall/udacity-keybindings"
+		}, {
+			"id": "891",
+			"name": "ABC of VIM | Udemy",
+			"previewLink": "https://www.udemy.com/abc-of-vim/"
+		}, {
+			"id": "892",
+			"name": "Vim Text Editor - Learn in 10 steps, for beginners. | Udemy",
+			"previewLink": "https://www.udemy.com/learn-vim-for-beginners/"
+		}, {
+			"id": "893",
+			"name": "Interactive Vim tutorial",
+			"previewLink": "http://www.openvim.com/"
+		}]
+	}, {
+		"name": "visual-studio",
+		"recommendations": [{
+			"id": "895",
+			"name": "Developing Android Apps | Udacity",
+			"previewLink": "https://www.udacity.com/course/developing-android-apps--ud853"
+		}, {
+			"id": "896",
+			"name": "Learning to program: Why Python? | Udacity",
+			"previewLink": "http://blog.udacity.com/2012/05/learning-to-program-why-python.html"
+		}, {
+			"id": "897",
+			"name": "An 16 Hour C# Course With Microsoft Visual Studio 2013 | Udemy",
+			"previewLink": "https://www.udemy.com/csharpbasics/"
+		}, {
+			"id": "898",
+			"name": "Learn Visual Studio 2015 Like a Pro | Udemy",
+			"previewLink": "https://www.udemy.com/visual-studio-2015-development-essentials/"
+		}]
+	}, {
+		"name": "visual-studio-2008",
+		"recommendations": [{
+			"id": "899",
+			"name": "Udacity - Free Online Classes & Nanodegrees",
+			"previewLink": "https://www.udacity.com/"
+		}, {
+			"id": "900",
+			"name": "Android Development for Beginners: How to Make Apps | Udacity",
+			"previewLink": "https://www.udacity.com/course/ud834"
+		}, {
+			"id": "901",
+			"name": "An 16 Hour C# Course With Microsoft Visual Studio 2013 | Udemy",
+			"previewLink": "https://www.udemy.com/csharpbasics/"
+		}, {
+			"id": "902",
+			"name": "Learn Visual Studio 2015 Like a Pro | Udemy",
+			"previewLink": "https://www.udemy.com/visual-studio-2015-development-essentials/"
+		}, {
+			"id": "903",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/game-programming/lecture/O1fv0/1-3-visual-studio-and-xna"
+		}]
+	}, {
+		"name": "visual-studio-2010",
+		"recommendations": [{
+			"id": "905",
+			"name": "Udacity - Free Online Classes & Nanodegrees",
+			"previewLink": "https://www.udacity.com/"
+		}, {
+			"id": "906",
+			"name": "Entwickeln von Android Apps | Udacity",
+			"previewLink": "https://de.udacity.com/course/developing-android-apps--ud853/"
+		}, {
+			"id": "907",
+			"name": "Visual Basic 2010 Tutorial From the Ground Up",
+			"previewLink": "https://blog.udemy.com/visual-basic-2010-tutorial/"
+		}, {
+			"id": "908",
+			"name": "C# Developers: Double Your Coding Speed with Visual Studio | Udemy",
+			"previewLink": "https://www.udemy.com/visual-studio-tips-tricks/"
+		}, {
+			"id": "909",
+			"name": "Visual Studio Training Courses - Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/product-training/visual-studio-courses"
+		}]
+	}, {
+		"name": "visual-studio-2012",
+		"recommendations": [{
+			"id": "911",
+			"name": "Learning to program: Why Python? | Udacity",
+			"previewLink": "http://blog.udacity.com/2012/05/learning-to-program-why-python.html"
+		}, {
+			"id": "912",
+			"name": "Intro to Machine Learning Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-machine-learning--ud120"
+		}, {
+			"id": "913",
+			"name": "Android Development Using C# and Visual Studio 2012 | Udemy",
+			"previewLink": "https://www.udemy.com/android-development-using-c-and-visual-studio-2012-vtc/"
+		}, {
+			"id": "914",
+			"name": "An 16 Hour C# Course With Microsoft Visual Studio 2013 | Udemy",
+			"previewLink": "https://www.udemy.com/csharpbasics/"
+		}, {
+			"id": "915",
+			"name": "Visual Studio Training Courses - Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/product-training/visual-studio-courses"
+		}]
+	}, {
+		"name": "w3c",
+		"recommendations": [{
+			"id": "917",
+			"name": "Udacity Reviews",
+			"previewLink": "https://review.udacity.com/#!/reviews/253945/shared"
+		}, {
+			"id": "918",
+			"name": "Know These Web Dev Building Blocks | Udacity",
+			"previewLink": "http://blog.udacity.com/2015/03/web-dev-building-blocks-need-to-know-where-to-learn.html"
+		}, {
+			"id": "919",
+			"name": "Learn HTML5, CSS3 and JavaScript for beginners | Udemy",
+			"previewLink": "https://www.udemy.com/learn-complete-html5-and-css3-from-scratch/"
+		}, {
+			"id": "920",
+			"name": "Web Accessibility: Learn Best Practices, Tools & Techniques | Udemy",
+			"previewLink": "https://www.udemy.com/website-accessibility-course/"
+		}, {
+			"id": "921",
+			"name": "W3C launches First HTML5 Course in new partnership with edX",
+			"previewLink": "http://www.w3.org/2015/03/w3cx-launch.html.en"
+		}]
+	}, {
+		"name": "wcf",
+		"recommendations": [{
+			"id": "923",
+			"name": "Learn WCF And Web APIs From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-wcf-and-web-apis-from-scratch/"
+		}, {
+			"id": "924",
+			"name": "Learn WCF And Web APIs From Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/learn-wcf-and-web-apis-from-scratch/"
+		}, {
+			"id": "925",
+			"name": "Master WCF 4.0 From Scratch Using C# | Udemy",
+			"previewLink": "https://www.udemy.com/masterwcf/"
+		}, {
+			"id": "926",
+			"name": "Web Application Development: Basic Concepts - University of New Mexico | Coursera",
+			"previewLink": "https://www.coursera.org/learn/web-app"
+		}, {
+			"id": "927",
+			"name": "WCF Training Course - Browse and View WCF Training Courses",
+			"previewLink": "https://www.intertech.com/training/microsoft/visual-studio/wcf"
+		}]
+	}, {
+		"name": "web-services",
+		"recommendations": [{
+			"id": "928",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/courses/web-development"
+		}, {
+			"id": "929",
+			"name": "Designing RESTful APIs | Udacity",
+			"previewLink": "https://www.udacity.com/course/designing-restful-apis--ud388"
+		}, {
+			"id": "930",
+			"name": "Java Web Services | Udemy",
+			"previewLink": "https://www.udemy.com/java-web-services/"
+		}, {
+			"id": "931",
+			"name": "RESTful Java Web Services | Udemy",
+			"previewLink": "https://www.udemy.com/rest-web-services-using-java-ee/"
+		}, {
+			"id": "932",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/ruby-on-rails-web-services-mongodb/lecture/7MHzi/introduction-to-web-services"
+		}]
+	}, {
+		"name": "web-standards",
+		"recommendations": [{
+			"id": "934",
+			"name": "Web Accessibility | Udacity",
+			"previewLink": "https://www.udacity.com/course/web-accessibility--ud891"
+		}, {
+			"id": "935",
+			"name": "Web Development | Udacity",
+			"previewLink": "https://www.udacity.com/courses/web-development"
+		}, {
+			"id": "936",
+			"name": "Introduction to Web Development: HTML | Udemy",
+			"previewLink": "https://www.udemy.com/webdevelopment101_html/"
+		}, {
+			"id": "937",
+			"name": "Get Results - Core Principles of Web Development Tricks Tips | Udemy",
+			"previewLink": "https://www.udemy.com/web-development-foundations-base-for-your-coding-environment/"
+		}, {
+			"id": "938",
+			"name": "java Specialization | Coursera",
+			"previewLink": "https://www.coursera.org/specializations/web-design"
+		}]
+	}, {
+		"name": "winapi",
+		"recommendations": [{
+			"id": "940",
+			"name": "What makes Windows a 'bad' OS? Why does the computer science world force GNU/Linux on you? - Quora",
+			"previewLink": "https://www.quora.com/What-makes-Windows-a-bad-OS-Why-does-the-computer-science-world-force-GNU-Linux-on-you"
+		}, {
+			"id": "941",
+			"name": "Using OpenCV 2.4.2 with Visual Studio 2012 on Windows 7 (64-bit) | Karan Jitendra Thakkar",
+			"previewLink": "https://karanjthakkar.wordpress.com/2012/11/21/usin-opencv-2-4-2-with-visual-studio-2012-on-windows-7-64-bit/"
+		}, {
+			"id": "942",
+			"name": "Learn to program Tic Tac Toe Game in Visual C++ on Windows | Udemy",
+			"previewLink": "https://www.udemy.com/learn-to-program-tic-tac-toe-in-visual-c-on-windows/"
+		}, {
+			"id": "943",
+			"name": "Learn and Understand C++ | Udemy",
+			"previewLink": "https://www.udemy.com/learn-c-plus-plus-from-beginner-to-advanced/"
+		}, {
+			"id": "944",
+			"name": "Unable to upload docker images · Issue #57 · coursera/courseraprogramming · GitHub",
+			"previewLink": "https://github.com/coursera/courseraprogramming/issues/57"
+		}]
+	}, {
+		"name": "windows",
+		"recommendations": [{
+			"id": "946",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-ud775/l-2980038599/m-3341718587"
+		}, {
+			"id": "947",
+			"name": "Udacity - Free Online Classes & Nanodegrees",
+			"previewLink": "https://www.udacity.com/"
+		}, {
+			"id": "948",
+			"name": "Windows 10 | Udemy",
+			"previewLink": "https://www.udemy.com/windows-10/"
+		}, {
+			"id": "949",
+			"name": "Windows 10 | Udemy",
+			"previewLink": "https://www.udemy.com/windows10learning/"
+		}, {
+			"id": "950",
+			"name": "",
+			"previewLink": "https://www.coursera.org/learn/codapps/lecture/k1Ume/video-installing-your-app-on-your-own-windows-phone-needs-a-pc"
+		}]
+	}, {
+		"name": "winforms",
+		"recommendations": [{
+			"id": "952",
+			"name": "udacity-fixed-subtitles/03 - The Android Activity Lifecycle.srt at master · gdg-sunkist/udacity-fixed-subtitles · GitHub",
+			"previewLink": "https://github.com/gdg-sunkist/udacity-fixed-subtitles/blob/master/Developing%20Android%20Apps/Lesson%204a-%20Lifecycle%20and%20Databases%20Subtitles/03%20-%20The%20Android%20Activity%20Lifecycle.srt"
+		}, {
+			"id": "953",
+			"name": "Livecoding.tv",
+			"previewLink": "https://www.livecoding.tv/alisonpkd/videos/vrOG5-mature-alisonpkd-cuda-udacity-course-2"
+		}, {
+			"id": "954",
+			"name": "Online Courses - Anytime, Anywhere | Udemy",
+			"previewLink": "https://www.udemy.com/basics-of-winforms-with-vbnet/"
+		}, {
+			"id": "955",
+			"name": "Beginning Game Programming with C# - University of Colorado System | Coursera",
+			"previewLink": "https://www.coursera.org/learn/game-programming"
+		}]
+	}, {
+		"name": "wordpress",
+		"recommendations": [{
+			"id": "956",
+			"name": "5 New Web Development Courses Open! | Udacity",
+			"previewLink": "http://blog.udacity.com/2014/09/5-new-web-development-courses-open.html"
+		}, {
+			"id": "957",
+			"name": "Udacity - Free Online Classes & Nanodegrees",
+			"previewLink": "https://www.udacity.com/"
+		}, {
+			"id": "958",
+			"name": "Wordpress for Beginners - Master Wordpress Quickly | Udemy",
+			"previewLink": "https://www.udemy.com/wordpress-for-beginners-course/"
+		}, {
+			"id": "959",
+			"name": "Building Custom WordPress Sites from Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/building-custom-wordpress-sites-from-scratch/"
+		}, {
+			"id": "960",
+			"name": "How To Create a Website in a Weekend! (Project-Centered Course) - The State University of New York | Coursera",
+			"previewLink": "https://www.coursera.org/learn/how-to-create-a-website"
+		}]
+	}, {
 		"name": "wpf",
-		"recommendations": [
-
-			{
-				"id": 21,
-				"name": "ETech Zone : WPF Tutorial With Visual C# 2010",
-				"previewLink": "https://www.youtube.com/watch?v=C1WK_rKje6s&list=PLBW1ls5xyzO1UEXanPZOtIEpuwy32knIt"
-			}, {
-				"id": 22,
-				"name": "Windows Presentation Foundation",
-				"previewLink": "https://msdn.microsoft.com/en-us/library/ms754130(v=vs.110).aspx"
-			}, {
-				"id": 23,
-				"name": "WPF tutorial",
-				"previewLink": "http://www.wpf-tutorial.com/about-wpf/what-is-wpf/"
-			}, {
-				"id": 24,
-				"name": "Learn WPF",
-				"previewLink": "https://www.visualstudio.com/vs/wpf/"
-			}, {
-				"id": 25,
-				"name": "lynda.com: Creating a dramatic Windows application with WPF ",
-				"previewLink": "https://www.youtube.com/watch?v=-eg2TsHTWyw"
-			}
-		]
+		"recommendations": [{
+			"id": "962",
+			"name": "All Courses and Nanodegree Programs | Udacity",
+			"previewLink": "https://www.udacity.com/courses/all"
+		}, {
+			"id": "963",
+			"name": "Software Engineering | Udacity",
+			"previewLink": "https://www.udacity.com/courses/software-engineering"
+		}, {
+			"id": "964",
+			"name": "Learn Enterprise WPF with XAML from Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/enterprise-wpf-with-xaml-from-scratch/"
+		}, {
+			"id": "965",
+			"name": "WPF: Building Windows Desktop Apps | Udemy",
+			"previewLink": "https://www.udemy.com/wpf_apps/"
+		}, {
+			"id": "966",
+			"name": "Which is the best certificate course in WPF? - Quora",
+			"previewLink": "https://www.quora.com/Which-is-the-best-certificate-course-in-WPF"
+		}]
+	}, {
+		"name": "xaml",
+		"recommendations": [{
+			"id": "968",
+			"name": "Reviews for DEV206.1x: Introduction to XAML and Application Development from edX | Class Central",
+			"previewLink": "https://www.class-central.com/mooc/4063/edx-dev206-1x-introduction-to-xaml-and-application-development"
+		}, {
+			"id": "969",
+			"name": "Intro to iOS App Development with Swift | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585"
+		}, {
+			"id": "970",
+			"name": "Learn Enterprise WPF with XAML from Scratch | Udemy",
+			"previewLink": "https://www.udemy.com/enterprise-wpf-with-xaml-from-scratch/"
+		}, {
+			"id": "971",
+			"name": "Universal Windows App Development | Udemy",
+			"previewLink": "https://www.udemy.com/windows10/"
+		}, {
+			"id": "972",
+			"name": "C# / XAML Training Courses - Microsoft Virtual Academy",
+			"previewLink": "https://mva.microsoft.com/training-topics/c-app-development"
+		}]
+	}, {
+		"name": "xhtml",
+		"recommendations": [{
+			"id": "974",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-cs253/l-48296556/e-48381415/m-48737027"
+		}, {
+			"id": "975",
+			"name": "Intro to HTML & CSS Online Course | Udacity",
+			"previewLink": "https://www.udacity.com/course/intro-to-html-and-css--ud304"
+		}, {
+			"id": "976",
+			"name": "Learning CSS | Udemy",
+			"previewLink": "https://www.udemy.com/learning-css/"
+		}, {
+			"id": "977",
+			"name": "Web Design from the Ground Up | Udemy",
+			"previewLink": "https://www.udemy.com/web-design-from-the-ground-up/"
+		}, {
+			"id": "978",
+			"name": "403 Forbidden",
+			"previewLink": "https://building.coursera.org/app-platform/lti"
+		}]
+	}, {
+		"name": "xml",
+		"recommendations": [{
+			"id": "980",
+			"name": "Android Visualizer",
+			"previewLink": "http://labs.udacity.com/android-visualizer/"
+		}, {
+			"id": "981",
+			"name": "Classroom - Udacity",
+			"previewLink": "https://www.udacity.com/course/viewer#!/c-cs253/l-48296556/e-48381415/m-48737027"
+		}, {
+			"id": "982",
+			"name": "Learn XML Crash Course: Discover Essential XML Fundamentals | Udemy",
+			"previewLink": "https://www.udemy.com/learn-xml-crash-course/"
+		}, {
+			"id": "983",
+			"name": "Learn XML Programming | Udemy",
+			"previewLink": "https://www.udemy.com/learn-xml-programming/"
+		}, {
+			"id": "984",
+			"name": "XML Tutorial",
+			"previewLink": "https://www.coursera.org/learn/python-network-data/lecture/SkDim/xml-schema"
+		}]
+	}, {
+		"name": "angularjs",
+		"recommendations": [{
+			"id": "1042",
+			"name": "Learn and Understand AngularJS | Udemy",
+			"previewLink": "https://www.udemy.com/learn-angularjs/"
+		}, {
+			"id": "1043",
+			"name": "All You Need To Know About AngularJS - Training On AngularJS | Udemy",
+			"previewLink": "https://www.udemy.com/angularjs/"
+		}, {
+			"id": "1044",
+			"name": "Front-End JavaScript Frameworks: AngularJS - The Hong Kong University of Science and Technology | Coursera",
+			"previewLink": "https://www.coursera.org/learn/angular-js"
+		}, {
+			"id": "1045",
+			"name": "Single Page Web Applications with AngularJS - Johns Hopkins University | Coursera",
+			"previewLink": "https://www.coursera.org/learn/single-page-web-apps-with-angularjs"
+		}]
 	}
 ]
