@@ -78,7 +78,8 @@ public class UserCategoryService {
 			response.setSimilarUsers(similarityService.getSimilarUsersBasedOnCategories(userid, categories));
 
 			response.setCategories(similarityService.getCategoriesBasedOnCategory(userid, categories));
-			response.setCourses(similarityService.getCourses(userid));
+			
+			response.setCourses(similarityService.getCoursesBasedonCategories(userid,lsit));
 
 			response.setRecommendedCourses(similarityService.userRecommendedCoursePopulate().get(userid));
 

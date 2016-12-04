@@ -615,4 +615,33 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 	}
 
+	public LinkedHashSet<Recommendation> getCoursesBasedonCategories(
+			String userid, Set<Tag> set) {
+		// TODO Auto-generated method stub
+		LinkedHashSet<Recommendation> result = new LinkedHashSet<Recommendation>();
+
+		
+		TreeMap<Integer, Set<Recommendation>> map = new TreeMap<>(Collections.reverseOrder());
+		for (Tag tag : set) {
+
+			if (courseTagMap.containsKey(tag.getName())) {
+				Set<Recommendation> list = courseTagMap.get(tag.getName());
+				map.put(tag.getvalue(), list);
+			}
+		}
+
+		for (Map.Entry<Integer, Set<Recommendation>> entry : map.entrySet()) {
+
+			for (Recommendation recommendation : entry.getValue()) {
+				if (result.size() < 10) {
+					result.add(recommendation);
+
+				}
+			}
+		}
+
+		return result;
+	}
+
+	
 }

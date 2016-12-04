@@ -3,6 +3,7 @@ package edu.asu.dv.service;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 import edu.asu.dv.exception.DataLoadException;
 import edu.asu.dv.model.CourseInput;
@@ -21,6 +22,9 @@ public interface UserSimilarityService {
 	List<Category> getCategories(String userid);
 
 	LinkedHashSet<Recommendation> getCourses(String userid);
+	
+	LinkedHashSet<Recommendation> getCoursesBasedonCategories(
+			String userid, Set<Tag> set);
 
 	List<Category> getCategoriesBasedOnCategory(String userid, List<String> categories);
 
