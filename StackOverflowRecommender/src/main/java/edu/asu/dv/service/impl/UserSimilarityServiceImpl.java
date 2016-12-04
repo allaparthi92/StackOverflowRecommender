@@ -613,7 +613,6 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			}
 
 		}
-
 		nodesList = nodesList
 				.parallelStream()
 				.sorted((cat1, cat2) -> {
@@ -635,7 +634,11 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 							.getValue()) ? 1 : -1;
 				}).collect(Collectors.toList());
 
-		networkGraph.setEdges(li);
+		List<NetworkEdge> list1 = new ArrayList<NetworkEdge>();
+		for (int i = 0; i < li.size(); i = i + 2) {
+			list1.add(li.get(i));
+		}
+		networkGraph.setEdges(list1);
 		networkGraph.setNodes(nodesList);
 		return networkGraph;
 
