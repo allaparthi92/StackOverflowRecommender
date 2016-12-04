@@ -511,17 +511,6 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			}
 			return Mainlist;
 		} else if (courseInput.getTags().size() == 0) {
-			return new LinkedHashSet<>();
-			/*
-			 * LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
-			 * LinkedHashSet<Recommendation> result = new LinkedHashSet<>(); for
-			 * (String str : courseInput.getUsers()) {
-			 * LinkedHashSet<Recommendation> list =
-			 * userRecommendedCourseMap.get(str); if (list != null) {
-			 * Mainlist.addAll(list); } } for (Recommendation s : Mainlist) { if
-			 * (result.size() < 10) { result.add(s); } } return Mainlist;
-			 */
-		} else {
 
 			LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
 			LinkedHashSet<Recommendation> result = new LinkedHashSet<>();
@@ -531,13 +520,32 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 					Mainlist.addAll(list);
 				}
 			}
+			for (Recommendation s : Mainlist) {
+				if (result.size() < 10) {
+					result.add(s);
+				}
+			}
+			return Mainlist;
+		} else {
+
+			LinkedHashSet<Recommendation> courselist = null;
+			LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
+			LinkedHashSet<Recommendation> result = new LinkedHashSet<>();
 			for (String str : courseInput.getTags()) {
-				LinkedHashSet<Recommendation> list = courseTagMap.get(str);
+				courselist = courseTagMap.get(str);
+				if (courselist == null || courselist.size() == 0) {
+					return Mainlist;
+				}
+			}
+
+			for (String str : courseInput.getUsers()) {
+				LinkedHashSet<Recommendation> list = userRecommendedCourseMap.get(str);
 				if (list != null) {
 					Mainlist.addAll(list);
 				}
 			}
 
+			Mainlist.addAll(courselist);
 			for (Recommendation s : Mainlist) {
 				if (result.size() < 10) {
 					result.add(s);
