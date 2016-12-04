@@ -491,7 +491,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 	public LinkedHashSet<Recommendation> updateUserCourseMap(CourseInput courseInput, String userid) {
 
 		if (courseInput.getTags().size() == 0 && courseInput.getUsers().size() == 0) {
-			LinkedHashSet<Recommendation> li = userCourseMap.get(userid);
+			LinkedHashSet<Recommendation> li = getCourses(userid);
 			return li;
 		}
 		if (courseInput.getUsers().size() == 0) {
