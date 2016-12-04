@@ -74,7 +74,7 @@ public class CourseParser {
 					"web-standards", "winapi", "windows", "winforms",
 					"wordpress", "wpf", "xaml", "xhtml", "xml" };
 			String[] arr1 = { "java" };
-			for (int k=0;k<arr.length;k++) {
+			for (int k = 0; k < arr.length; k++) {
 				RecommendationJson json = new RecommendationJson();
 				String tag = arr[i];
 				json.setName(tag);
@@ -143,24 +143,28 @@ public class CourseParser {
 		}
 
 		for (int j = 0; j < 2; j++) {
-			String x = URLsList.get(j);
-			if (!x.contains("?")) {
-				driver.get(x);
-				System.out.println(x);
-				driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-				driver.switchTo().defaultContent();
-				Recommendation recommendation = new Recommendation();
-				recommendation.setId(String.valueOf(i++));
+			if (j < URLsList.size()) {
+				String x = URLsList.get(j);
+				if (!x.contains("?")) {
+					driver.get(x);
+					System.out.println(x);
+					driver.manage().timeouts()
+							.implicitlyWait(15, TimeUnit.SECONDS);
+					driver.switchTo().defaultContent();
+					Recommendation recommendation = new Recommendation();
+					recommendation.setId(String.valueOf(i++));
 
-				if (driver.getTitle().contains("Specialization | Coursera")) {
-					recommendation.setName("java " + driver.getTitle());
-				} else {
-					recommendation.setName(driver.getTitle());
+					if (driver.getTitle().contains("Specialization | Coursera")) {
+						recommendation.setName("java " + driver.getTitle());
+					} else {
+						recommendation.setName(driver.getTitle());
+					}
+					recommendation.setPreviewLink(x);
+					list.add(recommendation);
 				}
-				recommendation.setPreviewLink(x);
-				list.add(recommendation);
 			}
 		}
+
 		driver.close();
 	}
 
