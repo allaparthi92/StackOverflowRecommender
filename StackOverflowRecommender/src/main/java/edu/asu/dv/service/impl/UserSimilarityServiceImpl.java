@@ -127,26 +127,21 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			curCat.setName(cat);
 
 			DecimalFormat df = new DecimalFormat("#.##");
-			curCat.setPercentage(Double.valueOf(df
-					.format(((double) count / userTags.size()) * 100)));
+			curCat.setPercentage(Double.valueOf(df.format(((double) count / userTags.size()) * 100)));
 
 			curCat.setTags(catTagMap.get(cat));
 			userCategories.add(curCat);
 		});
 
-		return userCategories
-				.parallelStream()
-				.sorted((cat1, cat2) -> {
-					return cat1.getPercentage() == cat2.getPercentage() ? 0
-							: cat1.getPercentage() < cat2.getPercentage() ? 1
-									: -1;
-				}).collect(Collectors.toList());
+		return userCategories.parallelStream().sorted((cat1, cat2) -> {
+			return cat1.getPercentage() == cat2.getPercentage() ? 0
+					: cat1.getPercentage() < cat2.getPercentage() ? 1 : -1;
+		}).collect(Collectors.toList());
 
 	}
 
 	@Override
-	public List<SimilarUser> getSimilarUsers(String userid)
-			throws DataLoadException {
+	public List<SimilarUser> getSimilarUsers(String userid) throws DataLoadException {
 
 		List<SimilarUser> similarUsers = new ArrayList<>();
 		List<String> users = similarUserMap.get(userid);
@@ -157,10 +152,8 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			SimilarUser userWeight = new SimilarUser();
 			for (Tag firstUserDetail : curUserTagDetail) {
 				for (Tag secondUserDetail : curUserTagDetail2) {
-					if (firstUserDetail.getName().equals(
-							secondUserDetail.getName())) {
-						counter += Math.min(firstUserDetail.getvalue(),
-								secondUserDetail.getvalue());
+					if (firstUserDetail.getName().equals(secondUserDetail.getName())) {
+						counter += Math.min(firstUserDetail.getvalue(), secondUserDetail.getvalue());
 					}
 				}
 			}
@@ -170,30 +163,21 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			similarUsers.add(userWeight);
 		});
 
-		return similarUsers
-				.parallelStream()
-				.sorted((simuser1, simuser2) -> {
-					return simuser1.getvalue() == simuser2.getvalue() ? 0
-							: simuser1.getvalue() < simuser2.getvalue() ? 1
-									: -1;
+		return similarUsers.parallelStream().sorted((simuser1, simuser2) -> {
+			return simuser1.getvalue() == simuser2.getvalue() ? 0 : simuser1.getvalue() < simuser2.getvalue() ? 1 : -1;
 
-				}).collect(Collectors.toList());
+		}).collect(Collectors.toList());
 
 	}
 
 	@Override
 	public List<Tag> getUserTags(String userName) {
-		return tagsUserMap
-				.get(userName)
-				.parallelStream()
-				.sorted((tag1, tag2) -> {
-					return tag1.getvalue() == tag2.getvalue() ? 0 : tag1
-							.getvalue() < tag2.getvalue() ? 1 : -1;
-				}).collect(Collectors.toList());
+		return tagsUserMap.get(userName).parallelStream().sorted((tag1, tag2) -> {
+			return tag1.getvalue() == tag2.getvalue() ? 0 : tag1.getvalue() < tag2.getvalue() ? 1 : -1;
+		}).collect(Collectors.toList());
 	}
 
-	private HashMap<String, List<String>> findSimilarUsers(
-			HashMap<String, ArrayList<User>> userMap) {
+	private HashMap<String, List<String>> findSimilarUsers(HashMap<String, ArrayList<User>> userMap) {
 
 		HashMap<String, List<String>> similarUserMap = new HashMap<String, List<String>>();
 		tagsUserMap = new HashMap<String, Set<Tag>>();
@@ -247,8 +231,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 	// *******************Code related to
 	// categories**********************************************
 
-	public List<Tag> getTagesBasedONCategories(List<String> categories,
-			String userid) {
+	public List<Tag> getTagesBasedONCategories(List<String> categories, String userid) {
 		List<Tag> tagList = new ArrayList<Tag>();
 		Set<String> tagSet = new HashSet<>();
 		Set<Tag> userTags = tagsUserMap.get(userid);
@@ -266,17 +249,13 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 				}
 			}
 		}
-		return tagList
-				.parallelStream()
-				.sorted((cat1, cat2) -> {
-					return cat1.getvalue() == cat2.getvalue() ? 0 : cat1
-							.getvalue() < cat2.getvalue() ? 1 : -1;
-				}).collect(Collectors.toList());
+		return tagList.parallelStream().sorted((cat1, cat2) -> {
+			return cat1.getvalue() == cat2.getvalue() ? 0 : cat1.getvalue() < cat2.getvalue() ? 1 : -1;
+		}).collect(Collectors.toList());
 	}
 
 	@Override
-	public List<Category> getCategoriesBasedOnCategory(String userid,
-			List<String> categories) {
+	public List<Category> getCategoriesBasedOnCategory(String userid, List<String> categories) {
 		List<Category> result = new ArrayList<>();
 		List<Category> list = getCategories(userid);
 		for (String s : categories) {
@@ -286,17 +265,13 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 				}
 			}
 		}
-		return result
-				.parallelStream()
-				.sorted((cat1, cat2) -> {
-					return cat1.getPercentage() == cat2.getPercentage() ? 0
-							: cat1.getPercentage() < cat2.getPercentage() ? 1
-									: -1;
-				}).collect(Collectors.toList());
+		return result.parallelStream().sorted((cat1, cat2) -> {
+			return cat1.getPercentage() == cat2.getPercentage() ? 0
+					: cat1.getPercentage() < cat2.getPercentage() ? 1 : -1;
+		}).collect(Collectors.toList());
 	}
 
-	public List<SimilarUser> getSimilarUsersBasedOnCategories(String userid,
-			List<String> categories) {
+	public List<SimilarUser> getSimilarUsersBasedOnCategories(String userid, List<String> categories) {
 		List<Tag> mainUserTags = getTagesBasedONCategories(categories, userid);
 
 		List<SimilarUser> result = new ArrayList<SimilarUser>();
@@ -312,8 +287,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 				for (Tag t2 : userTags) {
 
-					if (t1.getName().equalsIgnoreCase(t2.getName())
-							&& !userid.equals(user)) {
+					if (t1.getName().equalsIgnoreCase(t2.getName()) && !userid.equals(user)) {
 						sum = sum + Math.min(t1.getvalue(), t2.getvalue());
 					}
 
@@ -325,14 +299,10 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			result.add(userWeight);
 
 		}
-		return result
-				.parallelStream()
-				.sorted((simuser1, simuser2) -> {
-					return simuser1.getvalue() == simuser2.getvalue() ? 0
-							: simuser1.getvalue() < simuser2.getvalue() ? 1
-									: -1;
+		return result.parallelStream().sorted((simuser1, simuser2) -> {
+			return simuser1.getvalue() == simuser2.getvalue() ? 0 : simuser1.getvalue() < simuser2.getvalue() ? 1 : -1;
 
-				}).collect(Collectors.toList());
+		}).collect(Collectors.toList());
 	}
 
 	// public List<Category> getCategoriesBasedOnCategory(String userid,
@@ -413,8 +383,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 		LinkedHashSet<Recommendation> result = new LinkedHashSet<Recommendation>();
 
 		Set<Tag> userTags = tagsUserMap.get(userid);
-		TreeMap<Integer, Set<Recommendation>> map = new TreeMap<>(
-				Collections.reverseOrder());
+		TreeMap<Integer, Set<Recommendation>> map = new TreeMap<>(Collections.reverseOrder());
 		for (Tag tag : userTags) {
 
 			if (courseTagMap.containsKey(tag.getName())) {
@@ -439,8 +408,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 	public HashMap<String, Recommendation> populateIDCourseMap() {
 
-		for (Entry<String, LinkedHashSet<Recommendation>> entry : courseTagMap
-				.entrySet()) {
+		for (Entry<String, LinkedHashSet<Recommendation>> entry : courseTagMap.entrySet()) {
 
 			for (Recommendation reco : entry.getValue()) {
 				if (reco != null) {
@@ -462,8 +430,7 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			LinkedHashSet<Recommendation> mainLi = new LinkedHashSet<>();
 			for (Tag tag : list) {
 				if (courseTagMap.containsKey(tag.getName())) {
-					LinkedHashSet<Recommendation> li = courseTagMap.get(tag
-							.getName());
+					LinkedHashSet<Recommendation> li = courseTagMap.get(tag.getName());
 					if (li != null) {
 						mainLi.addAll(li);
 					}
@@ -478,24 +445,27 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 	}
 
-	public LinkedHashSet<Recommendation> updateRecommendedCourses(
-			String userid, List<RecommendationCourse> recommendedCourses) {
+	public LinkedHashSet<Recommendation> updateRecommendedCourses(String userid,
+			List<RecommendationCourse> recommendedCourses) {
 		userRecommendedCourseMap = userRecommendedCoursePopulate();
 
 		for (RecommendationCourse cor : recommendedCourses) {
 
 			if (cor.getValue().equals("false")) {
-				LinkedHashSet<Recommendation> li = userRecommendedCourseMap
-						.get(userid);
-				Recommendation cour = IDCourseMap.get(cor.getId());
-				li.remove(cour);
-				userRecommendedCourseMap.put(userid, li);
+				LinkedHashSet<Recommendation> li = userRecommendedCourseMap.get(userid);
+				if (li != null) {
+					Recommendation cour = IDCourseMap.get(cor.getId());
+					li.remove(cour);
+					userRecommendedCourseMap.put(userid, li);
+				}
 			} else {
-				LinkedHashSet<Recommendation> li = userRecommendedCourseMap
-						.get(userid);
-				Recommendation cour = IDCourseMap.get(cor.getId());
-				li.add(cour);
-				userRecommendedCourseMap.put(userid, li);
+				LinkedHashSet<Recommendation> li = userRecommendedCourseMap.get(userid);
+				if (li != null) {
+					Recommendation cour = IDCourseMap.get(cor.getId());
+					li.add(cour);
+					userRecommendedCourseMap.put(userid, li);
+				}
+
 			}
 		}
 
@@ -518,11 +488,9 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 	}
 
-	public LinkedHashSet<Recommendation> updateUserCourseMap(
-			CourseInput courseInput, String userid) {
+	public LinkedHashSet<Recommendation> updateUserCourseMap(CourseInput courseInput, String userid) {
 
-		if (courseInput.getTags().size() == 0
-				&& courseInput.getUsers().size() == 0) {
+		if (courseInput.getTags().size() == 0 && courseInput.getUsers().size() == 0) {
 			LinkedHashSet<Recommendation> li = userCourseMap.get(userid);
 			return li;
 		}
@@ -531,7 +499,10 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			LinkedHashSet<Recommendation> result = new LinkedHashSet<>();
 			for (String str : courseInput.getTags()) {
 				LinkedHashSet<Recommendation> list = courseTagMap.get(str);
-				Mainlist.addAll(list);
+				if (list != null) {
+					Mainlist.addAll(list);
+				}
+
 			}
 			for (Recommendation s : Mainlist) {
 				if (result.size() < 10) {
@@ -544,9 +515,10 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
 			LinkedHashSet<Recommendation> result = new LinkedHashSet<>();
 			for (String str : courseInput.getUsers()) {
-				LinkedHashSet<Recommendation> list = userRecommendedCourseMap
-						.get(str);
-				Mainlist.addAll(list);
+				LinkedHashSet<Recommendation> list = userRecommendedCourseMap.get(str);
+				if (list != null) {
+					Mainlist.addAll(list);
+				}
 			}
 			for (Recommendation s : Mainlist) {
 				if (result.size() < 10) {
@@ -559,13 +531,16 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
 			LinkedHashSet<Recommendation> result = new LinkedHashSet<>();
 			for (String str : courseInput.getUsers()) {
-				LinkedHashSet<Recommendation> list = userRecommendedCourseMap
-						.get(str);
-				Mainlist.addAll(list);
+				LinkedHashSet<Recommendation> list = userRecommendedCourseMap.get(str);
+				if (list != null) {
+					Mainlist.addAll(list);
+				}
 			}
 			for (String str : courseInput.getTags()) {
 				LinkedHashSet<Recommendation> list = courseTagMap.get(str);
-				Mainlist.addAll(list);
+				if (list != null) {
+					Mainlist.addAll(list);
+				}
 			}
 
 			for (Recommendation s : Mainlist) {
@@ -613,26 +588,19 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 			}
 
 		}
-		nodesList = nodesList
-				.parallelStream()
-				.sorted((cat1, cat2) -> {
-					return Integer.valueOf(cat1.getValue()) == Integer
-							.valueOf(cat2.getValue()) ? 0 : Integer
-							.valueOf(cat1.getValue()) < Integer.valueOf(cat2
-							.getValue()) ? 1 : -1;
-				}).collect(Collectors.toList());
+		nodesList = nodesList.parallelStream().sorted((cat1, cat2) -> {
+			return Integer.valueOf(cat1.getValue()) == Integer.valueOf(cat2.getValue()) ? 0
+					: Integer.valueOf(cat1.getValue()) < Integer.valueOf(cat2.getValue()) ? 1 : -1;
+		}).collect(Collectors.toList());
 		List<NetworkEdge> li = new ArrayList<NetworkEdge>();
 		for (NetworkEdge edge : edgesList) {
 			li.add(edge);
 		}
 
-		li = li.parallelStream()
-				.sorted((cat1, cat2) -> {
-					return Integer.valueOf(cat1.getValue()) == Integer
-							.valueOf(cat2.getValue()) ? 0 : Integer
-							.valueOf(cat1.getValue()) < Integer.valueOf(cat2
-							.getValue()) ? 1 : -1;
-				}).collect(Collectors.toList());
+		li = li.parallelStream().sorted((cat1, cat2) -> {
+			return Integer.valueOf(cat1.getValue()) == Integer.valueOf(cat2.getValue()) ? 0
+					: Integer.valueOf(cat1.getValue()) < Integer.valueOf(cat2.getValue()) ? 1 : -1;
+		}).collect(Collectors.toList());
 
 		List<NetworkEdge> list1 = new ArrayList<NetworkEdge>();
 		for (int i = 0; i < li.size(); i = i + 2) {

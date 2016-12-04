@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
-import java.util.List;
 
 import edu.asu.dv.exception.DataLoadException;
 import edu.asu.dv.model.Recommendation;
@@ -19,13 +18,10 @@ public interface DataLoader {
 	 * @throws DataLoadException
 	 * @throws IOException
 	 */
-	HashMap<String, ArrayList<User>> loadUserData() throws DataLoadException,
-			IOException;
+	HashMap<String, ArrayList<User>> loadUserData() throws DataLoadException, IOException;
 
-	HashMap<String, LinkedHashSet<Recommendation>> loadCourseData()
-			throws DataLoadException, IOException;
-	
-	HashMap<String, String> loadNodesWeight()
-			throws DataLoadException, IOException;
+	HashMap<String, LinkedHashSet<Recommendation>> loadCourseData() throws DataLoadException, IOException;
+
+	HashMap<String, String> loadNodesWeight() throws DataLoadException, IOException;
 
 }

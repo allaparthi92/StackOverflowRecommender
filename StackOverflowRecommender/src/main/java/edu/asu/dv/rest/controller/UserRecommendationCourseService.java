@@ -6,9 +6,7 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 import edu.asu.dv.exception.DataLoadException;
 import edu.asu.dv.model.Recommendation;
 import edu.asu.dv.model.RecommendationCourse;
-import edu.asu.dv.model.response.UserResponse;
 import edu.asu.dv.service.UserSimilarityService;
 
 @CrossOrigin(maxAge = 3600)
@@ -37,7 +34,8 @@ public class UserRecommendationCourseService {
 		{
 			HttpHeaders headers = new HttpHeaders();
 			headers.add("Access-Control-Allow-Origin", "*");
-			//System.out.println(similarityService.updateRecommendedCourses(userid, list));	
+			// System.out.println(similarityService.updateRecommendedCourses(userid,
+			// list));
 			return similarityService.updateRecommendedCourses(userid, list);
 		}
 	}

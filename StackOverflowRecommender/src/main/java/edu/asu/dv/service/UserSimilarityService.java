@@ -22,13 +22,11 @@ public interface UserSimilarityService {
 
 	LinkedHashSet<Recommendation> getCourses(String userid);
 
-	List<Category> getCategoriesBasedOnCategory(String userid,
-			List<String> categories);
+	List<Category> getCategoriesBasedOnCategory(String userid, List<String> categories);
 
 	List<Tag> getTagesBasedONCategories(List<String> categories, String userid);
 
-	List<SimilarUser> getSimilarUsersBasedOnCategories(String userid,
-			List<String> categories);
+	List<SimilarUser> getSimilarUsersBasedOnCategories(String userid, List<String> categories);
 
 	HashMap<String, LinkedHashSet<Recommendation>> userCourseRecommendation();
 
@@ -41,8 +39,7 @@ public interface UserSimilarityService {
 
 	HashMap<String, LinkedHashSet<Recommendation>> getCourseTagMap();
 
-	LinkedHashSet<Recommendation> updateUserCourseMap(CourseInput courseInput,
-			String userid);
+	LinkedHashSet<Recommendation> updateUserCourseMap(CourseInput courseInput, String userid);
 
 	HashMap<String, LinkedHashSet<Recommendation>> getuserRecommendedCourseMap();
 

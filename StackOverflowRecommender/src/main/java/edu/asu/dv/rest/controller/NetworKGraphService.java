@@ -1,6 +1,5 @@
 package edu.asu.dv.rest.controller;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -17,11 +16,10 @@ public class NetworKGraphService {
 
 	@Autowired
 	private UserSimilarityService similarityService;
-	
-	
+
 	@GetMapping(value = "/networkgraph", produces = MediaType.APPLICATION_JSON_VALUE)
 	public NetworkGraph getUserDetails() throws DataLoadException {
-		
+
 		return similarityService.generateNetworkGraph();
 
 	}

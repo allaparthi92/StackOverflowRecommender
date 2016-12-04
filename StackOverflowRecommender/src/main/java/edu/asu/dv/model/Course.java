@@ -1,6 +1,5 @@
 package edu.asu.dv.model;
 
-import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 
@@ -41,8 +40,7 @@ public class Course {
 
 	@Override
 	public String toString() {
-		return "Course [name=" + name + ", recommendations=" + recommendations
-				+ ", users=" + users + "]";
+		return "Course [name=" + name + ", recommendations=" + recommendations + ", users=" + users + "]";
 	}
 
 }

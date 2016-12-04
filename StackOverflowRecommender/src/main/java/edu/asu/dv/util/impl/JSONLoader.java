@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Scanner;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
@@ -24,18 +23,16 @@ import edu.asu.dv.util.DataLoader;
 
 @Service
 public class JSONLoader implements DataLoader {
-	
+
 	@javax.annotation.Resource(name = "userNameProperties")
 	private Map<String, String> properties;
-
 
 	/**
 	 * {@inheritDoc}
 	 * 
 	 * @throws IOException
 	 */
-	public HashMap<String, ArrayList<User>> loadUserData()
-			throws DataLoadException, IOException {
+	public HashMap<String, ArrayList<User>> loadUserData() throws DataLoadException, IOException {
 
 		HashMap<String, ArrayList<User>> userMap = new HashMap<String, ArrayList<User>>();
 		ObjectMapper mapper1 = new ObjectMapper();
@@ -47,8 +44,8 @@ public class JSONLoader implements DataLoader {
 			if (listOfFiles[i].isFile()) {
 				try {
 
-					List<User> list = mapper1.readValue(new ClassPathResource(
-							"data/" + listOfFiles[i].getName()).getFile(),
+					List<User> list = mapper1.readValue(
+							new ClassPathResource("data/" + listOfFiles[i].getName()).getFile(),
 							new TypeReference<List<User>>() {
 							});
 					for (User user : list) {
@@ -71,9 +68,8 @@ public class JSONLoader implements DataLoader {
 
 		return userMap;
 	}
-	
-	public HashMap<String, String> loadNodesWeight()
-			throws DataLoadException, IOException {
+
+	public HashMap<String, String> loadNodesWeight() throws DataLoadException, IOException {
 
 		HashMap<String, String> nodeMap = new HashMap<String, String>();
 		ObjectMapper mapper1 = new ObjectMapper();
@@ -85,20 +81,20 @@ public class JSONLoader implements DataLoader {
 			if (listOfFiles[i].isFile()) {
 				try {
 
-					List<User> list = mapper1.readValue(new ClassPathResource(
-							"data/" + listOfFiles[i].getName()).getFile(),
+					List<User> list = mapper1.readValue(
+							new ClassPathResource("data/" + listOfFiles[i].getName()).getFile(),
 							new TypeReference<List<User>>() {
 							});
 					for (User user : list) {
-						
+
 						if (nodeMap.containsKey(user.getUser_id())) {
-							int sum =0;
+							int sum = 0;
 							String x = nodeMap.get(user.getUser_id());
-							sum = Integer.valueOf(x)+Integer.valueOf(user.getQuestion_count());
+							sum = Integer.valueOf(x) + Integer.valueOf(user.getQuestion_count());
 							nodeMap.put(user.getUser_id(), String.valueOf(sum));
 						} else {
-							
-							nodeMap.put(user.getUser_id(),  String.valueOf(user.getQuestion_count()));
+
+							nodeMap.put(user.getUser_id(), String.valueOf(user.getQuestion_count()));
 						}
 					}
 
@@ -111,21 +107,21 @@ public class JSONLoader implements DataLoader {
 
 		return nodeMap;
 	}
-	
+
 	@SuppressWarnings("unchecked")
-	public HashMap<String, LinkedHashSet<Recommendation>> loadCourseData()
-			throws DataLoadException, IOException {
-		
-		HashMap<String, LinkedHashSet<Recommendation>> CourseTagMap = new HashMap<String,LinkedHashSet<Recommendation>>();
+	public HashMap<String, LinkedHashSet<Recommendation>> loadCourseData() throws DataLoadException, IOException {
+
+		HashMap<String, LinkedHashSet<Recommendation>> CourseTagMap = new HashMap<String, LinkedHashSet<Recommendation>>();
 		ObjectMapper mapper1 = new ObjectMapper();
 		Resource resource = new ClassPathResource("mapping/Courses.json");
 		File file = resource.getFile();
-		
+
 		try {
 
-			List<Course> list = mapper1.readValue(file,new TypeReference<List<Course>>() {});
+			List<Course> list = mapper1.readValue(file, new TypeReference<List<Course>>() {
+			});
 			for (Course course : list) {
-				CourseTagMap.put(course.getName(),(LinkedHashSet<Recommendation>) course.getRecommendations());
+				CourseTagMap.put(course.getName(), (LinkedHashSet<Recommendation>) course.getRecommendations());
 			}
 
 		} catch (IOException e) {
@@ -133,28 +129,25 @@ public class JSONLoader implements DataLoader {
 
 		}
 		System.out.println(CourseTagMap);
-				return CourseTagMap;
-		
+		return CourseTagMap;
+
 	}
 
-	
-	
-
-//	@Override
-//	public HashMap<String, String> loadUserName() throws DataLoadException,
-//			IOException {
-//		HashMap<String, String> userNameMap = new HashMap<String, String>();
-//		Resource resource = new ClassPathResource("mapping/userNames.txt");
-//		File folder = resource.getFile();
-//		try (Scanner scanner = new Scanner(folder)) {
-//			while (scanner.hasNextLine()) {
-//				String line = scanner.nextLine();
-//				String[] userNameArray = line.split(",");
-//				userNameMap.put(userNameArray[0], userNameArray[1]);
-//			}
-//			scanner.close();
-//		}
-//		return userNameMap;
-//	}
+	// @Override
+	// public HashMap<String, String> loadUserName() throws DataLoadException,
+	// IOException {
+	// HashMap<String, String> userNameMap = new HashMap<String, String>();
+	// Resource resource = new ClassPathResource("mapping/userNames.txt");
+	// File folder = resource.getFile();
+	// try (Scanner scanner = new Scanner(folder)) {
+	// while (scanner.hasNextLine()) {
+	// String line = scanner.nextLine();
+	// String[] userNameArray = line.split(",");
+	// userNameMap.put(userNameArray[0], userNameArray[1]);
+	// }
+	// scanner.close();
+	// }
+	// return userNameMap;
+	// }
 
 }

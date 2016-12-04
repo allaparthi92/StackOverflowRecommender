@@ -3,7 +3,7 @@ package edu.asu.dv.model;
 public class User {
 
 	private String user_id;
-	
+
 	private String user_name;
 
 	private Integer answer_count;
@@ -63,7 +63,7 @@ public class User {
 	public void setTag_name(String tag_name) {
 		this.tag_name = tag_name;
 	}
-	
+
 	public String getUser_name() {
 		return user_name;
 	}
@@ -72,13 +72,11 @@ public class User {
 		this.user_name = user_name;
 	}
 
-
 	@Override
 	public String toString() {
-		return "User [user_name=" + user_name+ ",user_id=" + user_id + ", answer_count=" + answer_count + ", answer_score=" + answer_score
-				+ ", question_count=" + question_count + ", question_score=" + question_score + ", tag_name=" + tag_name
-				+ "]";
+		return "User [user_name=" + user_name + ",user_id=" + user_id + ", answer_count=" + answer_count
+				+ ", answer_score=" + answer_score + ", question_count=" + question_count + ", question_score="
+				+ question_score + ", tag_name=" + tag_name + "]";
 	}
-
 
 }

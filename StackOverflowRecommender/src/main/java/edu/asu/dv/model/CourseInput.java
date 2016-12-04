@@ -1,12 +1,11 @@
 package edu.asu.dv.model;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
 public class CourseInput {
 
-	Set<String> tags ;
+	Set<String> tags;
 
 	List<String> users;
 

@@ -34,8 +34,7 @@ public class NetworkEdge {
 
 	@Override
 	public String toString() {
-		return "NetworkEdge [node1=" + node1 + ", node2=" + node2 + ", value="
-				+ value + "]";
+		return "NetworkEdge [node1=" + node1 + ", node2=" + node2 + ", value=" + value + "]";
 	}
 
 }

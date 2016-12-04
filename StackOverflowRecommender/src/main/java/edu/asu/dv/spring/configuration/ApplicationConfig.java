@@ -24,14 +24,14 @@ public class ApplicationConfig {
 		bean.setLocation(new ClassPathResource("mapping/CategoryTagMapping.properties"));
 		return bean;
 	}
-	
+
 	@Bean(name = "userNameProperties")
 	public PropertiesFactoryBean userMapper() {
 		PropertiesFactoryBean bean = new PropertiesFactoryBean();
 		bean.setLocation(new ClassPathResource("mapping/userNames.properties"));
 		return bean;
 	}
-	
+
 	@Bean(name = "recommededProperties")
 	public PropertiesFactoryBean CourseMapper() {
 		PropertiesFactoryBean bean = new PropertiesFactoryBean();

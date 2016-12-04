@@ -1,6 +1,5 @@
 package edu.asu.dv.model;
 
-
 public class Recommendation {
 
 	private String id;
@@ -39,8 +38,7 @@ public class Recommendation {
 
 	@Override
 	public String toString() {
-		return "Recommendation [id=" + id + ", name=" + name + ", previewLink="
-				+ previewLink + "]";
+		return "Recommendation [id=" + id + ", name=" + name + ", previewLink=" + previewLink + "]";
 	}
 
 }

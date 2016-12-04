@@ -8,7 +8,6 @@ public class SimilarUser {
 	private String uid;
 	private String name;
 	private Integer value;
-	
 
 	public String getUid() {
 		return uid;
@@ -25,7 +24,7 @@ public class SimilarUser {
 	public void setvalue(Integer value) {
 		this.value = value;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
@@ -38,7 +37,5 @@ public class SimilarUser {
 	public String toString() {
 		return "SimilarUser [name=" + name + ",uid=" + uid + ", value=" + value + "]";
 	}
-
-	
 
 }

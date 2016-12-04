@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-import edu.asu.dv.model.Course;
 import edu.asu.dv.model.Recommendation;
 
 /**
@@ -23,8 +22,8 @@ public class UserResponse {
 	private List<Category> categories = new ArrayList<>();
 
 	private LinkedHashSet<Recommendation> courses = new LinkedHashSet<>();
-	
-	private LinkedHashSet<Recommendation> recommendedCoursesByUser = new LinkedHashSet<>(); 
+
+	private LinkedHashSet<Recommendation> recommendedCoursesByUser = new LinkedHashSet<>();
 
 	public List<SimilarUser> getSimilarUsers() {
 		return similarUsers;
@@ -76,11 +75,9 @@ public class UserResponse {
 
 	@Override
 	public String toString() {
-		return "UserResponse [userName=" + userName + ", similarUsers="
-				+ similarUsers + ", tags=" + tags + ", categories="
-				+ categories + ", courses=" + courses + ", recommendedCourses="
+		return "UserResponse [userName=" + userName + ", similarUsers=" + similarUsers + ", tags=" + tags
+				+ ", categories=" + categories + ", courses=" + courses + ", recommendedCourses="
 				+ recommendedCoursesByUser + "]";
 	}
-	
 
 }
