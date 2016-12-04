@@ -74,8 +74,9 @@ public class CourseParser {
 					"web-standards", "winapi", "windows", "winforms",
 					"wordpress", "wpf", "xaml", "xhtml", "xml" };
 			String[] arr1 = { "java" };
-			for (String tag : arr1) {
+			for (int k=0;k<arr.length;k++) {
 				RecommendationJson json = new RecommendationJson();
+				String tag = arr[i];
 				json.setName(tag);
 
 				List<Recommendation> list = new ArrayList<Recommendation>();
