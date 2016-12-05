@@ -530,30 +530,56 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 			LinkedHashSet<Recommendation> courselist = null;
 			LinkedHashSet<Recommendation> Mainlist = new LinkedHashSet<>();
-			LinkedHashSet<Recommendation> result = new LinkedHashSet<>();
 			for (String str : courseInput.getTags()) {
 				courselist = courseTagMap.get(str);
-				if (courselist == null || courselist.size() == 0) {
-					return Mainlist;
+				if (courselist != null) {
+					Mainlist.addAll(courselist);
 				}
 			}
+			if (Mainlist.size() == 0) {
+				return Mainlist;
+			}
 
+			LinkedHashSet<Recommendation> res = new LinkedHashSet<>();
+			LinkedHashSet<Recommendation> temp = new LinkedHashSet<>(Mainlist);
 			for (String str : courseInput.getUsers()) {
 				LinkedHashSet<Recommendation> list = userRecommendedCourseMap.get(str);
-				if (list != null) {
-					Mainlist.addAll(list);
+				for (Recommendation rc : Mainlist) {
+					for (Recommendation li : list) {
+						if (li.getId().equals(rc.getId())) {
+							res.add(rc);
+							temp.remove(rc);
+						}
+					}
 				}
 			}
 
-			Mainlist.addAll(courselist);
-			for (Recommendation s : Mainlist) {
-				if (result.size() < 10) {
-					result.add(s);
-				}
+			for (Recommendation r : temp) {
+				res.add(r);
 			}
 
-			return Mainlist;
-
+			return res;
+			/*
+			 * for (String str : courseInput.getUsers()) {
+			 * LinkedHashSet<Recommendation> list =
+			 * userRecommendedCourseMap.get(str); if (list != null) {
+			 * 
+			 * list = list.stream().filter(r -> { String id = r.getId(); for
+			 * (Entry<String, LinkedHashSet<Recommendation>> entry :
+			 * courseTagMap.entrySet()) { LinkedHashSet<Recommendation> rlist =
+			 * entry.getValue(); String course = entry.getKey(); for
+			 * (Recommendation rec : rlist) { if (id.equals(rec.getId())) { if
+			 * (courseInput.getTags().contains(course)) { return false; } else {
+			 * return true; } } } } return true;
+			 * }).collect(Collectors.toCollection(LinkedHashSet::new));
+			 * 
+			 * return list; } }
+			 * 
+			 * Mainlist.addAll(courselist); for (Recommendation s : Mainlist) {
+			 * if (result.size() < 10) { result.add(s); } }
+			 * 
+			 * return Mainlist;
+			 */
 		}
 
 	}
@@ -615,12 +641,10 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 
 	}
 
-	public LinkedHashSet<Recommendation> getCoursesBasedonCategories(
-			String userid, Set<Tag> set) {
+	public LinkedHashSet<Recommendation> getCoursesBasedonCategories(String userid, Set<Tag> set) {
 		// TODO Auto-generated method stub
 		LinkedHashSet<Recommendation> result = new LinkedHashSet<Recommendation>();
 
-		
 		TreeMap<Integer, Set<Recommendation>> map = new TreeMap<>(Collections.reverseOrder());
 		for (Tag tag : set) {
 
@@ -643,5 +667,4 @@ public class UserSimilarityServiceImpl implements UserSimilarityService {
 		return result;
 	}
 
-	
 }
